@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Domestic Trips</title>
+    <link rel="stylesheet" href="css/domestictrip.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <!-- Header content will be loaded dynamically from API -->
+        <div class="loading-text">Loading header...</div>
+    </header>
+
+    <div class="main-content">
+    <!-- HERO SECTION -->
+    <section class="hero-section" style="background-image: url(images/domesticMain.webp);">
+        <!-- Replace the URL above with your own hero image -->
+        <div class="hero-overlay">
+            <h1>Domestic Trips</h1>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-header">
+            <span>All About Domestic Trips</span>
+            <a href="#" class="show-more" id="showMoreBtn">Show more</a>
+        </div>
+        <div class="about-desc" id="aboutDesc">
+            Your guide to exploring the incredible destinations within your own country. This page offers a handpicked selection of travel experiences, showcasing the diversity and beauty of local landscapes, culture, and heritage...
+            <span class="more-content" id="moreContent" style="display:none;">
+                <br><br>
+              Whether you're planning a quick weekend getaway or an extended vacation, find destinations that suit every budget and preference. With detailed itineraries, insider tips, and seamless booking options, discovering the wonders of home has never been easier. Let us help you uncover hidden gems and create unforgettable memories, right here in your homeland!
+            </span>
+        </div>
+    </section>
+
+    <!-- DESTINATION FILTER -->
+    <section class="destination-section">
+        <label for="destination-select" class="destination-label">Destination</label>
+        <select id="destination-select" class="destination-select">
+            <option value="">All</option>
+            <option value="kerala">Kerala</option>
+            <option value="rajasthan">Rajasthan</option>
+            <option value="goa">Goa</option>
+            <option value="uttar pradesh">Uttar Pradesh</option>
+            <option value="west bengal">West Bengal</option>
+            <option value="maharashtra">Maharashtra</option>
+        </select>
+    </section>
+
+    <!-- TOUR CARDS -->
+    <section class="cards-section">
+        <div class="tour-cards" id="domesticTripsGrid">
+            <!-- Domestic trips will be loaded dynamically from API -->
+            <div class="loading-text">
+                <span class="typewriter">Loading domestic trips...</span>
+            </div>
+        </div>
+    </section>
+
+    </div> <!-- End main-content -->
+
+    <footer class="main-footer">
+        <!-- Footer content will be loaded dynamically from API -->
+        <div class="loading-text">Loading footer...</div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/image-utils.js"></script>
+    <script src="js/api-utils.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/domestictrip.js"></script>
+    <script src="js/welcome-popup.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html> 

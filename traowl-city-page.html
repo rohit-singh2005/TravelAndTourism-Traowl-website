@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traowl | City Package Details</title>
+    <meta name="description" content="Discover upcoming group tours, spiritual journeys, and adventure trips across India with Traowl. Book your next memorable journey with expert guides and seamless booking." />
+    <link rel="canonical" href="https://www.traowl.com/traowl-city-page.html" />
+    <meta property="og:title" content="Traowl | City Package Details" />
+    <meta property="og:description" content="Discover upcoming group tours, spiritual journeys, and adventure trips across India with Traowl. Book your next memorable journey with expert guides and seamless booking." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.traowl.com/traowl-city-page.html" />
+    <meta property="og:image" content="images/logo.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Traowl | City Package Details" />
+    <meta name="twitter:description" content="Discover upcoming group tours, spiritual journeys, and adventure trips across India with Traowl. Book your next memorable journey with expert guides and seamless booking." />
+    <meta name="twitter:image" content="images/logo.webp" />
+    <link rel="stylesheet" href="css/traowl-city-page.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@46070;90family=Roboto:wght@40000y=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <!-- Header content will be loaded dynamically from API -->
+        <div style="text-align: center; padding: 1rem;">
+            <div class="loading-spinner">Loading header...</div>
+        </div>
+    </header>
+
+    <!-- Login/Signup Modal -->
+    <div id="authModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Welcome to Traowl</h2>
+                <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="auth-options">
+                    <a href="login.html" class="auth-option login-option">
+                        <div class="auth-icon">🫂</div>
+                        <h3>Login</h3>
+                        <p>Access your existing account</p>
+                    </a>
+                    <a href="signup.html" class="auth-option signup-option">
+                        <div class="auth-icon">✈️</div>
+                        <h3>Sign Up</h3>
+                        <p>Create a new account</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <div class="main-content-wrapper">
+    <div class="container">
+      <nav class="breadcrumb">
+        <a href="home.html">Home</a> /
+        <a href="#" id="breadcrumb-category">City Packages</a> /
+        <span class="current" id="breadcrumb-title">Loading...</span>
+      </nav>
+      
+      <!-- Loading Spinner -->
+      <div id="loading-spinner" class="loading-container">
+        <div class="loading-spinner">Loading package details...</div>
+      </div>
+
+      <!-- Dynamic Content Container -->
+      <div id="package-content" style="display: none;">
+        <div class="top-row">
+          <div class="gallery-block">
+            <div class="slider-container">
+              <div class="slider" id="package-slider">
+                <!-- Images will be loaded dynamically -->
+              </div>
+              <button class="slider-btn prev">❮</button>
+              <button class="slider-btn next">❯</button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Title & Features (package header at top) -->
+        <section class="package-header">
+          <h1 id="package-title">Loading...</h1>
+          <div class="package-features">
+            <a href="booking.html" id="book-now-btn"><button class="btn yellow">Book Now 🗓️</button></a>
+            <div class="price-block">
+              <span class="old-price" id="package-old-price">₹ 0</span>
+              <span class="new-price" id="package-new-price">₹ 0</span>
+            </div>
+            <div class="feature"><span>⏱️</span> <span id="package-duration">Loading...</span></div>
+            <div class="feature"><span>📍</span> Pick-up / Drop <b id="package-pickup">Loading...</b></div>
+          </div>
+        </section>
+
+      <!-- Main layout: left (icons + itinerary), right (summary + get in touch) -->
+      <div class="main-layout-flex">
+        <div class="main-content-left">
+          <div class="package-icons">
+            <div class="icon-card feature-tab active" data-feature="transportation"><span>🚌</span>Transportation</div>
+            <div class="icon-card feature-tab" data-feature="meals"><span>🍽️</span>Meals</div>
+            <div class="icon-card feature-tab" data-feature="stay"><span>🛏️</span>Stay Included</div>
+            <div class="icon-card feature-tab" data-feature="sightseeing"><span>🔭</span>Sight Seeing</div>
+            <div class="icon-card feature-tab" data-feature="assistance"><span>📞</span>24 X 7 Assistance</div>
+          </div>
+                      <!-- Feature Info Boxes -->
+            <div class="feature-info active" id="feature-transportation">
+              <p id="transportation-info">Loading...</p>
+            </div>
+            <div class="feature-info" id="feature-meals">
+              <p id="meals-info">Loading...</p>
+            </div>
+            <div class="feature-info" id="feature-stay">
+              <p id="stay-info">Loading...</p>
+            </div>
+            <div class="feature-info" id="feature-sightseeing">
+              <p id="sightseeing-info">Loading...</p>
+            </div>
+            <div class="feature-info" id="feature-assistance">
+              <p id="assistance-info">Loading...</p>
+            </div>
+          <!-- Itinerary Tabs Section -->
+          <section class="tabs-section">
+            <div class="tabs">
+              <button class="tab active" data-tab="itinerary">Itinerary</button>
+              <button class="tab" data-tab="highlights">Highlights</button>
+              <button class="tab" data-tab="other">Other Info</button>
+            </div>
+                          <div class="tab-content active" id="itinerary">
+                <h2>Itinerary <span class="itinerary-icon">&#9733;</span></h2>
+                <div id="itinerary-content">
+                  <!-- Itinerary will be loaded dynamically -->
+                </div>
+              </div>
+                    <div class="icon-card">
+                      <b>Stay</b>
+                      Included
+                    </div>
+                    <div class="icon-card">
+                      <b>Meals</b>
+                      Dinner
+                    </div>
+                    <div class="icon-card">
+                      <b>Activities</b>
+                      Trekking from Sonprayag to Kedarnath,<br> Aarti at Kedarnath Temple
+                    </div>
+                    <div class="icon-card">
+                      <b>Sightseeing</b>
+                      Omkareshwar Temple, Tungnath Temple trek,<br> Badrinath, Narad Kund, Brahma Kapal, Mana
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Day 2 -->
+              <div class="day-card">
+                <div class="day-header">
+                  <div class="day-circle">2</div>
+                  <div class="day-content-header">
+                    <h3>Sersi to Kedarnath</h3>
+                    <span class="day-arrow">&#9662;</span>
+                  </div>
+                </div>
+                <ul>
+                  <li>Morning: Drive to Sonprayag (approx. 20 km).</li>
+                  <li>Trek/pony/doli to Kedarnath (16 km trek).</li>
+                  <li>Evening: Attend Aarti at Kedarnath Temple.</li>
+                </ul>
+                <div class="day-body">
+                  <span class="read-more">Read More</span>
+                  <div class="day-icons">
+                    <div class="icon-card"><b>Stay</b><br>Included</div>
+                    <div class="icon-card"><b>Meals</b><br>Breakfast & Dinner</div>
+                    <div class="icon-card"><b>Activities</b><br>Trekking from Sonprayag to Kedarnath,<br> Aarti at Kedarnath Temple</div>
+                    <div class="icon-card"><b>Sightseeing</b><br>Kedarnath Temple, Shankaracharya Samadhi</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Day 3 -->
+              <div class="day-card">
+                <div class="day-header">
+                  <div class="day-circle">3</div>
+                  <div class="day-content-header">
+                    <h3>Kedarnath to Ukhimath</h3>
+                    <span class="day-arrow">&#9662;</span>
+                  </div>
+                </div>
+                <ul>
+                  <li>Morning: Descend from Kedarnath to Sonprayag.</li>
+                  <li>Drive to Ukhimath (approx. 40 km).</li>
+                </ul>
+                <div class="day-body">
+                  <span class="read-more">Read More</span>
+                  <div class="day-icons">
+                    <div class="icon-card"><b>Stay</b><br>Included</div>
+                    <div class="icon-card"><b>Meals</b><br>Breakfast & Dinner</div>
+                    <div class="icon-card"><b>Activities</b><br>Trekking from Kedarnath to Sonprayag</div>
+                    <div class="icon-card"><b>Sightseeing</b><br>Ukhimath Temple</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Day 4 -->
+              <div class="day-card">
+                <div class="day-header">
+                  <div class="day-circle">4</div>
+                  <div class="day-content-header">
+                    <h3>Ukhimath to Badrinath</h3>
+                    <span class="day-arrow">&#9662;</span>
+                  </div>
+                </div>
+                <ul>
+                  <li>Early morning: Visit Omkareshwar Temple (winter homeland of Kedarnath Doli).</li>
+                  <li>Drive towards Badrinath, with an optional stop at Chopta for Tungnath Temple trek (5 km one side).</li>
+                </ul>
+                <div class="day-body">
+                  <span class="read-more">Read More</span>
+                  <div class="day-icons">
+                    <div class="icon-card"><b>Stay</b><br>Included</div>
+                    <div class="icon-card"><b>Meals</b><br>Breakfast & Dinner</div>
+                    <div class="icon-card"><b>Activities</b><br>Trekking from Sonprayag to Kedarnath,<br> Aarti at Kedarnath Temple</div>
+                    <div class="icon-card"><b>Sightseeing</b><br>Omkareshwar Temple, Tungnath Temple trek,<br> Badrinath,<br> Narad Kund, Brahma Kapal, Mana</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Day 5 -->
+              <div class="day-card">
+                <div class="day-header">
+                  <div class="day-circle">5</div>
+                  <div class="day-content-header">
+                    <h3>Badrinath to Srinagar</h3>
+                    <span class="day-arrow">&#9662;</span>
+                  </div>
+                </div>
+                <ul>
+                  <li>Morning: Visit Badrinath Temple.</li>
+                  <li>Explore Mana Village (the last Indian village).</li>
+                  <li>Drive to Srinagar (approx. 190 km).</li>
+                </ul>
+                <div class="day-body">
+                  <span class="read-more">Read More</span>
+                  <div class="day-icons">
+                    <div class="icon-card"><b>Stay</b><br>Included</div>
+                    <div class="icon-card"><b>Meals</b><br>Breakfast & Dinner</div>
+                    <div class="icon-card"><b>Activities</b><br>Visit Badrinath Temple, Mana Village exploration</div>
+                    <div class="icon-card"><b>Sightseeing</b><br>Badrinath Temple, Mana Village, Vyas Gufa, Ganesh Gufa, Bhim Pul</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Day 6 -->
+              <div class="day-card">
+                <div class="day-header">
+                  <div class="day-circle">6</div>
+                  <div class="day-content-header">
+                    <h3>Srinagar to Haridwar</h3>
+                    <span class="day-arrow">&#9662;</span>
+                  </div>
+                </div>
+                <ul>
+                  <li>Morning: Depart from Srinagar.</li>
+                  <li>Drive back to Haridwar (approx. 100 km), drop off at your preferred location.</li>
+                </ul>
+                <div class="day-body">
+                  <span class="read-more">Read More</span>
+                  <div class="day-icons">
+                    <div class="icon-card">
+                      <b>Meals</b>
+                      Breakfast
+                    </div>
+                    <div class="icon-card">
+                      <b>Sightseeing</b>
+                      Place of Sages
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                          <div class="tab-content" id="highlights">
+                <h2>Highlights <span class="highlights-icon">&#9733;</span></h2>
+                <div id="highlights-content">
+                  <!-- Highlights will be loaded dynamically -->
+                </div>
+              </div>
+              <div class="tab-content" id="other">
+                <h2>Other Information <span class="other-icon">&#9733;</span></h2>
+                <div id="other-info-content">
+                  <!-- Other info will be loaded dynamically -->
+                </div>
+              </div>
+          </section>
+        </div>
+          <div class="main-content-right">
+            <aside class="enquiry-form">
+              <h3>Get in Touch</h3>
+              <form>
+                <label>Name<input type="text" required></label>
+                <label>Email<input type="email" required></label>
+                <label>Phone<input type="tel" required></label>
+                <label>Pickup Location
+                <div class="input-icon-wrapper">
+                  <input type="text" required>
+                  <span class="input-icon">&#128205;</span>
+                </div>
+              </label>
+              <label>Remarks<textarea placeholder="Enter any remarks"></textarea></label>
+              <button class="btn yellow" type="submit">Submit</button>
+            </form>
+          </aside>
+        </div>
+      </div>
+      <!-- End of main-layout-flex -->
+
+    <!-- Inclusions & Exclusions -->
+    <section class="inc-exc-section">
+      <div class="inc-exc">
+        <div>
+          <h2>Inclusions</h2>
+          <ul id="inclusions-list">
+            <!-- Inclusions will be loaded dynamically -->
+          </ul>
+        </div>
+        <div>
+          <h2>Exclusions</h2>
+          <ul id="exclusions-list">
+            <!-- Exclusions will be loaded dynamically -->
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="similar-packages">
+    <h2>Similar Packages</h2>
+    <div class="similar-list" id="similar-packages-container">
+      <!-- Similar packages will be loaded dynamically -->
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <!-- Footer content will be loaded dynamically from API -->
+    <div style="text-align: center; padding: 2rem;">
+        <div class="loading-spinner">Loading footer...</div>
+    </div>
+  </footer>
+  </div>
+  <script src="js/api-utils.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/traowl-city-page.js"></script>
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+</body>
+</html>

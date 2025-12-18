@@ -1,0 +1,70 @@
+{
+  "upcomingTrips": [
+    {
+      "id": 1,
+      "title": "Meghalaya Tour",
+      "description": "India\n4 days tour",
+      "image": "images/upcoming1.webp",
+      "price": 2399,
+      "currency": "₹",
+      "location": "Meghalaya",
+      "duration": "4 days",
+      "country": "India"
+    },
+    {
+      "id": 2,
+      "title": "Goa Tour",
+      "description": "India\n5 days tour",
+      "image": "images/upcoming2.webp",
+      "price": 5999,
+      "currency": "₹",
+      "location": "Goa",
+      "duration": "5 days",
+      "country": "India"
+    },
+    {
+      "id": 3,
+      "title": "Jaipur tour",
+      "description": "Rajasthan\n4 days tour",
+      "image": "images/upcoming3.webp",
+      "price": 4999,
+      "currency": "₹",
+      "location": "Jaipur",
+      "duration": "4 days",
+      "country": "India"
+    },
+    {
+      "id": 4,
+      "title": "Yulla Kanda Tour",
+      "description": "Himanchal Pradesh\n3 days tour",
+      "image": "images/upcoming4.webp",
+      "price": 6999,
+      "currency": "₹",
+      "location": "Yulla Kanda",
+      "duration": "3 days",
+      "country": "India"
+    },
+    {
+      "id": 5,
+      "title": "Leh Ladakh Tour",
+      "description": "Jammu and Kashmir\n5 days tour",
+      "image": "images/upcoming5.webp",
+      "price": 9399,
+      "currency": "₹",
+      "location": "Leh Ladakh",
+      "duration": "5 days",
+      "country": "India"
+    },
+    {
+      "id": 6,
+      "title": "Spiti Valley Tour",
+      "description": "Himanchal Pradesh\n8 days tour",
+      "image": "images/upcoming6.webp",
+      "price": 15999,
+      "currency": "₹",
+      "location": "Spiti Valley",
+      "duration": "8 days",
+      "country": "India"
+    }
+  ]
+} 

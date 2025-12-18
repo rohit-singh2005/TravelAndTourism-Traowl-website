@@ -1,0 +1,53 @@
+{
+  "bookings": [
+    {
+      "bookingId": "TRW202507244493",
+      "tripTitle": "Goa Beach Romance",
+      "tripId": "6",
+      "travelers": 1,
+      "selectedDate": null,
+      "contactInfo": {
+        "name": "rohit",
+        "email": "rohitsdeopa@gmail.com",
+        "phone": "123456789"
+      },
+      "specialRequests": "",
+      "status": "pending_confirmation",
+      "createdAt": "2025-07-24T18:13:38.048Z",
+      "updatedAt": "2025-07-24T18:13:38.048Z"
+    },
+    {
+      "bookingId": "TRW202507247010",
+      "tripTitle": "Test Atlas Booking",
+      "tripId": null,
+      "travelers": 2,
+      "selectedDate": null,
+      "contactInfo": {
+        "name": "Test User",
+        "email": "test@example.com",
+        "phone": "9876543210"
+      },
+      "specialRequests": "",
+      "status": "pending_confirmation",
+      "createdAt": "2025-07-24T18:29:02.205Z",
+      "updatedAt": "2025-07-24T18:29:02.205Z"
+    },
+    {
+      "bookingId": "TRW202507253795",
+      "tripTitle": "Debug MongoDB Atlas",
+      "tripId": null,
+      "travelers": 1,
+      "selectedDate": null,
+      "contactInfo": {
+        "name": "Debug User",
+        "email": "debug@test.com",
+        "phone": "1234567890"
+      },
+      "specialRequests": "",
+      "status": "pending_confirmation",
+      "createdAt": "2025-07-24T18:36:14.857Z",
+      "updatedAt": "2025-07-24T18:36:14.857Z"
+    }
+  ],
+  "lastBookingId": 0
+}

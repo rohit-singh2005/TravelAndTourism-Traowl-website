@@ -1,0 +1,94 @@
+{
+  "footer": {
+    "features": [
+      {
+        "percentage": "100%",
+        "title": "SATISFACTION",
+        "items": [
+          "DELUXE STAYS",
+          "TRAVEL GUIDES",
+          "CUSTOMIZED TRIPS"
+        ]
+      },
+      {
+        "percentage": "100%",
+        "title": "BEST SERVICES",
+        "items": [
+          "AFFORDABILITY",
+          "SAFETY MEASURES",
+          "QUALITY ASSURANCE"
+        ]
+      },
+      {
+        "percentage": "10+",
+        "title": "DESTINATIONS",
+        "items": [
+          "50+ GROUP TRIPS",
+          "10+ INTERNATIONAL",
+          "10+ DOMESTIC"
+        ]
+      },
+      {
+        "percentage": "24/7",
+        "title": "SUPPORT",
+        "items": [
+          "EASY BOOKING",
+          "CUSTOMER SUPPORT",
+          "HASSLE FREE"
+        ]
+      }
+    ],
+    "content": {
+      "vision": {
+        "title": "Our Vision",
+        "description": "From ancient temples to breathtaking landscapes, every journey with us is a story waiting to be told. Join our community of explorers and create memories that last a lifetime.",
+        "readMoreLink": "#"
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "columns": [
+          [
+            { "title": "Home", "url": "home.html" },
+            { "title": "Blog", "url": "blog.html" },
+            { "title": "Activities", "url": "activities.html" },
+            { "title": "About", "url": "about.html" }
+          ],
+          [
+            { "title": "Weekend Trip", "url": "weekendtrip.html" },
+            { "title": "Corporate Trip", "url": "corporatetrip.html" },
+            { "title": "Domestic Trip", "url": "domestictrip.html" },
+            { "title": "Upcoming Trip", "url": "upcomingtrip.html" }
+          ]
+        ]
+      },
+      "contact": {
+        "title": "Contact Us",
+        "address": "C25, C Block, Sector 8,\nNoida, Uttar Pradesh 201301",
+        "email": "hellotraowl@gmail.com",
+        "socialMedia": [
+          {
+            "name": "Facebook",
+            "url": "https://facebook.com",
+            "icon": "images/facebook.webp"
+          },
+          {
+            "name": "Instagram",
+            "url": "https://instagram.com",
+            "icon": "images/instagram.webp"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://linkedin.com",
+            "icon": "images/linkedIn.webp"
+          },
+          {
+            "name": "YouTube",
+            "url": "https://youtube.com",
+            "icon": "images/youtube.webp"
+          }
+        ]
+      }
+    },
+    "copyright": "© Traowl Travels Private Limited"
+  }
+}

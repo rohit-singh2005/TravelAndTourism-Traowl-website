@@ -1,0 +1,75 @@
+{
+  "header": {
+    "logo": {
+      "src": "images/logo.webp",
+      "alt": "Traowl Logo"
+    },
+    "contact": {
+      "phone": "+91 8309058463",
+      "icon": "ri-phone-line"
+    },
+    "navigation": [
+      {
+        "title": "Home",
+        "url": "home.html",
+        "active": true
+      },
+      {
+        "title": "Upcoming Trip",
+        "url": "upcomingtrip.html"
+      },
+      {
+        "title": "Activities",
+        "url": "activities.html"
+      },
+      {
+        "title": "Categories",
+        "url": "#",
+        "hasDropdown": true,
+        "dropdown": [
+          {
+            "title": "Domestic Trip",
+            "url": "domestictrip.html"
+          },
+          {
+            "title": "International Trip",
+            "url": "internationaltrip.html"
+          },
+          {
+            "title": "Weekend Trip",
+            "url": "weekendtrip.html"
+          },
+          {
+            "title": "Corporate Trip",
+            "url": "corporatetrip.html"
+          },
+          {
+            "title": "Family Trip",
+            "url": "familytrip.html"
+          },
+          {
+            "title": "Honeymoon Trip",
+            "url": "honeymoontrip.html"
+          }
+        ]
+      },
+      {
+        "title": "Spiritual Trip",
+        "url": "spiritual-tours.html",
+        "highlight": true
+      },
+      {
+        "title": "Blog",
+        "url": "blog.html"
+      },
+      {
+        "title": "About Us",
+        "url": "about.html"
+      }
+    ],
+    "authButton": {
+      "text": "Sign in / Log in",
+      "icon": "sign-in-icon"
+    }
+  }
+}

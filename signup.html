@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container nav-container">
+            <div class="logo-area">
+                <img src="images/logo.webp" alt="Traowl Logo" class="logo" />
+                <div class="tagline">
+                    Travel nahi <span class="highlight">tra<span class="owl-highlight">owl</span></span> karo!
+                </div>
+            </div>
+            <div class="back-to-home">
+                <a href="home.html">Back to Home</a>
+            </div>
+        </div>
+    </header>
+    <div class="signup-container">
+        <div class="left-panel">
+            <img src="images/walking.png" alt="Illustration" class="illustration">
+        </div>
+        <div class="right-panel">
+            <form class="signup-form" autocomplete="off">
+                <h2>Sign Up</h2>
+                <p class="subtitle">Create an account to access all our features</p>
+                <div class="input-row">
+                    <div>
+                        <label>First Name</label>
+                        <input type="text" placeholder="First Name" required>
+                    </div>
+                    <div>
+                        <label>Last Name</label>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="input-full">
+                    <label>Email</label>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="input-row">
+                    <div>
+                        <label>Password</label>
+                        <div class="password-input-container">
+                            <input type="password" placeholder="Enter Password" required>
+                            <button type="button" class="password-toggle-btn" aria-label="Toggle password visibility">
+                                <i class="ri-eye-line"></i>
+                            </button>
+                        </div>
+                        <div class="password-strength-meter"></div>
+                    </div>
+                    <div>
+                        <label>Confirm Password</label>
+                        <div class="password-input-container">
+                            <input type="password" placeholder="Confirm Password" required>
+                            <button type="button" class="password-toggle-btn" aria-label="Toggle confirm password visibility">
+                                <i class="ri-eye-line"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="signup-btn">Sign Up</button>
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+                <div class="social-login">
+                    <a href="#" class="social-btn facebook"><img src="images/fb.png" alt="Facebook"></a>
+                    <a href="#" class="social-btn google"><img src="images/google.png" alt="Google"></a>
+                </div>
+                <div class="login-link">
+                    Already have an account? <a href="login.html">Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/auth.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>

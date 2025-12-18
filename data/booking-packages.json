@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "title": "Kedarnath Luxury Package",
+    "description": "Experience the divine journey to Kedarnath with our luxury package featuring comfortable accommodations and expert guidance.",
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80",
+    "price": 14999,
+    "oldPrice": 20999,
+    "currency": "₹",
+    "duration": "6 Days / 5 Nights",
+    "pickupLocation": "Haridwar",
+    "category": "spiritual",
+    "difficulty": "Moderate",
+    "maxGroupSize": 20,
+    "minAge": 12,
+    "included": [
+      "Transportation",
+      "Accommodation",
+      "Meals",
+      "Guide",
+      "Permits",
+      "First Aid"
+    ],
+    "excluded": [
+      "Personal expenses",
+      "Tips",
+      "Insurance",
+      "Any additional activities"
+    ],
+    "travelOptions": [
+      {
+        "id": "scheduled",
+        "title": "Join Scheduled Batch",
+        "description": "1 batches available",
+        "recommended": true
+      },
+      {
+        "id": "custom",
+        "title": "Request Custom Dates",
+        "description": "We'll arrange a trip based on your preferred dates"
+      }
+    ],
+    "batches": [
+      {
+        "id": "batch1",
+        "startDate": "2025-06-18",
+        "endDate": "2025-06-23",
+        "days": "Wednesday to Monday",
+        "seatsLeft": 10,
+        "status": "available"
+      },
+      {
+        "id": "batch2",
+        "startDate": "2025-08-01",
+        "endDate": "2025-08-06",
+        "days": "Friday to Wednesday",
+        "seatsLeft": 2,
+        "status": "available"
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Haridwar to Sersi",
+        "activities": [
+          "Morning: Meet our representative in Haridwar at your hotel/airport/railway station.",
+          "Travel to Sersi (Drive: 223 km).",
+          "Check into the hotel upon arrival in Sersi."
+        ],
+        "stay": "Hotel in Sersi",
+        "meals": "Dinner"
+      },
+      {
+        "day": 2,
+        "title": "Sersi to Kedarnath",
+        "activities": [
+          "Early morning departure to Kedarnath.",
+          "Trek to Kedarnath Temple (16 km).",
+          "Visit the sacred Kedarnath Temple.",
+          "Evening aarti at the temple."
+        ],
+        "stay": "Guest House in Kedarnath",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 3,
+        "title": "Kedarnath to Badrinath",
+        "activities": [
+          "Morning aarti at Kedarnath Temple.",
+          "Return trek to Sersi.",
+          "Drive to Badrinath.",
+          "Check into hotel in Badrinath."
+        ],
+        "stay": "Hotel in Badrinath",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 4,
+        "title": "Badrinath Darshan",
+        "activities": [
+          "Morning aarti at Badrinath Temple.",
+          "Visit Mana Village (Last village of India).",
+          "Visit Vasudhara Falls.",
+          "Evening free time for shopping."
+        ],
+        "stay": "Hotel in Badrinath",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 5,
+        "title": "Badrinath to Haridwar",
+        "activities": [
+          "Morning departure from Badrinath.",
+          "Visit Devprayag (Confluence of Alaknanda and Bhagirathi).",
+          "Continue drive to Haridwar.",
+          "Evening Ganga Aarti at Har Ki Pauri."
+        ],
+        "stay": "Hotel in Haridwar",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "activities": [
+          "Morning free time for shopping.",
+          "Check out from hotel.",
+          "Transfer to airport/railway station.",
+          "Tour concludes with happy memories."
+        ],
+        "stay": "Not included",
+        "meals": "Breakfast"
+      }
+    ],
+    "highlights": [
+      "Visit the sacred Kedarnath and Badrinath temples",
+      "Experience the divine aarti ceremonies",
+      "Trek through the beautiful Himalayan trails",
+      "Explore the last village of India (Mana)",
+      "Witness the confluence of holy rivers",
+      "Enjoy the evening Ganga Aarti at Har Ki Pauri"
+    ],
+    "importantInfo": [
+      "Valid ID proof is mandatory for all travelers",
+      "Medical certificate required for high altitude trekking",
+      "Weather conditions may affect the itinerary",
+      "Temple timings may vary based on season",
+      "Carry warm clothes as temperatures can drop significantly",
+      "Photography is not allowed inside the temples"
+    ],
+    "cancellationPolicy": {
+      "before30Days": "100% refund",
+      "before15Days": "75% refund",
+      "before7Days": "50% refund",
+      "before3Days": "25% refund",
+      "lessThan3Days": "No refund"
+    },
+    "termsAndConditions": [
+      "Booking confirmation is subject to availability",
+      "Traowl reserves the right to modify the itinerary",
+      "Participants must follow the guide's instructions",
+      "Any damage to property will be charged to the participant",
+      "The company is not responsible for personal belongings"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Manali Adventure Package",
+    "description": "Explore the beautiful valleys of Manali with adventure activities and scenic beauty.",
+    "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80",
+    "price": 8999,
+    "oldPrice": 12999,
+    "currency": "₹",
+    "duration": "5 Days / 4 Nights",
+    "pickupLocation": "Delhi",
+    "category": "adventure",
+    "difficulty": "Easy",
+    "maxGroupSize": 25,
+    "minAge": 8,
+    "included": [
+      "Transportation",
+      "Accommodation",
+      "Meals",
+      "Guide",
+      "Adventure activities",
+      "Safety equipment"
+    ],
+    "excluded": [
+      "Personal expenses",
+      "Tips",
+      "Insurance",
+      "Optional activities"
+    ],
+    "travelOptions": [
+      {
+        "id": "scheduled",
+        "title": "Join Scheduled Batch",
+        "description": "2 batches available",
+        "recommended": true
+      },
+      {
+        "id": "custom",
+        "title": "Request Custom Dates",
+        "description": "We'll arrange a trip based on your preferred dates"
+      }
+    ],
+    "batches": [
+      {
+        "id": "batch1",
+        "startDate": "2025-07-15",
+        "endDate": "2025-07-19",
+        "days": "Tuesday to Saturday",
+        "seatsLeft": 15,
+        "status": "available"
+      },
+      {
+        "id": "batch2",
+        "startDate": "2025-08-10",
+        "endDate": "2025-08-14",
+        "days": "Sunday to Thursday",
+        "seatsLeft": 8,
+        "status": "available"
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi to Manali",
+        "activities": [
+          "Early morning departure from Delhi.",
+          "Scenic drive through the mountains.",
+          "Arrival in Manali in the evening.",
+          "Check into hotel and rest."
+        ],
+        "stay": "Hotel in Manali",
+        "meals": "Dinner"
+      },
+      {
+        "day": 2,
+        "title": "Manali Local Sightseeing",
+        "activities": [
+          "Visit Hadimba Temple.",
+          "Explore Mall Road.",
+          "Visit Vashisht Hot Water Springs.",
+          "Evening free for shopping."
+        ],
+        "stay": "Hotel in Manali",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 3,
+        "title": "Solang Valley Adventure",
+        "activities": [
+          "Full day adventure activities in Solang Valley.",
+          "Paragliding experience.",
+          "Zorbing and other adventure sports.",
+          "Evening return to Manali."
+        ],
+        "stay": "Hotel in Manali",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 4,
+        "title": "Rohtang Pass",
+        "activities": [
+          "Visit Rohtang Pass (weather permitting).",
+          "Snow activities and photography.",
+          "Return to Manali.",
+          "Evening cultural program."
+        ],
+        "stay": "Hotel in Manali",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 5,
+        "title": "Manali to Delhi",
+        "activities": [
+          "Morning free time for shopping.",
+          "Departure from Manali.",
+          "Scenic drive back to Delhi.",
+          "Tour concludes with happy memories."
+        ],
+        "stay": "Not included",
+        "meals": "Breakfast"
+      }
+    ],
+    "highlights": [
+      "Explore the beautiful valleys of Manali",
+      "Experience adventure activities in Solang Valley",
+      "Visit the ancient Hadimba Temple",
+      "Enjoy snow activities at Rohtang Pass",
+      "Relax in Vashisht Hot Water Springs",
+      "Shop at the famous Mall Road"
+    ],
+    "importantInfo": [
+      "Rohtang Pass visit is subject to weather conditions",
+      "Adventure activities have age and health restrictions",
+      "Carry warm clothes as Manali can be cold",
+      "Photography is allowed at most locations",
+      "Follow safety instructions during adventure activities",
+      "Valid ID proof is mandatory for all travelers"
+    ],
+    "cancellationPolicy": {
+      "before30Days": "100% refund",
+      "before15Days": "75% refund",
+      "before7Days": "50% refund",
+      "before3Days": "25% refund",
+      "lessThan3Days": "No refund"
+    },
+    "termsAndConditions": [
+      "Booking confirmation is subject to availability",
+      "Traowl reserves the right to modify the itinerary",
+      "Participants must follow the guide's instructions",
+      "Any damage to property will be charged to the participant",
+      "The company is not responsible for personal belongings"
+    ]
+  }
+] 

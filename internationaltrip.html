@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>International Trips - Traowl</title>
+  <meta name="description" content="Explore international destinations with Traowl. Book amazing international trips to France, Japan, Indonesia, Italy, Australia, USA, UAE, UK, Thailand, Spain, and Switzerland." />
+  <link rel="canonical" href="https://www.traowl.com/internationaltrip.html" />
+  <meta property="og:title" content="International Trips - Traowl" />
+  <meta property="og:description" content="Explore international destinations with Traowl. Book amazing international trips to France, Japan, Indonesia, Italy, Australia, USA, UAE, UK, Thailand, Spain, and Switzerland." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.traowl.com/internationaltrip.html" />
+  <meta property="og:image" content="images/logo.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="International Trips - Traowl" />
+  <meta name="twitter:description" content="Explore international destinations with Traowl. Book amazing international trips to France, Japan, Indonesia, Italy, Australia, USA, UAE, UK, Thailand, Spain, and Switzerland." />
+  <meta name="twitter:image" content="images/logo.webp" />
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/internationaltrip.css">
+  <link rel="stylesheet" href="css/auth.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Roboto:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="main-header">
+    <!-- Header content will be loaded dynamically from API -->
+    <div style="text-align: center; padding: 1rem;">
+      <div class="loading-spinner">Loading header...</div>
+    </div>
+  </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" style="background-image: url('images/background1.webp');">
+        <!-- Replace the URL above with your own hero image -->
+        <div class="hero-overlay">
+            <h1>International Trips</h1>
+        </div>
+    </section>
+
+    <section class="about-section">
+    <div class="about-header">
+        <span>All About International Trips</span>
+        <a href="#" class="show-more" id="showMoreBtn">Show more</a>
+    </div>
+    <div class="about-desc" id="aboutDesc">
+       Explore the world beyond borders! This page features handpicked international destinations perfect for unforgettable adventures and cultural experiences.
+        <span class="more-content" id="moreContent" style="display:none;">
+            <br><br>
+          Whether you dream of strolling through Parisian streets, relaxing on Bali's beaches, or exploring Tokyo's vibrant cityscape, we've curated trips for every wanderlust. Each journey is crafted for seamless travel, unique experiences, and lifelong memories. Discover, book, and embark on your next global adventure!
+        </span>
+    </div>
+    </section>
+
+    <!-- DESTINATION FILTER -->
+    <section class="destination-section">
+        <label for="destination-select" class="destination-label">Destination</label>
+        <select id="destination-select" class="destination-select">
+            <option value="">All</option>
+            <option value="france">France</option>
+            <option value="japan">Japan</option>
+            <option value="indonesia">Indonesia</option>
+            <option value="italy">Italy</option>
+            <option value="australia">Australia</option>
+            <option value="usa">USA</option>
+            <option value="uae">UAE</option>
+            <option value="uk">United Kingdom</option>
+            <option value="thailand">Thailand</option>
+            <option value="spain">Spain</option>
+            <option value="switzerland">Switzerland</option>
+        </select>
+    </section>
+
+    <!-- TOUR CARDS -->
+    <section class="cards-section">
+        <div class="tour-cards">
+            <!-- Tour cards will be loaded dynamically from API -->
+            <div class="loading-spinner" style="text-align: center; padding: 2rem;">
+                Loading international trips...
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+      <!-- Footer content will be loaded dynamically from API -->
+      <div style="text-align: center; padding: 2rem;">
+        <div class="loading-spinner">Loading footer...</div>
+      </div>
+    </footer>
+
+    <script src="js/image-utils.js"></script>
+    <script src="js/api-utils.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/internationaltrip.js"></script>
+  </body>
+</html> 

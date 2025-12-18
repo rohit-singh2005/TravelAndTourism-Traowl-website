@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traowl Admin Panel Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .demo-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .demo-header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+        }
+        
+        .demo-header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        
+        .demo-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            color: white;
+            font-size: 24px;
+        }
+        
+        .feature-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        
+        .feature-description {
+            color: #6c757d;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .feature-list li {
+            padding: 5px 0;
+            color: #495057;
+        }
+        
+        .feature-list li::before {
+            content: '✓';
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .demo-actions {
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .demo-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .demo-btn-primary {
+            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            color: white;
+        }
+        
+        .demo-btn-secondary {
+            background: white;
+            color: #2c3e50;
+        }
+        
+        .demo-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        
+        .demo-video {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+        
+        .demo-video h3 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        .video-placeholder {
+            background: #f8f9fa;
+            border: 2px dashed #dee2e6;
+            border-radius: 10px;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6c757d;
+            font-size: 1.2rem;
+        }
+        
+        .steps-container {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .step {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .step:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .step-number {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+        
+        .step-content h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .step-content p {
+            color: #6c757d;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <div class="demo-header">
+            <h1><i class="fas fa-shield-alt me-3"></i>Traowl Admin Panel</h1>
+            <p>Powerful, Visual, User-Friendly Content Management</p>
+        </div>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-edit"></i>
+                </div>
+                <div class="feature-title">Visual Content Editing</div>
+                <div class="feature-description">
+                    Edit your website content directly on the page without touching any code. Click on any text, image, or link to modify it instantly.
+                </div>
+                <ul class="feature-list">
+                    <li>No coding knowledge required</li>
+                    <li>Real-time preview of changes</li>
+                    <li>Inline editing for all content</li>
+                    <li>WYSIWYG interface</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <div class="feature-title">Trip Management</div>
+                <div class="feature-description">
+                    Comprehensive trip management with easy add, edit, and delete functionality. Manage all trip categories from one place.
+                </div>
+                <ul class="feature-list">
+                    <li>Add new trips with image upload</li>
+                    <li>Edit existing trip details</li>
+                    <li>Delete trips with confirmation</li>
+                    <li>Organize by categories</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <div class="feature-title">Dashboard & Analytics</div>
+                <div class="feature-description">
+                    Get insights into your website performance with comprehensive statistics and recent activity monitoring.
+                </div>
+                <ul class="feature-list">
+                    <li>Total trips and bookings count</li>
+                    <li>User registration statistics</li>
+                    <li>Recent activity monitoring</li>
+                    <li>Content overview</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <div class="feature-title">Site Settings</div>
+                <div class="feature-description">
+                    Manage global site settings, navigation menus, contact information, and branding elements.
+                </div>
+                <ul class="feature-list">
+                    <li>Update site title and branding</li>
+                    <li>Manage navigation menus</li>
+                    <li>Edit contact information</li>
+                    <li>Footer content management</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="demo-video">
+            <h3><i class="fas fa-play-circle me-2"></i>How It Works</h3>
+            <div class="video-placeholder">
+                <div class="text-center">
+                    <i class="fas fa-video fa-3x mb-3"></i>
+                    <p>Demo video showing the admin panel in action</p>
+                    <small class="text-muted">Visual editing, trip management, and more</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="steps-container">
+            <h3 class="text-center mb-4"><i class="fas fa-list-ol me-2"></i>Getting Started</h3>
+            
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h4>Login as Admin</h4>
+                    <p>Access the admin panel by logging in with your admin credentials at <code>/login.html</code></p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h4>Choose Your Task</h4>
+                    <p>Navigate to the visual admin panel at <code>/admin-visual</code> and select what you want to edit from the dashboard</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h4>Edit Visually</h4>
+                    <p>Click "Edit Page" to open any page in visual edit mode. Click on elements to modify them directly</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <h4>Manage Trips</h4>
+                    <p>Use the Trips tab to add new trips, edit existing ones, or delete trips with the + and - buttons</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">5</div>
+                <div class="step-content">
+                    <h4>Save & Publish</h4>
+                    <p>All changes are automatically saved. Click "Save Changes" to publish your modifications</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="demo-actions">
+            <a href="/admin-visual" class="demo-btn demo-btn-primary">
+                <i class="fas fa-rocket me-2"></i>Launch Admin Panel
+            </a>
+            <a href="/home.html?admin=true" class="demo-btn demo-btn-secondary">
+                <i class="fas fa-eye me-2"></i>Try Visual Editing
+            </a>
+            <a href="ADMIN_PANEL_GUIDE.md" class="demo-btn demo-btn-secondary" target="_blank">
+                <i class="fas fa-book me-2"></i>Read Full Guide
+            </a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Profile - Traowl</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/auth.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+  <style>
+    .profile-container {
+      max-width: 420px;
+      margin: 48px auto 0 auto;
+      background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+      border-radius: 22px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+      padding: 36px 32px 28px 32px;
+      font-family: 'Montserrat', sans-serif;
+      position: relative;
+    }
+    .profile-quote {
+      font-size: 1.08rem;
+      color: #6b7280;
+      font-style: italic;
+      text-align: center;
+      margin-bottom: 18px;
+      padding: 0 8px;
+      line-height: 1.5;
+    }
+    .profile-container h2 {
+      margin-top: 0;
+      font-weight: 800;
+      color: #22223b;
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 8px;
+      letter-spacing: 0.01em;
+    }
+    .profile-form {
+      margin-top: 10px;
+    }
+    .profile-form .input-group {
+      position: relative;
+      margin-bottom: 22px;
+    }
+    .profile-form .input-group input {
+      width: 100%;
+      padding: 14px 14px 14px 40px;
+      border-radius: 10px;
+      border: 1.5px solid #e5e7eb;
+      font-size: 1rem;
+      background: #fff;
+      color: #22223b;
+      font-family: inherit;
+      transition: border 0.2s;
+      outline: none;
+    }
+    .profile-form .input-group input:focus {
+      border-color: #fbbf24;
+      background: #fffbe6;
+    }
+    .profile-form .input-group label {
+      position: absolute;
+      left: 40px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1rem;
+      color: #888;
+      pointer-events: none;
+      transition: all 0.2s;
+      background: #fff;
+      padding: 0 4px;
+    }
+    .profile-form .input-group input:focus + label,
+    .profile-form .input-group input:not(:placeholder-shown) + label {
+      top: -10px;
+      left: 32px;
+      font-size: 0.88rem;
+      color: #fbbf24;
+      background: #fffbe6;
+      padding: 0 6px;
+      border-radius: 6px;
+    }
+    .profile-form .input-group i {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.2em;
+      color: #fbbf24;
+      opacity: 0.85;
+    }
+    .profile-form .form-row {
+      display: flex;
+      gap: 12px;
+    }
+    .profile-form .form-row > .input-group {
+      flex: 1;
+    }
+    .profile-form .save-btn {
+      width: 100%;
+      padding: 13px 0;
+      background: linear-gradient(90deg, #fbbf24 0%, #f59e0b 100%);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 8px;
+      box-shadow: 0 2px 8px rgba(251,191,36,0.08);
+      transition: background 0.2s;
+    }
+    .profile-form .save-btn:hover {
+      background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 100%);
+    }
+
+    
+
+    
+    @media (max-width: 600px) {
+      .profile-container {
+        padding: 18px 4vw 18px 4vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <div class="profile-quote">
+      <span class="profile-quote-icon" style="color:#fbbf24;font-size:1.5em;vertical-align:middle;margin-right:8px;">&#10077;</span>
+      <span class="profile-quote-text">Travel is the only thing you buy that makes you richer.</span>
+      <span class="profile-quote-icon" style="color:#fbbf24;font-size:1.5em;vertical-align:middle;margin-left:8px;">&#10078;</span>
+      <div class="profile-quote-bar" style="height:4px;width:60px;background:linear-gradient(90deg,#fbbf24 0%,#f59e0b 100%);margin:14px auto 0 auto;border-radius:2px;"></div>
+    </div>
+    <h2>My Profile</h2>
+    
+    <!-- Profile Settings -->
+    <form class="profile-form" autocomplete="off">
+      <div class="form-row">
+        <div class="input-group">
+          <input type="text" id="firstName" name="firstName" required placeholder=" " autocomplete="given-name">
+          <i class="ri-user-line"></i>
+          <label for="firstName">First Name</label>
+        </div>
+        <div class="input-group">
+          <input type="text" id="lastName" name="lastName" required placeholder=" " autocomplete="family-name">
+          <i class="ri-user-line"></i>
+          <label for="lastName">Last Name</label>
+        </div>
+      </div>
+      <div class="input-group">
+        <input type="email" id="email" name="email" required placeholder=" " autocomplete="email">
+        <i class="ri-mail-line"></i>
+        <label for="email">Email</label>
+      </div>
+      <div class="input-group">
+        <input type="tel" id="phone" name="phone" placeholder=" " autocomplete="tel">
+        <i class="ri-phone-line"></i>
+        <label for="phone">Phone</label>
+      </div>
+      <div class="form-row">
+        <div class="input-group">
+          <input type="password" id="newPassword" name="newPassword" placeholder=" " autocomplete="new-password">
+          <i class="ri-lock-2-line"></i>
+          <label for="newPassword">New Password</label>
+        </div>
+        <div class="input-group">
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder=" " autocomplete="new-password">
+          <i class="ri-lock-2-line"></i>
+          <label for="confirmPassword">Confirm Password</label>
+        </div>
+      </div>
+      <button type="submit" class="save-btn">Save Changes</button>
+    </form>
+    
+
+  </div>
+  <script src="js/auth.js"></script>
+  <script src="js/profile.js"></script>
+</body>
+</html> 

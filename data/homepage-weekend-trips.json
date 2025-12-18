@@ -1,0 +1,70 @@
+{
+  "weekendTrips": [
+    {
+      "id": 1,
+      "title": "Hampta Pass",
+      "duration": "4 Days,3 Nights",
+      "image": "images/hampta.webp",
+      "price": 18499,
+      "currency": "₹",
+      "destination": "himachal pradesh",
+      "joinDates": ["9 July", "14 July"],
+      "description": "Experience the thrill of crossing the Hampta Pass with stunning views of the Himalayas"
+    },
+    {
+      "id": 2,
+      "title": "A week in kedarnath & badrinath",
+      "duration": "7 Days,8 Nights",
+      "image": "images/KedarnathBadrinath.webp",
+      "price": 14499,
+      "currency": "₹",
+      "destination": "uttarakhand",
+      "joinDates": ["11 July", "17 July", "21 July"],
+      "description": "Sacred journey to the holy shrines of Kedarnath and Badrinath"
+    },
+    {
+      "id": 3,
+      "title": "Manali",
+      "duration": "3 Days,2 Nights",
+      "image": "images/manali.webp",
+      "price": 13499,
+      "currency": "₹",
+      "destination": "himachal pradesh",
+      "joinDates": ["1 Aug", "4 Aug"],
+      "description": "Explore the beautiful hill station of Manali with adventure activities"
+    },
+    {
+      "id": 4,
+      "title": "Mussoorie",
+      "duration": "4 Days,3 Nights",
+      "image": "images/Mussoorie.webp",
+      "price": 15500,
+      "currency": "₹",
+      "destination": "uttarakhand",
+      "joinDates": ["8 Aug", "12 Aug"],
+      "description": "Visit the Queen of Hills with colonial charm and scenic beauty"
+    },
+    {
+      "id": 5,
+      "title": "Nainital",
+      "duration": "5 Days,4 Nights",
+      "image": "images/nainital.webp",
+      "price": 14499,
+      "currency": "₹",
+      "destination": "uttarakhand",
+      "joinDates": ["9 July", "14 July"],
+      "description": "Experience the serene beauty of Nainital lake and surrounding hills"
+    },
+    {
+      "id": 6,
+      "title": "Shirdi",
+      "duration": "7 Days,6 Nights",
+      "image": "images/shirdi.webp",
+      "price": 7499,
+      "currency": "₹",
+      "destination": "maharashtra",
+      "joinDates": ["9 July", "14 July"],
+      "description": "Pilgrimage to the sacred Shirdi Sai Baba temple"
+    }
+  ]
+} 

@@ -1,0 +1,622 @@
+{
+  "upcomingTrips": [
+    {
+      "id": 1,
+      "title": "Ladakh Adventure Expedition",
+      "duration": "8 Days, 7 Nights",
+      "image": "images/Ladakh Adventure Expedition 1.webp",
+      "price": 28499,
+      "oldPrice": 34999,
+      "currency": "₹",
+      "destination": "jammu & kashmir",
+      "joinDates": ["20 July", "27 July", "3 Aug", "10 Aug"],
+      "description": "Explore the mystical land of Ladakh with its high-altitude lakes, ancient monasteries, and breathtaking landscapes",
+      "difficulty": "Moderate",
+      "maxAltitude": "5359m",
+      "bestTime": "June to September",
+      "highlights": [
+        "Visit Pangong Tso Lake",
+        "Explore ancient monasteries",
+        "Cross Khardungla Pass",
+        "Experience local culture"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Hotel accommodation",
+        "All meals",
+        "Local sightseeing",
+        "Experienced guide",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Leh",
+          "activities": [
+            "Flight from Delhi to Leh",
+            "Acclimatization day",
+            "Evening at Leh market"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Leh Local",
+          "activities": [
+            "Shanti Stupa visit",
+            "Leh Palace exploration",
+            "Local monastery tour"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Leh to Nubra Valley",
+          "activities": [
+            "Cross Khardungla Pass",
+            "Sand dunes at Hunder",
+            "Diskit Monastery"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Nubra Valley",
+          "activities": [
+            "Camel safari",
+            "Panamik hot springs",
+            "Local village visit"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Nubra to Pangong",
+          "activities": [
+            "Drive to Pangong Lake",
+            "Lakeside camping",
+            "Stargazing experience"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Pangong Lake",
+          "activities": [
+            "Sunrise at Pangong",
+            "Lakeside activities",
+            "Photography session"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Pangong to Leh",
+          "activities": [
+            "Return to Leh",
+            "Shopping for souvenirs",
+            "Farewell dinner"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Leh to Delhi",
+          "activities": [
+            "Morning prayers",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Spiti Valley Discovery",
+      "duration": "7 Days, 6 Nights",
+      "image": "images/spiti.webp",
+      "price": 22499,
+      "oldPrice": 27999,
+      "currency": "₹",
+      "destination": "himachal pradesh",
+      "joinDates": ["18 July", "25 July", "1 Aug", "8 Aug"],
+      "description": "Journey to the cold desert of Spiti Valley with its ancient monasteries and stunning landscapes",
+      "difficulty": "Moderate",
+      "maxAltitude": "4551m",
+      "bestTime": "June to October",
+      "highlights": [
+        "Visit Key Monastery",
+        "Explore Tabo Caves",
+        "Cross Kunzum Pass",
+        "Experience local culture"
+      ],
+      "included": [
+        "Transportation from Manali",
+        "Hotel accommodation",
+        "All meals",
+        "Local sightseeing",
+        "Experienced guide",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Manali to Kaza",
+          "activities": [
+            "Drive from Manali to Kaza",
+            "Cross Rohtang Pass",
+            "Check-in at hotel"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Kaza Local",
+          "activities": [
+            "Key Monastery visit",
+            "Kibber village tour",
+            "Local market exploration"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Kaza to Tabo",
+          "activities": [
+            "Drive to Tabo",
+            "Tabo Monastery tour",
+            "Ancient caves exploration"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Tabo to Dhankar",
+          "activities": [
+            "Dhankar Monastery visit",
+            "Dhankar Lake trek",
+            "Local village interaction"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Dhankar to Pin Valley",
+          "activities": [
+            "Pin Valley National Park",
+            "Mud village visit",
+            "Stargazing experience"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Pin Valley to Kaza",
+          "activities": [
+            "Return to Kaza",
+            "Local handicraft shopping",
+            "Cultural evening"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Kaza to Manali",
+          "activities": [
+            "Drive back to Manali",
+            "En route sightseeing",
+            "Arrival in Manali"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Kashmir Valley Paradise",
+      "duration": "6 Days, 5 Nights",
+      "image": "images/kashmir.webp",
+      "price": 19499,
+      "oldPrice": 24999,
+      "currency": "₹",
+      "destination": "jammu & kashmir",
+      "joinDates": ["22 July", "29 July", "5 Aug", "12 Aug"],
+      "description": "Experience the paradise on earth with Dal Lake, Gulmarg, and Pahalgam",
+      "difficulty": "Easy",
+      "maxAltitude": "2730m",
+      "bestTime": "March to November",
+      "highlights": [
+        "Shikara ride on Dal Lake",
+        "Gulmarg gondola ride",
+        "Pahalgam valley exploration",
+        "Mughal gardens visit"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Hotel accommodation",
+        "All meals",
+        "Shikara ride tickets",
+        "Local sightseeing",
+        "Guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Srinagar",
+          "activities": [
+            "Flight from Delhi to Srinagar",
+            "Check-in at houseboat",
+            "Evening Shikara ride"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Srinagar Local",
+          "activities": [
+            "Mughal Gardens tour",
+            "Dal Lake activities",
+            "Local market visit"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Srinagar to Gulmarg",
+          "activities": [
+            "Drive to Gulmarg",
+            "Gondola ride",
+            "Mountain activities"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Gulmarg to Pahalgam",
+          "activities": [
+            "Drive to Pahalgam",
+            "Valley exploration",
+            "Local village visit"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Pahalgam Local",
+          "activities": [
+            "Betaab Valley visit",
+            "Aru Valley trek",
+            "Local handicraft shopping"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Pahalgam to Delhi",
+          "activities": [
+            "Drive to Srinagar",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Zanskar Valley Trek",
+      "duration": "10 Days, 9 Nights",
+      "image": "images/zanskar.webp",
+      "price": 32499,
+      "oldPrice": 39999,
+      "currency": "₹",
+      "destination": "jammu & kashmir",
+      "joinDates": ["15 July", "22 July", "29 July", "5 Aug"],
+      "description": "Challenging trek through the remote Zanskar Valley with ancient monasteries",
+      "difficulty": "Difficult",
+      "maxAltitude": "5090m",
+      "bestTime": "July to September",
+      "highlights": [
+        "Trek through remote valleys",
+        "Visit ancient monasteries",
+        "Cross high mountain passes",
+        "Experience local culture"
+      ],
+      "included": [
+        "Transportation from Leh",
+        "Tent accommodation",
+        "All meals during trek",
+        "Trekking equipment",
+        "Experienced guide",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Tips for guide and staff",
+        "Any additional activities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Leh to Padum",
+          "activities": [
+            "Drive from Leh to Padum",
+            "Acclimatization",
+            "Camp setup"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Padum to Karsha",
+          "activities": [
+            "Trek to Karsha Monastery",
+            "Local village visit",
+            "Camp at Karsha"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Karsha to Pishu",
+          "activities": [
+            "Trek through valleys",
+            "Cross streams",
+            "Camp at Pishu"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Pishu to Hanumil",
+          "activities": [
+            "Trek to Hanumil",
+            "Mountain views",
+            "Camp at Hanumil"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Hanumil to Lingshed",
+          "activities": [
+            "Trek to Lingshed",
+            "Monastery visit",
+            "Camp at Lingshed"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Lingshed to Snertse",
+          "activities": [
+            "Trek to Snertse",
+            "High altitude camping",
+            "Stargazing"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Snertse to Hanamur",
+          "activities": [
+            "Trek to Hanamur",
+            "Valley exploration",
+            "Camp at Hanamur"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Hanamur to Lamayuru",
+          "activities": [
+            "Trek to Lamayuru",
+            "Monastery visit",
+            "Camp at Lamayuru"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Lamayuru to Leh",
+          "activities": [
+            "Drive back to Leh",
+            "Rest and celebration",
+            "Hotel check-in"
+          ]
+        },
+        {
+          "day": 10,
+          "title": "Leh Departure",
+          "activities": [
+            "Morning prayers",
+            "Shopping for souvenirs",
+            "Departure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Kinnaur Valley Explorer",
+      "duration": "8 Days, 7 Nights",
+      "image": "images/kinnaur.webp",
+      "price": 20499,
+      "oldPrice": 25999,
+      "currency": "₹",
+      "destination": "himachal pradesh",
+      "joinDates": ["19 July", "26 July", "2 Aug", "9 Aug"],
+      "description": "Explore the beautiful Kinnaur Valley with its apple orchards and ancient temples",
+      "difficulty": "Easy to Moderate",
+      "maxAltitude": "3050m",
+      "bestTime": "April to October",
+      "highlights": [
+        "Visit Kalpa village",
+        "Explore apple orchards",
+        "Ancient temple tours",
+        "Local culture experience"
+      ],
+      "included": [
+        "Transportation from Shimla",
+        "Hotel accommodation",
+        "All meals",
+        "Local sightseeing",
+        "Experienced guide",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Shimla to Sarahan",
+          "activities": [
+            "Drive from Shimla to Sarahan",
+            "Bhima Kali Temple visit",
+            "Check-in at hotel"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Sarahan to Kalpa",
+          "activities": [
+            "Drive to Kalpa",
+            "Apple orchard visit",
+            "Local village tour"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Kalpa Local",
+          "activities": [
+            "Kinner Kailash view",
+            "Local temple visits",
+            "Cultural activities"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Kalpa to Sangla",
+          "activities": [
+            "Drive to Sangla Valley",
+            "Bering Nag Temple",
+            "Local handicraft shopping"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Sangla Valley",
+          "activities": [
+            "Rakcham village visit",
+            "Chitkul exploration",
+            "Local cuisine experience"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Sangla to Nako",
+          "activities": [
+            "Drive to Nako Lake",
+            "Lake exploration",
+            "Monastery visit"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Nako to Shimla",
+          "activities": [
+            "Drive back to Shimla",
+            "En route sightseeing",
+            "Arrival in Shimla"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Shimla Departure",
+          "activities": [
+            "Morning at Mall Road",
+            "Shopping for souvenirs",
+            "Departure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Dharamshala & McLeod Ganj",
+      "duration": "5 Days, 4 Nights",
+      "image": "images/dharamshala.webp",
+      "price": 14499,
+      "oldPrice": 18999,
+      "currency": "₹",
+      "destination": "himachal pradesh",
+      "joinDates": ["21 July", "28 July", "4 Aug", "11 Aug"],
+      "description": "Spiritual journey to the home of Dalai Lama with Tibetan culture and meditation",
+      "difficulty": "Easy",
+      "maxAltitude": "2080m",
+      "bestTime": "March to December",
+      "highlights": [
+        "Visit Dalai Lama Temple",
+        "Tibetan culture experience",
+        "Meditation sessions",
+        "Local monastery tours"
+      ],
+      "included": [
+        "Transportation from Delhi",
+        "Hotel accommodation",
+        "All meals",
+        "Meditation sessions",
+        "Local guide services",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Dharamshala",
+          "activities": [
+            "Drive from Delhi to Dharamshala",
+            "Check-in at hotel",
+            "Evening at McLeod Ganj"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "McLeod Ganj Local",
+          "activities": [
+            "Dalai Lama Temple visit",
+            "Tibetan Museum",
+            "Local market exploration"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Meditation & Culture",
+          "activities": [
+            "Meditation session",
+            "Tibetan cooking class",
+            "Cultural performances"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Dharamshala Local",
+          "activities": [
+            "Kangra Fort visit",
+            "Tea garden tour",
+            "Local handicraft shopping"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Dharamshala to Delhi",
+          "activities": [
+            "Morning meditation",
+            "Drive back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    }
+  ]
+} 

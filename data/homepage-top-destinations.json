@@ -1,0 +1,244 @@
+{
+  "topDestinations": [
+    {
+      "id": 1,
+      "title": "Uttarakhand",
+      "description": "Chopta & Tungnath",
+      "image": "images/top2.webp",
+      "category": "uttarakhand",
+      "cardClass": "card-small card1"
+    },
+    {
+      "id": 2,
+      "title": "Uttarakhand",
+      "description": "Mana & Badrinath Region",
+      "image": "images/top5.webp",
+      "category": "uttarakhand",
+      "cardClass": "card-small card2"
+    },
+    {
+      "id": 3,
+      "title": "Uttarakhand",
+      "description": "Nanda Devi & Valley of Flowers",
+      "image": "images/top1.webp",
+      "category": "uttarakhand",
+      "cardClass": "card-large card3"
+    },
+    {
+      "id": 4,
+      "title": "Uttarakhand",
+      "description": "Kedarkantha Trek Region",
+      "image": "images/top3.webp",
+      "category": "uttarakhand",
+      "cardClass": "card-small card4"
+    },
+    {
+      "id": 5,
+      "title": "Uttarakhand",
+      "description": "River Rafting in Rishikesh",
+      "image": "images/top4.webp",
+      "category": "uttarakhand",
+      "cardClass": "card-small card5"
+    },
+    {
+      "id": 6,
+      "title": "Goa",
+      "description": "Baga Beach",
+      "image": "images/topg1.webp",
+      "category": "goa",
+      "cardClass": "card-small card1"
+    },
+    {
+      "id": 7,
+      "title": "Goa",
+      "description": "Fort Aguada",
+      "image": "images/topg3.webp",
+      "category": "goa",
+      "cardClass": "card-large card3"
+    },
+    {
+      "id": 8,
+      "title": "Goa",
+      "description": "Anjuna Flea Market",
+      "image": "images/topg4.webp",
+      "category": "goa",
+      "cardClass": "card-small card4"
+    },
+    {
+      "id": 9,
+      "title": "Goa",
+      "description": "Calangute Beach",
+      "image": "images/topg2.webp",
+      "category": "goa",
+      "cardClass": "card-small card2"
+    },
+    {
+      "id": 10,
+      "title": "Goa",
+      "description": "Dudhsagar Falls",
+      "image": "images/topg5.webp",
+      "category": "goa",
+      "cardClass": "card-small card5"
+    },
+    {
+      "id": 11,
+      "title": "Himachal Pradesh",
+      "description": "Manali",
+      "image": "images/toph1.webp",
+      "category": "himachal",
+      "cardClass": "card-small card1"
+    },
+    {
+      "id": 12,
+      "title": "Himachal Pradesh",
+      "description": "Shimla",
+      "image": "images/toph2.webp",
+      "category": "himachal",
+      "cardClass": "card-small card2"
+    },
+    {
+      "id": 13,
+      "title": "Himachal Pradesh",
+      "description": "Kullu Valley",
+      "image": "images/toph3.webp",
+      "category": "himachal",
+      "cardClass": "card-large card3"
+    },
+    {
+      "id": 14,
+      "title": "Himachal Pradesh",
+      "description": "Dharamshala",
+      "image": "images/toph4.webp",
+      "category": "himachal",
+      "cardClass": "card-small card4"
+    },
+    {
+      "id": 15,
+      "title": "Himachal Pradesh",
+      "description": "Kasauli",
+      "image": "images/toph5.webp",
+      "category": "himachal",
+      "cardClass": "card-small card5"
+    },
+    {
+      "id": 16,
+      "title": "Leh-Ladakh",
+      "description": "Pangong Lake",
+      "image": "images/topl1.webp",
+      "category": "leh",
+      "cardClass": "card-small card1"
+    },
+    {
+      "id": 17,
+      "title": "Leh-Ladakh",
+      "description": "Khardungla Pass",
+      "image": "images/topl2.webp",
+      "category": "leh",
+      "cardClass": "card-small card2"
+    },
+    {
+      "id": 18,
+      "title": "Leh-Ladakh",
+      "description": "Nubra Valley",
+      "image": "images/topl3.webp",
+      "category": "leh",
+      "cardClass": "card-large card3"
+    },
+    {
+      "id": 19,
+      "title": "Leh-Ladakh",
+      "description": "Shanti Stupa",
+      "image": "images/topl4.webp",
+      "category": "leh",
+      "cardClass": "card-small card4"
+    },
+    {
+      "id": 20,
+      "title": "Leh-Ladakh",
+      "description": "Magnetic Hill",
+      "image": "images/topl5.webp",
+      "category": "leh",
+      "cardClass": "card-small card5"
+    },
+    {
+      "id": 21,
+      "title": "Kashmir",
+      "description": "Dal Lake",
+      "image": "images/topk1.webp",
+      "category": "kashmir",
+      "cardClass": "card-small card1"
+    },
+    {
+      "id": 22,
+      "title": "Kashmir",
+      "description": "Gulmarg",
+      "image": "images/topk2.webp",
+      "category": "kashmir",
+      "cardClass": "card-small card2"
+    },
+    {
+      "id": 23,
+      "title": "Kashmir",
+      "description": "Pahalgam",
+      "image": "images/topk3.webp",
+      "category": "kashmir",
+      "cardClass": "card-large card3"
+    },
+    {
+      "id": 24,
+      "title": "Kashmir",
+      "description": "Sonamarg",
+      "image": "images/topk4.webp",
+      "category": "kashmir",
+      "cardClass": "card-small card4"
+    },
+    {
+      "id": 25,
+      "title": "Kashmir",
+      "description": "Betaab Valley",
+      "image": "images/topk5.webp",
+      "category": "kashmir",
+      "cardClass": "card-small card5"
+    },
+    {
+      "id": 26,
+      "title": "Jaipur",
+      "description": "Amber Fort",
+      "image": "images/topj1.webp",
+      "category": "jaipur",
+      "cardClass": "card-small card1"
+    },
+    {
+      "id": 27,
+      "title": "Jaipur",
+      "description": "City Palace",
+      "image": "images/topj2.webp",
+      "category": "jaipur",
+      "cardClass": "card-small card2"
+    },
+    {
+      "id": 28,
+      "title": "Jaipur",
+      "description": "Hawa Mahal",
+      "image": "images/topj3.webp",
+      "category": "jaipur",
+      "cardClass": "card-large card3"
+    },
+    {
+      "id": 29,
+      "title": "Jaipur",
+      "description": "Jantar Mantar",
+      "image": "images/topj4.webp",
+      "category": "jaipur",
+      "cardClass": "card-small card4"
+    },
+    {
+      "id": 30,
+      "title": "Jaipur",
+      "description": "Nahargarh Fort",
+      "image": "images/topj5.webp",
+      "category": "jaipur",
+      "cardClass": "card-small card5"
+    }
+  ]
+} 

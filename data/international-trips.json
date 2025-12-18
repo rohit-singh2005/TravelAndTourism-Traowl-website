@@ -1,0 +1,723 @@
+{
+  "internationalTrips": [
+    {
+      "id": "int-001",
+      "title": "Paris - City of Love",
+      "destination": "France",
+      "duration": "5 Days, 4 Nights",
+      "price": 89999,
+      "originalPrice": 99999,
+      "currency": "₹",
+      "perPerson": "per person",
+      "joinDates": ["10 Aug", "24 Aug"],
+      "image": "images/France.webp",
+      "description": "Experience the magic of Paris with visits to the Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, and romantic Seine River cruises.",
+      "highlights": [
+        "Eiffel Tower visit",
+        "Louvre Museum tour",
+        "Seine River cruise",
+        "Notre-Dame Cathedral",
+        "Champs-Élysées walk",
+        "Arc de Triomphe"
+      ],
+      "inclusions": [
+        "Return flights",
+        "4-star hotel accommodation",
+        "Daily breakfast",
+        "City tour with guide",
+        "Airport transfers",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Paris",
+          "description": "Arrive in Paris, check-in to hotel, evening at leisure"
+        },
+        {
+          "day": 2,
+          "title": "Paris City Tour",
+          "description": "Visit Eiffel Tower, Arc de Triomphe, Champs-Élysées"
+        },
+        {
+          "day": 3,
+          "title": "Museum Day",
+          "description": "Louvre Museum, Notre-Dame Cathedral, Seine River cruise"
+        },
+        {
+          "day": 4,
+          "title": "Free Day",
+          "description": "Explore Montmartre, Sacré-Cœur, shopping at Galeries Lafayette"
+        },
+        {
+          "day": 5,
+          "title": "Departure",
+          "description": "Check-out and transfer to airport"
+        }
+      ],
+      "difficulty": "Easy",
+      "groupSize": "15-20 people",
+      "category": "france"
+    },
+    {
+      "id": "int-002",
+      "title": "Tokyo - Modern Japan",
+      "destination": "Japan",
+      "duration": "7 Days, 6 Nights",
+      "price": 119999,
+      "originalPrice": 129999,
+      "currency": "₹",
+      "perPerson": "per person",
+      "joinDates": ["5 Sep", "19 Sep"],
+      "image": "images/Japan.webp",
+      "description": "Discover the perfect blend of tradition and technology in Tokyo, from ancient temples to futuristic districts.",
+      "highlights": [
+        "Senso-ji Temple",
+        "Tokyo Skytree",
+        "Shibuya Crossing",
+        "Tsukiji Fish Market",
+        "Imperial Palace",
+        "Akihabara district"
+      ],
+      "inclusions": [
+        "Return flights",
+        "4-star hotel accommodation",
+        "Daily breakfast",
+        "City tour with guide",
+        "Airport transfers",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Tokyo",
+          "description": "Arrive in Tokyo, check-in to hotel, evening at leisure"
+        },
+        {
+          "day": 2,
+          "title": "Traditional Tokyo",
+          "description": "Senso-ji Temple, Asakusa district, Tokyo Skytree"
+        },
+        {
+          "day": 3,
+          "title": "Modern Tokyo",
+          "description": "Shibuya Crossing, Harajuku, Meiji Shrine"
+        },
+        {
+          "day": 4,
+          "title": "Imperial Tokyo",
+          "description": "Imperial Palace, Ginza shopping district"
+        },
+        {
+          "day": 5,
+          "title": "Tsukiji & Akihabara",
+          "description": "Tsukiji Fish Market, Akihabara electronics district"
+        },
+        {
+          "day": 6,
+          "title": "Free Day",
+          "description": "Optional day trip to Mount Fuji or explore on your own"
+        },
+        {
+          "day": 7,
+          "title": "Departure",
+          "description": "Check-out and transfer to airport"
+        }
+      ],
+      "difficulty": "Easy",
+      "groupSize": "12-18 people",
+      "category": "japan"
+    },
+    {
+      "id": "int-003",
+      "title": "Bali - Island Paradise",
+      "destination": "Indonesia",
+      "duration": "6 Days, 5 Nights",
+      "price": 74999,
+      "originalPrice": 84999,
+      "currency": "₹",
+      "perPerson": "per person",
+      "joinDates": ["12 Oct", "26 Oct"],
+      "image": "images/Bali.webp",
+      "description": "Experience the spiritual and natural beauty of Bali with temple visits, rice terraces, and pristine beaches.",
+      "highlights": [
+        "Tanah Lot Temple",
+        "Ubud Rice Terraces",
+        "Uluwatu Temple",
+        "Kuta Beach",
+        "Sacred Monkey Forest",
+        "Traditional dance show"
+      ],
+      "inclusions": [
+        "Return flights",
+        "4-star hotel accommodation",
+        "Daily breakfast",
+        "Island tour with guide",
+        "Airport transfers",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Bali",
+          "description": "Arrive in Bali, check-in to hotel, evening at leisure"
+        },
+        {
+          "day": 2,
+          "title": "Ubud Cultural Tour",
+          "description": "Sacred Monkey Forest, Ubud Rice Terraces, traditional dance"
+        },
+        {
+          "day": 3,
+          "title": "Temple Tour",
+          "description": "Tanah Lot Temple, Uluwatu Temple, sunset at Uluwatu"
+        },
+        {
+          "day": 4,
+          "title": "Beach Day",
+          "description": "Kuta Beach, water sports, beach activities"
+        },
+        {
+          "day": 5,
+          "title": "Free Day",
+          "description": "Optional spa day or explore local markets"
+        },
+        {
+          "day": 6,
+          "title": "Departure",
+          "description": "Check-out and transfer to airport"
+        }
+      ],
+      "difficulty": "Easy",
+      "groupSize": "15-20 people",
+      "category": "indonesia"
+    },
+    {
+      "id": "int-004",
+      "title": "Rome - Eternal City",
+      "destination": "Italy",
+      "duration": "8 Days, 7 Nights",
+      "price": 109999,
+      "originalPrice": 119999,
+      "currency": "₹",
+      "perPerson": "per person",
+      "joinDates": ["3 Nov", "17 Nov"],
+      "image": "images/Italy.webp",
+      "description": "Explore the ancient wonders of Rome including the Colosseum, Vatican City, and historic Roman Forum.",
+      "highlights": [
+        "Colosseum tour",
+        "Vatican Museums",
+        "St. Peter's Basilica",
+        "Roman Forum",
+        "Trevi Fountain",
+        "Spanish Steps"
+      ],
+      "inclusions": [
+        "Return flights",
+        "4-star hotel accommodation",
+        "Daily breakfast",
+        "City tour with guide",
+        "Airport transfers",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Rome",
+          "description": "Arrive in Rome, check-in to hotel, evening at leisure"
+        },
+        {
+          "day": 2,
+          "title": "Ancient Rome",
+          "description": "Colosseum, Roman Forum, Palatine Hill"
+        },
+        {
+          "day": 3,
+          "title": "Vatican City",
+          "description": "Vatican Museums, Sistine Chapel, St. Peter's Basilica"
+        },
+        {
+          "day": 4,
+          "title": "Historic Center",
+          "description": "Trevi Fountain, Pantheon, Piazza Navona"
+        },
+        {
+          "day": 5,
+          "title": "Spanish Steps & Shopping",
+          "description": "Spanish Steps, Via del Corso, shopping districts"
+        },
+        {
+          "day": 6,
+          "title": "Free Day",
+          "description": "Optional day trip to Pompeii or explore on your own"
+        },
+        {
+          "day": 7,
+          "title": "Last Day in Rome",
+          "description": "Visit any missed attractions, evening farewell dinner"
+        },
+        {
+          "day": 8,
+          "title": "Departure",
+          "description": "Check-out and transfer to airport"
+        }
+      ],
+      "difficulty": "Easy",
+      "groupSize": "12-18 people",
+      "category": "italy"
+    },
+    {
+      "id": "int-005",
+      "title": "Sydney - Harbour City",
+      "destination": "Australia",
+      "duration": "7 Days, 6 Nights",
+      "price": 129999,
+      "originalPrice": 139999,
+      "currency": "₹",
+      "perPerson": "per person",
+      "joinDates": ["15 Dec", "29 Dec"],
+      "image": "images/Australia.webp",
+      "description": "Discover Sydney's iconic landmarks including the Opera House, Harbour Bridge, and beautiful beaches.",
+      "highlights": [
+        "Sydney Opera House",
+        "Harbour Bridge climb",
+        "Bondi Beach",
+        "Darling Harbour",
+        "Taronga Zoo",
+        "Blue Mountains day trip"
+      ],
+      "inclusions": [
+        "Return flights",
+        "4-star hotel accommodation",
+        "Daily breakfast",
+        "City tour with guide",
+        "Airport transfers",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Sydney",
+          "description": "Arrive in Sydney, check-in to hotel, evening at leisure"
+        },
+        {
+          "day": 2,
+          "title": "Sydney Harbour",
+          "description": "Sydney Opera House, Harbour Bridge, Circular Quay"
+        },
+        {
+          "day": 3,
+          "title": "Beach Day",
+          "description": "Bondi Beach, Bondi to Bronte coastal walk"
+        },
+        {
+          "day": 4,
+          "title": "City Exploration",
+          "description": "Darling Harbour, Sydney Tower, shopping districts"
+        },
+        {
+          "day": 5,
+          "title": "Wildlife & Nature",
+          "description": "Taronga Zoo, Royal Botanic Gardens"
+        },
+        {
+          "day": 6,
+          "title": "Blue Mountains",
+          "description": "Day trip to Blue Mountains, Three Sisters, Scenic World"
+        },
+        {
+          "day": 7,
+          "title": "Departure",
+          "description": "Check-out and transfer to airport"
+        }
+      ],
+      "difficulty": "Easy",
+      "groupSize": "15-20 people",
+      "category": "australia"
+    },
+    {
+      "id": "int-006",
+      "title": "New York - The Big Apple",
+      "destination": "USA",
+      "duration": "7 Days, 6 Nights",
+      "price": 149999,
+      "originalPrice": 159999,
+      "currency": "₹",
+      "perPerson": "per person",
+      "joinDates": ["10 Jan", "24 Jan"],
+      "image": "images/USA.webp",
+      "description": "Experience the energy of New York City with visits to Times Square, Central Park, and iconic landmarks.",
+      "highlights": [
+        "Times Square",
+        "Central Park",
+        "Statue of Liberty",
+        "Empire State Building",
+        "Broadway show",
+        "Brooklyn Bridge"
+      ],
+      "inclusions": [
+        "Return flights",
+        "4-star hotel accommodation",
+        "Daily breakfast",
+        "City tour with guide",
+        "Airport transfers",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in NYC",
+          "description": "Arrive in New York, check-in to hotel, evening at leisure"
+        },
+        {
+          "day": 2,
+          "title": "Manhattan Tour",
+          "description": "Times Square, Broadway, Rockefeller Center"
+        },
+        {
+          "day": 3,
+          "title": "Central Park & Museums",
+          "description": "Central Park, Metropolitan Museum of Art"
+        },
+        {
+          "day": 4,
+          "title": "Iconic Landmarks",
+          "description": "Statue of Liberty, Ellis Island, Empire State Building"
+        },
+        {
+          "day": 5,
+          "title": "Brooklyn & Bridge",
+          "description": "Brooklyn Bridge walk, DUMBO, Brooklyn Heights"
+        },
+        {
+          "day": 6,
+          "title": "Free Day",
+          "description": "Shopping, optional Broadway show, explore neighborhoods"
+        },
+        {
+          "day": 7,
+          "title": "Departure",
+          "description": "Check-out and transfer to airport"
+        }
+      ],
+      "difficulty": "Easy",
+      "groupSize": "12-18 people",
+      "category": "usa"
+    },
+    {
+      "id": "int-007",
+      "title": "Dubai - Desert Oasis",
+      "destination": "UAE",
+      "duration": "5 Days, 4 Nights",
+      "price": 69999,
+      "originalPrice": 79999,
+      "currency": "₹",
+      "perPerson": "per person",
+      "joinDates": ["8 Feb", "22 Feb"],
+      "image": "images/UAE.webp",
+      "description": "Experience the luxury and innovation of Dubai with desert safaris, modern architecture, and shopping.",
+      "highlights": [
+        "Burj Khalifa",
+        "Desert safari",
+        "Dubai Mall",
+        "Palm Jumeirah",
+        "Dubai Frame",
+        "Dubai Marina"
+      ],
+      "inclusions": [
+        "Return flights",
+        "4-star hotel accommodation",
+        "Daily breakfast",
+        "City tour with guide",
+        "Airport transfers",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Dubai",
+          "description": "Arrive in Dubai, check-in to hotel, evening at leisure"
+        },
+        {
+          "day": 2,
+          "title": "Modern Dubai",
+          "description": "Burj Khalifa, Dubai Mall, Dubai Frame"
+        },
+        {
+          "day": 3,
+          "title": "Desert Adventure",
+          "description": "Desert safari, camel ride, traditional dinner"
+        },
+        {
+          "day": 4,
+          "title": "Marina & Palm",
+          "description": "Dubai Marina, Palm Jumeirah, Atlantis"
+        },
+        {
+          "day": 5,
+          "title": "Departure",
+          "description": "Check-out and transfer to airport"
+        }
+      ],
+      "difficulty": "Easy",
+      "groupSize": "15-20 people",
+      "category": "uae"
+    },
+    {
+      "id": "int-008",
+      "title": "London - Royal Capital",
+      "destination": "UK",
+      "duration": "6 Days, 5 Nights",
+      "price": 139999,
+      "originalPrice": 149999,
+      "currency": "₹",
+      "perPerson": "per person",
+      "joinDates": ["12 Mar", "26 Mar"],
+      "image": "images/UK.webp",
+      "description": "Explore the historic and modern sides of London with royal palaces, museums, and iconic landmarks.",
+      "highlights": [
+        "Big Ben & Parliament",
+        "Buckingham Palace",
+        "Tower of London",
+        "British Museum",
+        "London Eye",
+        "Westminster Abbey"
+      ],
+      "inclusions": [
+        "Return flights",
+        "4-star hotel accommodation",
+        "Daily breakfast",
+        "City tour with guide",
+        "Airport transfers",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in London",
+          "description": "Arrive in London, check-in to hotel, evening at leisure"
+        },
+        {
+          "day": 2,
+          "title": "Royal London",
+          "description": "Buckingham Palace, Westminster Abbey, Big Ben"
+        },
+        {
+          "day": 3,
+          "title": "Historic London",
+          "description": "Tower of London, Tower Bridge, St. Paul's Cathedral"
+        },
+        {
+          "day": 4,
+          "title": "Cultural London",
+          "description": "British Museum, National Gallery, Trafalgar Square"
+        },
+        {
+          "day": 5,
+          "title": "Modern London",
+          "description": "London Eye, Covent Garden, shopping districts"
+        },
+        {
+          "day": 6,
+          "title": "Departure",
+          "description": "Check-out and transfer to airport"
+        }
+      ],
+      "difficulty": "Easy",
+      "groupSize": "12-18 people",
+      "category": "uk"
+    },
+    {
+      "id": "int-009",
+      "title": "Bangkok - City of Angels",
+      "destination": "Thailand",
+      "duration": "5 Days, 4 Nights",
+      "price": 54999,
+      "originalPrice": 64999,
+      "currency": "₹",
+      "perPerson": "per person",
+      "joinDates": ["5 Apr", "19 Apr"],
+      "image": "images/Thailand.webp",
+      "description": "Experience the vibrant culture of Bangkok with temple visits, floating markets, and delicious street food.",
+      "highlights": [
+        "Grand Palace",
+        "Wat Phra Kaew",
+        "Floating markets",
+        "Wat Arun",
+        "Chatuchak Market",
+        "Street food tour"
+      ],
+      "inclusions": [
+        "Return flights",
+        "4-star hotel accommodation",
+        "Daily breakfast",
+        "City tour with guide",
+        "Airport transfers",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Bangkok",
+          "description": "Arrive in Bangkok, check-in to hotel, evening at leisure"
+        },
+        {
+          "day": 2,
+          "title": "Royal Bangkok",
+          "description": "Grand Palace, Wat Phra Kaew, Wat Arun"
+        },
+        {
+          "day": 3,
+          "title": "Floating Markets",
+          "description": "Damnoen Saduak floating market, traditional boat ride"
+        },
+        {
+          "day": 4,
+          "title": "Modern Bangkok",
+          "description": "Chatuchak Market, street food tour, shopping"
+        },
+        {
+          "day": 5,
+          "title": "Departure",
+          "description": "Check-out and transfer to airport"
+        }
+      ],
+      "difficulty": "Easy",
+      "groupSize": "15-20 people",
+      "category": "thailand"
+    },
+    {
+      "id": "int-010",
+      "title": "Barcelona - Catalan Charm",
+      "destination": "Spain",
+      "duration": "7 Days, 6 Nights",
+      "price": 119999,
+      "originalPrice": 129999,
+      "currency": "₹",
+      "perPerson": "per person",
+      "joinDates": ["10 May", "24 May"],
+      "image": "images/Spain.webp",
+      "description": "Discover the artistic and architectural wonders of Barcelona with Gaudi's masterpieces and Mediterranean charm.",
+      "highlights": [
+        "Sagrada Familia",
+        "Park Güell",
+        "La Rambla",
+        "Gothic Quarter",
+        "Casa Batlló",
+        "Montjuïc Castle"
+      ],
+      "inclusions": [
+        "Return flights",
+        "4-star hotel accommodation",
+        "Daily breakfast",
+        "City tour with guide",
+        "Airport transfers",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Barcelona",
+          "description": "Arrive in Barcelona, check-in to hotel, evening at leisure"
+        },
+        {
+          "day": 2,
+          "title": "Gaudi's Barcelona",
+          "description": "Sagrada Familia, Casa Batlló, Casa Milà"
+        },
+        {
+          "day": 3,
+          "title": "Park Güell & Views",
+          "description": "Park Güell, Montjuïc Castle, Magic Fountain"
+        },
+        {
+          "day": 4,
+          "title": "Historic Barcelona",
+          "description": "Gothic Quarter, La Rambla, Barcelona Cathedral"
+        },
+        {
+          "day": 5,
+          "title": "Beach & Port",
+          "description": "Barceloneta Beach, Port Vell, shopping"
+        },
+        {
+          "day": 6,
+          "title": "Free Day",
+          "description": "Optional day trip to Montserrat or explore on your own"
+        },
+        {
+          "day": 7,
+          "title": "Departure",
+          "description": "Check-out and transfer to airport"
+        }
+      ],
+      "difficulty": "Easy",
+      "groupSize": "12-18 people",
+      "category": "spain"
+    },
+    {
+      "id": "int-011",
+      "title": "Zurich - Alpine Gateway",
+      "destination": "Switzerland",
+      "duration": "6 Days, 5 Nights",
+      "price": 159999,
+      "originalPrice": 169999,
+      "currency": "₹",
+      "perPerson": "per person",
+      "joinDates": ["8 Jun", "22 Jun"],
+      "image": "images/Switzerland.webp",
+      "description": "Experience the perfect blend of urban sophistication and alpine beauty in Zurich and the Swiss countryside.",
+      "highlights": [
+        "Old Town Zurich",
+        "Lake Zurich cruise",
+        "Swiss Alps day trip",
+        "Bahnhofstrasse shopping",
+        "Uetliberg mountain",
+        "Swiss chocolate tour"
+      ],
+      "inclusions": [
+        "Return flights",
+        "4-star hotel accommodation",
+        "Daily breakfast",
+        "City tour with guide",
+        "Airport transfers",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Zurich",
+          "description": "Arrive in Zurich, check-in to hotel, evening at leisure"
+        },
+        {
+          "day": 2,
+          "title": "Zurich City Tour",
+          "description": "Old Town, Grossmünster, Fraumünster, Lake Zurich"
+        },
+        {
+          "day": 3,
+          "title": "Swiss Alps",
+          "description": "Day trip to Jungfraujoch or Mount Titlis"
+        },
+        {
+          "day": 4,
+          "title": "Shopping & Culture",
+          "description": "Bahnhofstrasse, Swiss National Museum, chocolate tour"
+        },
+        {
+          "day": 5,
+          "title": "Mountain Views",
+          "description": "Uetliberg mountain, panoramic views of Zurich"
+        },
+        {
+          "day": 6,
+          "title": "Departure",
+          "description": "Check-out and transfer to airport"
+        }
+      ],
+      "difficulty": "Easy",
+      "groupSize": "12-18 people",
+      "category": "switzerland"
+    }
+  ]
+} 

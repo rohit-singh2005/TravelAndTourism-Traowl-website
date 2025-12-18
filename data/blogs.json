@@ -1,0 +1,64 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "10 Best treks in Himachal Pradesh",
+      "date": "14/06/2023, 04:41 pm",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
+      "summary": "If there's one Indian state that defines trekking, it's Himachal Pradesh. From deep forest trails to high passes, rough ridges to high-altitude expeditions...",
+      "detail": "Himachal Pradesh is a trekker's paradise. Here are the 10 best treks: Hampta Pass, Beas Kund, Bhrigu Lake, Pin Parvati, Indrahar Pass, Triund, Prashar Lake, Chandrakhani Pass, Deo Tibba, Sar Pass. Each trek offers unique landscapes, from lush meadows to snow-capped peaks. Best time: May–October. Tips: Always check weather, carry essentials, and respect local culture.",
+      "category": "trekking",
+      "tags": ["himachal pradesh", "trekking", "adventure", "mountains"]
+    },
+    {
+      "id": 2,
+      "title": "When is the best time for Kashmir great lakes?",
+      "date": "23/09/2023, 04:31 pm",
+      "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80",
+      "summary": "Trek in Uttarakhand and Himachal Pradesh are super, but the Kashmir Great Lakes Trek is arguably the most beautiful one in India. The scenic...",
+      "detail": "The Kashmir Great Lakes Trek is best done from July to September, when the meadows are lush and the lakes are at their bluest. This trek is a visual treat, with alpine lakes, wildflowers, and snow-capped mountains. Here's a detailed guide on the best time, what to pack, and how to prepare for this unforgettable journey.",
+      "category": "trekking",
+      "tags": ["kashmir", "trekking", "lakes", "mountains"]
+    },
+    {
+      "id": 3,
+      "title": "Ganga Aarti time in Varanasi, All the details that you want",
+      "date": "23/09/2023, 05:29 pm",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80",
+      "summary": "Ganga Aarti is one of the major attractions in Varanasi. Millions of tourists, both domestic and international, witness this event and all eyes get...",
+      "detail": "The Ganga Aarti at Dashashwamedh Ghat in Varanasi is held every evening at sunset. Arrive by 6:30 pm for the best view. The ceremony is a mesmerizing blend of music, fire, and devotion. Here's everything you need to know: timings, best spots, and tips for visitors.",
+      "category": "spiritual",
+      "tags": ["varanasi", "ganga aarti", "spiritual", "temple"]
+    },
+    {
+      "id": 4,
+      "title": "How to plan a trip to Kedarnath?",
+      "date": "17/03/2023, 08:59 am",
+      "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+      "summary": "Kedarnath is a pilgrimage destination, with a lot of planning required for a smooth trip. Here's a guide for the 432km from Delhi. One of the most...",
+      "detail": "Planning a trip to Kedarnath? Here's a step-by-step guide: best routes, where to stay, what to pack, and how to make the most of your spiritual journey. Don't miss the early morning aarti and the breathtaking views of the Himalayas!",
+      "category": "spiritual",
+      "tags": ["kedarnath", "pilgrimage", "uttarakhand", "temple"]
+    },
+    {
+      "id": 5,
+      "title": "Everything you need to know about Manali",
+      "date": "15/09/2023, 09:00 am",
+      "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+      "summary": "Why Manali is called Manali. According to Hindu mythology, the name Manali was derived from Manu-Alaya, which means the abode of Manu...",
+      "detail": "Manali is a paradise for adventure lovers and nature enthusiasts. From Solang Valley to Old Manali cafes, here's a complete guide: best time to visit, top attractions, and local food you must try!",
+      "category": "destination",
+      "tags": ["manali", "himachal pradesh", "hill station", "adventure"]
+    },
+    {
+      "id": 6,
+      "title": "Explore the Indian Temples",
+      "date": "08/06/2024, 10:15 am",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
+      "summary": "India has 10 to 15k temples large and small, each with a unique story. Here are some major ancient temples and tips for exploring them...",
+      "detail": "India's temples are architectural marvels and spiritual havens. Explore the most famous temples, their history, and tips for respectful visits. From Varanasi to Madurai, start your spiritual journey here!",
+      "category": "spiritual",
+      "tags": ["temples", "spiritual", "architecture", "culture"]
+    }
+  ]
+} 

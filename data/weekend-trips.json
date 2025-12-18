@@ -1,0 +1,560 @@
+{
+  "weekendTrips": [
+    {
+      "id": 1,
+      "title": "Hampta Pass Trek",
+      "duration": "4 Days, 3 Nights",
+      "image": "images/Hampta Pass Trek 1.webp",
+      "price": 18499,
+      "oldPrice": 22499,
+      "currency": "₹",
+      "destination": "himachal pradesh",
+      "joinDates": ["9 July", "14 July", "21 July", "28 July"],
+      "description": "Experience the thrill of crossing the Hampta Pass with stunning views of the Himalayas",
+      "difficulty": "Moderate",
+      "maxAltitude": "4270m",
+      "bestTime": "June to October",
+      "highlights": [
+        "Cross the famous Hampta Pass",
+        "Witness dramatic landscape change from green valleys to barren Spiti",
+        "Camp under starlit skies",
+        "Visit the beautiful Chandratal Lake"
+      ],
+      "included": [
+        "Transportation from Manali",
+        "Accommodation in tents",
+        "All meals during trek",
+        "Trekking equipment",
+        "Experienced guide",
+        "Permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Tips for guide and staff",
+        "Any additional activities",
+        "Insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Manali to Jobra",
+          "activities": [
+            "Drive from Manali to Jobra (2 hours)",
+            "Trek to Chika (2-3 hours)",
+            "Camp setup and acclimatization"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Chika to Balu Ka Ghera",
+          "activities": [
+            "Trek through beautiful meadows",
+            "Cross streams and rocky patches",
+            "Reach Balu Ka Ghera campsite"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Balu Ka Ghera to Shea Goru",
+          "activities": [
+            "Cross Hampta Pass (4270m)",
+            "Descend to Shea Goru",
+            "Witness landscape transformation"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Shea Goru to Chatru",
+          "activities": [
+            "Trek to Chatru",
+            "Visit Chandratal Lake",
+            "Drive back to Manali"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Kedarnath & Badrinath Yatra",
+      "duration": "7 Days, 6 Nights",
+      "image": "images/Kedarnath & Badrinath Yatra 1.webp",
+      "price": 14499,
+      "oldPrice": 18999,
+      "currency": "₹",
+      "destination": "uttarakhand",
+      "joinDates": ["11 July", "17 July", "21 July", "25 July"],
+      "description": "Sacred journey to the holy shrines of Kedarnath and Badrinath",
+      "difficulty": "Easy to Moderate",
+      "maxAltitude": "3583m",
+      "bestTime": "May to October",
+      "highlights": [
+        "Visit the sacred Kedarnath Temple",
+        "Darshan at Badrinath Temple",
+        "Experience divine aarti ceremonies",
+        "Explore Mana Village (Last village of India)"
+      ],
+      "included": [
+        "Transportation from Haridwar",
+        "Hotel accommodation",
+        "All meals",
+        "Temple darshan arrangements",
+        "Experienced guide",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Tips and donations",
+        "Any additional activities",
+        "Insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Haridwar to Sersi",
+          "activities": [
+            "Pickup from Haridwar",
+            "Drive to Sersi",
+            "Check-in and rest"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Sersi to Kedarnath",
+          "activities": [
+            "Early morning departure",
+            "Trek to Kedarnath Temple",
+            "Evening aarti"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Kedarnath to Badrinath",
+          "activities": [
+            "Morning aarti",
+            "Return trek and drive",
+            "Check-in at Badrinath"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Badrinath Darshan",
+          "activities": [
+            "Morning aarti",
+            "Visit Mana Village",
+            "Explore local attractions"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Badrinath to Haridwar",
+          "activities": [
+            "Visit Devprayag",
+            "Drive to Haridwar",
+            "Evening Ganga Aarti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Manali Adventure",
+      "duration": "3 Days, 2 Nights",
+      "image": "images/Manali Adventure 1.webp",
+      "price": 13499,
+      "oldPrice": 16999,
+      "currency": "₹",
+      "destination": "himachal pradesh",
+      "joinDates": ["1 Aug", "4 Aug", "8 Aug", "11 Aug"],
+      "description": "Explore the beautiful hill station of Manali with adventure activities",
+      "difficulty": "Easy",
+      "maxAltitude": "2050m",
+      "bestTime": "March to December",
+      "highlights": [
+        "Visit Hadimba Temple",
+        "Adventure activities in Solang Valley",
+        "Explore Old Manali",
+        "River rafting experience"
+      ],
+      "included": [
+        "Transportation from Delhi",
+        "Hotel accommodation",
+        "All meals",
+        "Adventure activities",
+        "Local sightseeing",
+        "Guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Manali",
+          "activities": [
+            "Departure from Delhi",
+            "Arrive in Manali",
+            "Check-in and rest"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Manali Sightseeing",
+          "activities": [
+            "Visit Hadimba Temple",
+            "Adventure activities in Solang",
+            "Explore Old Manali"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Manali to Delhi",
+          "activities": [
+            "Morning free time",
+            "Departure to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Mussoorie Getaway",
+      "duration": "4 Days, 3 Nights",
+      "image": "images/Mussoorie Getaway 1.webp",
+      "price": 15500,
+      "oldPrice": 18999,
+      "currency": "₹",
+      "destination": "uttarakhand",
+      "joinDates": ["8 Aug", "12 Aug", "16 Aug", "20 Aug"],
+      "description": "Visit the Queen of Hills with colonial charm and scenic beauty",
+      "difficulty": "Easy",
+      "maxAltitude": "2005m",
+      "bestTime": "March to December",
+      "highlights": [
+        "Visit Kempty Falls",
+        "Explore Gun Hill",
+        "Walk on Mall Road",
+        "Cable car experience"
+      ],
+      "included": [
+        "Transportation from Delhi",
+        "Hotel accommodation",
+        "All meals",
+        "Local sightseeing",
+        "Cable car tickets",
+        "Guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Mussoorie",
+          "activities": [
+            "Departure from Delhi",
+            "Arrive in Mussoorie",
+            "Check-in and Mall Road walk"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Mussoorie Sightseeing",
+          "activities": [
+            "Visit Kempty Falls",
+            "Gun Hill visit",
+            "Cable car experience"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Local Exploration",
+          "activities": [
+            "Visit Lal Tibba",
+            "Explore local markets",
+            "Evening at Mall Road"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Mussoorie to Delhi",
+          "activities": [
+            "Morning free time",
+            "Departure to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Nainital Lake City",
+      "duration": "5 Days, 4 Nights",
+      "image": "images/Nainital Lake City 1.webp",
+      "price": 14499,
+      "oldPrice": 17999,
+      "currency": "₹",
+      "destination": "uttarakhand",
+      "joinDates": ["9 July", "14 July", "19 July", "24 July"],
+      "description": "Experience the serene beauty of Nainital lake and surrounding hills",
+      "difficulty": "Easy",
+      "maxAltitude": "2084m",
+      "bestTime": "March to December",
+      "highlights": [
+        "Boat ride on Naini Lake",
+        "Visit Snow View Point",
+        "Explore Naina Devi Temple",
+        "Trek to Tiffin Top"
+      ],
+      "included": [
+        "Transportation from Delhi",
+        "Hotel accommodation",
+        "All meals",
+        "Boat ride tickets",
+        "Local sightseeing",
+        "Guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Nainital",
+          "activities": [
+            "Departure from Delhi",
+            "Arrive in Nainital",
+            "Check-in and lake view"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Nainital Sightseeing",
+          "activities": [
+            "Boat ride on Naini Lake",
+            "Visit Snow View Point",
+            "Naina Devi Temple"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Adventure Day",
+          "activities": [
+            "Trek to Tiffin Top",
+            "Visit Bhimtal Lake",
+            "Local market exploration"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Relaxation Day",
+          "activities": [
+            "Visit Sattal Lakes",
+            "Bird watching",
+            "Evening at Mall Road"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Nainital to Delhi",
+          "activities": [
+            "Morning free time",
+            "Departure to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Shirdi Sai Baba Darshan",
+      "duration": "7 Days, 6 Nights",
+      "image": "images/Shirdi Sai Baba Darshan 1.webp",
+      "price": 7499,
+      "oldPrice": 9999,
+      "currency": "₹",
+      "destination": "maharashtra",
+      "joinDates": ["9 July", "14 July", "19 July", "24 July"],
+      "description": "Pilgrimage to the sacred Shirdi Sai Baba temple",
+      "difficulty": "Easy",
+      "maxAltitude": "514m",
+      "bestTime": "October to March",
+      "highlights": [
+        "Darshan at Sai Baba Temple",
+        "Visit Dwarkamai Mosque",
+        "Attend evening aarti",
+        "Explore Shirdi town"
+      ],
+      "included": [
+        "Transportation from Mumbai",
+        "Hotel accommodation",
+        "All meals",
+        "Temple darshan arrangements",
+        "Local sightseeing",
+        "Guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Temple donations",
+        "Tips and gratuities",
+        "Insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Mumbai to Shirdi",
+          "activities": [
+            "Departure from Mumbai",
+            "Arrive in Shirdi",
+            "Check-in and rest"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Shirdi Darshan",
+          "activities": [
+            "Early morning darshan",
+            "Visit Dwarkamai Mosque",
+            "Evening aarti"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Local Exploration",
+          "activities": [
+            "Visit Sai Baba Museum",
+            "Explore Shirdi town",
+            "Shopping for prasad"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Additional Darshan",
+          "activities": [
+            "Morning darshan",
+            "Visit nearby temples",
+            "Cultural activities"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Free Day",
+          "activities": [
+            "Personal time for prayers",
+            "Optional activities",
+            "Evening aarti"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Final Darshan",
+          "activities": [
+            "Final darshan",
+            "Packing and preparation",
+            "Evening cultural program"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Shirdi to Mumbai",
+          "activities": [
+            "Morning prayers",
+            "Departure to Mumbai",
+            "Arrival in Mumbai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Kerala backwaters and Ayurveda",
+      "duration": "5 Days, 4 Nights",
+      "image": "images/Kerala backwaters and Ayurveda 1.webp",
+      "price": 22999,
+      "oldPrice": 27999,
+      "currency": "₹",
+      "destination": "kerala",
+      "joinDates": ["1 Nov", "8 Nov", "15 Nov", "22 Nov"],
+      "description": "Peaceful backwater cruise with traditional Ayurvedic spa treatments in God's Own Country",
+      "difficulty": "Easy",
+      "maxAltitude": "Sea level",
+      "bestTime": "October to March",
+      "highlights": [
+        "Houseboat cruise through backwaters",
+        "Traditional Ayurvedic spa treatments",
+        "Coconut lagoon exploration",
+        "Local cultural experiences"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Houseboat accommodation",
+        "All meals",
+        "Ayurvedic spa treatments",
+        "Backwater cruise",
+        "Guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Kochi",
+          "activities": [
+            "Flight from Delhi to Kochi",
+            "Airport pickup",
+            "Check-in and rest"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Kochi to Alleppey",
+          "activities": [
+            "Drive to Alleppey",
+            "Houseboat check-in",
+            "Backwater cruise"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Backwater Experience",
+          "activities": [
+            "Full day houseboat cruise",
+            "Ayurvedic spa session",
+            "Local village visit"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Ayurvedic Wellness",
+          "activities": [
+            "Traditional Ayurvedic treatments",
+            "Coconut lagoon exploration",
+            "Cultural performances"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Kochi to Delhi",
+          "activities": [
+            "Morning leisure time",
+            "Transfer to airport",
+            "Flight back to Delhi"
+          ]
+        }
+      ]
+    }
+  ]
+} 

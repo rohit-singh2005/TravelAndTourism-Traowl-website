@@ -1,0 +1,100 @@
+{
+  "activities": [
+    {
+      "id": 1,
+      "name": "Trekking",
+      "image": "https://www.solitarytraveller.com/wp-content/uploads/2020/11/trekking_banner.jpg",
+      "description": "Explore scenic trails and mountain paths",
+      "category": "adventure",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 2,
+      "name": "Skiing",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Ski_Famille_-_Family_Ski_Holidays.jpg",
+      "description": "Experience snow sports in the Himalayas",
+      "category": "winter-sports",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 3,
+      "name": "Paragliding",
+      "image": "https://static.wixstatic.com/media/a56ba3_f5cc0649bbec4664828eb138305c8fc8~mv2.jpg/v1/fill/w_568,h_758,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a56ba3_f5cc0649bbec4664828eb138305c8fc8~mv2.jpg",
+      "description": "Soar through the skies with professional guidance",
+      "category": "aerial-sports",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 4,
+      "name": "River Rafting",
+      "image": "https://kplexpeditions.com/wp-content/uploads/2023/08/rafting-in-manali.jpg.webp",
+      "description": "Navigate thrilling rapids in pristine rivers",
+      "category": "water-sports",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 5,
+      "name": "Ziplining",
+      "image": "https://www.indoasia-tours.com/wp-content/uploads/2016/12/Zip-lining-in-India.jpg",
+      "description": "Glide through the air on thrilling zip lines",
+      "category": "aerial-sports",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "name": "Scuba Diving",
+      "image": "https://assets.cntraveller.in/photos/632da314969e60ec08d35e8a/master/pass/498283106",
+      "description": "Explore underwater marine life and coral reefs",
+      "category": "water-sports",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 7,
+      "name": "Desert Safari",
+      "image": "https://images.squarespace-cdn.com/content/v1/53c6accce4b0f824e385f3ee/1405965332774-HVZVGNWI4ZSIYYVF45HR/safariSandRajasthan.jpg?format=1000w",
+      "description": "Experience the thrill of desert adventures",
+      "category": "safari",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "name": "Caving",
+      "image": "https://www.tourmyindia.com/blog//wp-content/uploads/2015/06/Krem-Liat-Prah-Cave.jpg",
+      "description": "Explore mysterious underground caves and formations",
+      "category": "adventure",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 9,
+      "name": "Wildlife Safaris",
+      "image": "https://www.triphippies.com/wp-content/uploads/2023/03/Jungle-Safaris-in-India.webp",
+      "description": "Spot exotic wildlife in their natural habitat",
+      "category": "safari",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "name": "Hot Air Ballooning",
+      "image": "https://5.imimg.com/data5/KM/DN/EL/SELLER-28262289/hot-air-balloon.jpg",
+      "description": "Float above scenic landscapes in a balloon",
+      "category": "aerial-sports",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "name": "Rock Climbing",
+      "image": "https://media1.thrillophilia.com/filestore/cj1w7wu8u4qt38urwu5na64mnbcg_1559818318_rock-climbing.jpg",
+      "description": "Scale challenging rock faces and cliffs",
+      "category": "adventure",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 12,
+      "name": "Surfing",
+      "image": "https://static.wixstatic.com/media/nsplsh_7548443075797037394467~mv2_d_5337_3558_s_4_2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/nsplsh_7548443075797037394467~mv2_d_5337_3558_s_4_2.jpg",
+      "description": "Ride the waves along India's beautiful coastlines",
+      "category": "water-sports",
+      "difficulty": "intermediate"
+    }
+  ]
+} 

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Activity Details | Traowl India</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover details and book your next adventure activity with Traowl. Choose your adventure and explore options across India!" />
+  <link rel="canonical" href="https://www.traowl.com/activity-detail.html" />
+  <meta property="og:title" content="Activity Details | Traowl India" />
+  <meta property="og:description" content="Discover details and book your next adventure activity with Traowl. Choose your adventure and explore options across India!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.traowl.com/activity-detail.html" />
+  <meta property="og:image" content="images/logo.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Activity Details | Traowl India" />
+  <meta name="twitter:description" content="Discover details and book your next adventure activity with Traowl. Choose your adventure and explore options across India!" />
+  <meta name="twitter:image" content="images/logo.webp" />
+  <link rel="stylesheet" href="css/activity-detail.css">
+  <link rel="stylesheet" href="css/auth.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Roboto:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+      <header class="main-header">
+        <!-- Header content will be loaded dynamically from API -->
+        <div style="text-align: center; padding: 1rem;">
+            <div class="loading-spinner">Loading header...</div>
+        </div>
+    </header>
+
+  </div>
+
+  <!-- Dynamic Hero Section -->
+  <header class="detail-hero" id="detailHero">
+    <div class="hero-content">
+      <h1 id="activityTitle">Activity Name</h1>
+      <p>Choose your adventure from the options below.</p>
+    </div>
+  </header>
+
+  <main>
+    <!-- Booking Options Grid -->
+    <section class="booking-grid" id="bookingGrid">
+      <!-- Booking cards will be inserted here by JS -->
+    </section>
+  </main>
+
+      <footer class="main-footer">
+        <!-- Footer content will be loaded dynamically from API -->
+        <div style="text-align: center; padding: 2rem;">
+            <div class="loading-spinner">Loading footer...</div>
+        </div>
+    </footer>
+
+  <!-- Booking Modal -->
+  <div class="modal-bg" id="bookingModalBg" style="display:none;">
+    <div class="modal" id="bookingModal">
+      <button class="modal-close" id="bookingModalClose">&times;</button>
+      <div id="bookingModalContent"></div>
+    </div>
+  </div>
+
+  <script src="js/activity-detail.js"></script>
+  <script src="js/blog-traowl.js"></script>
+    <script src="js/api-utils.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>

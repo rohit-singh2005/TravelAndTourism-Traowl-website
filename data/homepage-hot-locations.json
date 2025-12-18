@@ -1,0 +1,417 @@
+{
+  "hotLocations": [
+    {
+      "id": 1,
+      "title": "Delhi Tour",
+      "description": "Explore the heart of India's capital with a comprehensive tour covering iconic landmarks, historical monuments, and vibrant culture. Experience the perfect blend of old and new Delhi.",
+      "image": "images/hot1.webp",
+      "price": 2500,
+      "oldPrice": 3500,
+      "currency": "₹",
+      "destination": "Delhi",
+      "duration": "2 Days, 1 Night",
+      "category": "city tour",
+      "difficulty": "Easy",
+      "suitableFor": "All ages",
+      "joinDates": ["15 July", "22 July", "29 July"],
+      "highlights": [
+        "Visit iconic India Gate and Rashtrapati Bhavan",
+        "Explore Old Delhi's Chandni Chowk",
+        "Discover Qutub Minar and Humayun's Tomb",
+        "Experience Delhi's street food culture"
+      ],
+      "included": [
+        "Hotel accommodation",
+        "Transportation throughout tour",
+        "Professional guide",
+        "All entrance fees",
+        "Breakfast and dinner"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Tips for guide",
+        "Lunch and snacks",
+        "Optional activities"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "New Delhi Exploration",
+          "activities": [
+            "Pickup from airport/station",
+            "Visit India Gate and Rashtrapati Bhavan",
+            "Explore Qutub Minar complex",
+            "Lotus Temple visit",
+            "Evening at Connaught Place"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Old Delhi Heritage",
+          "activities": [
+            "Red Fort exploration",
+            "Chandni Chowk walking tour",
+            "Jama Masjid visit",
+            "Street food tasting",
+            "Transfer to airport/station"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Goa Beach Paradise",
+      "description": "Experience the perfect blend of sun, sand, and Portuguese heritage in India's most popular beach destination. From pristine beaches to historic churches, Goa offers something for everyone.",
+      "image": "images/hot2.webp",
+      "price": 6500,
+      "oldPrice": 8500,
+      "currency": "₹",
+      "destination": "Goa",
+      "duration": "3 Days, 2 Nights",
+      "category": "beach tour",
+      "difficulty": "Easy",
+      "suitableFor": "Beach lovers",
+      "joinDates": ["10 July", "17 July", "24 July"],
+      "highlights": [
+        "Visit pristine beaches - Calangute, Baga, Anjuna",
+        "Explore Old Goa's historic churches",
+        "Experience vibrant nightlife and markets",
+        "Cruise on Mandovi River"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Hotel accommodation",
+        "All meals",
+        "Professional guide",
+        "Beach activities",
+        "River cruise"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Tips for guide",
+        "Water sports",
+        "Optional activities"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Goa",
+          "activities": [
+            "Flight to Goa",
+            "Check-in at hotel",
+            "Calangute Beach visit",
+            "Baga Beach sunset",
+            "Welcome dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Goa Heritage & Beaches",
+          "activities": [
+            "Old Goa churches tour",
+            "Anjuna Beach exploration",
+            "Flea market shopping",
+            "Mandovi River cruise",
+            "Nightlife experience"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Goa to Delhi",
+          "activities": [
+            "Morning beach walk",
+            "Local spice plantation",
+            "Shopping for souvenirs",
+            "Flight back to Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Himalayan Village",
+      "description": "Experience the serene beauty and culture of the Himalayan foothills. Immerse yourself in the local lifestyle and traditions.",
+      "image": "images/hot3.webp",
+      "price": 5000,
+      "oldPrice": 6500,
+      "currency": "₹",
+      "destination": "Himachal Pradesh",
+      "duration": "2 Days, 1 Night",
+      "category": "village",
+      "difficulty": "Easy",
+      "suitableFor": "Nature lovers",
+      "joinDates": ["12 July", "19 July", "26 July"],
+      "highlights": [
+        "Village homestay experience",
+        "Local cuisine tasting and Traditional dance performance",
+        "Traditional dance performance",
+        "Nature walks"
+      ],
+      "included": [
+        "Transportation from Delhi",
+        "Village homestay",
+        "All meals",
+        "Local guide",
+        "Cultural activities"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Tips for locals",
+        "Any additional activities"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Himalayan Village",
+          "activities": [
+            "Drive to village",
+            "Check-in at homestay",
+            "Local cuisine dinner",
+            "Cultural performance"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Village Experience",
+          "activities": [
+            "Morning nature walk",
+            "Local craft workshop",
+            "Traditional lunch",
+            "Return to Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Kashmir Valley",
+      "description": "Kashmir is known for its scenic beauty and tranquil charm. Experience the paradise on earth with its stunning landscapes.",
+      "image": "images/hot4.webp",
+      "price": 7999,
+      "oldPrice": 9999,
+      "currency": "₹",
+      "destination": "Jammu and Kashmir",
+      "duration": "4 Days, 3 Nights",
+      "category": "valley",
+      "difficulty": "Easy",
+      "suitableFor": "All ages",
+      "joinDates": ["8 July", "15 July", "22 July"],
+      "highlights": [
+        "Dal Lake houseboat stay",
+        "Gulmarg gondola ride",
+        "Pahalgam valley exploration",
+        "Local handicraft shopping"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Hotel and houseboat accommodation",
+        "All meals",
+        "Local sightseeing",
+        "Gondola ride tickets"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Tips for staff",
+        "Optional activities"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Srinagar",
+          "activities": [
+            "Flight to Srinagar",
+            "Check-in at houseboat",
+            "Dal Lake shikara ride",
+            "Evening at Dal Lake"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Gulmarg Day Trip",
+          "activities": [
+            "Drive to Gulmarg",
+            "Gondola ride",
+            "Snow activities",
+            "Return to Srinagar"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Pahalgam Valley",
+          "activities": [
+            "Drive to Pahalgam",
+            "Valley exploration",
+            "Local market visit",
+            "Return to Srinagar"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Srinagar to Delhi",
+          "activities": [
+            "Local handicraft shopping",
+            "Flight back to Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Tamil Nadu Temple Tour",
+      "description": "Tamil Nadu is rich in temples, culture, and coastal beauty. Explore the ancient temples and rich cultural heritage.",
+      "image": "images/hot5.webp",
+      "price": 7999,
+      "oldPrice": 9999,
+      "currency": "₹",
+      "destination": "Tamil Nadu",
+      "duration": "5 Days, 4 Nights",
+      "category": "temple",
+      "difficulty": "Easy",
+      "suitableFor": "Spiritual seekers",
+      "joinDates": ["11 July", "18 July", "25 July"],
+      "highlights": [
+        "Visit ancient temples",
+        "Experience temple rituals",
+        "Explore coastal beauty",
+        "Traditional dance performance"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Hotel accommodation",
+        "All meals",
+        "Temple guide",
+        "Cultural activities"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Temple donations",
+        "Optional activities"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Chennai",
+          "activities": [
+            "Flight to Chennai",
+            "Check-in at hotel",
+            "Local temple visit",
+            "Traditional dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Temple Tour",
+          "activities": [
+            "Visit ancient temples",
+            "Temple rituals",
+            "Cultural performance",
+            "Local market"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Coastal Exploration",
+          "activities": [
+            "Beach visit",
+            "Coastal activities",
+            "Seafood lunch",
+            "Sunset view"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Cultural Experience",
+          "activities": [
+            "Traditional dance",
+            "Local handicrafts",
+            "Cultural workshop",
+            "Farewell dinner"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Chennai to Delhi",
+          "activities": [
+            "Final temple visit",
+            "Shopping for souvenirs",
+            "Flight back to Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Kerala Backwaters",
+      "description": "It is known for its lush backwaters, serene beaches, and greenery. Experience the unique houseboat stay.",
+      "image": "images/hot6.webp",
+      "price": 8999,
+      "oldPrice": 11999,
+      "currency": "₹",
+      "destination": "Kerala",
+      "duration": "4 Days, 3 Nights",
+      "category": "backwaters",
+      "difficulty": "Easy",
+      "suitableFor": "Nature lovers",
+      "joinDates": ["9 July", "16 July", "23 July"],
+      "highlights": [
+        "Houseboat stay in backwaters",
+        "Ayurvedic massage",
+        "Traditional Kathakali performance",
+        "Spice plantation tour"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Houseboat accommodation",
+        "All meals",
+        "Ayurvedic massage",
+        "Cultural activities"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Tips for staff",
+        "Optional activities"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Kochi",
+          "activities": [
+            "Flight to Kochi",
+            "Check-in at houseboat",
+            "Backwater cruise",
+            "Traditional dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Backwater Experience",
+          "activities": [
+            "Morning cruise",
+            "Village visit",
+            "Local cuisine",
+            "Sunset view"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Cultural Activities",
+          "activities": [
+            "Kathakali performance",
+            "Spice plantation",
+            "Ayurvedic massage",
+            "Cultural dinner"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Kochi to Delhi",
+          "activities": [
+            "Local market visit",
+            "Shopping for spices",
+            "Flight back to Delhi"
+          ]
+        }
+      ]
+    }
+  ]
+} 

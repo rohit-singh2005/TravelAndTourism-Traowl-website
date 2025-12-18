@@ -1,0 +1,185 @@
+{
+  "Trekking": [
+    {
+      "location": "Triund, Himachal",
+      "price": 1200,
+      "image": "https://himachaltourism.gov.in/wp-content/uploads/2018/01/Trekkers-in-Spiti-valley-min.jpg",
+      "details": "A breathtaking 2-day trek perfect for beginners, offering panoramic views of the snow-capped Dhauladhar range and Kangra valley. Camp under a star-studded sky.",
+      "duration": "2 days",
+      "difficulty": "Easy",
+      "maxAltitude": "2,850m",
+      "bestTime": "March to December",
+      "inclusions": ["Guide", "Camping equipment", "Meals", "Transportation"]
+    },
+    {
+      "location": "Kudremukh, Karnataka",
+      "price": 1500,
+      "image": "https://media1.thrillophilia.com/filestore/8c4endyet4gv16wx0d1otkevk90l_pexels-saikat-ghosh-914128.jpg?w=400&dpr=2",
+      "details": "Hike through lush grasslands and dense forests to a peak shaped like a horse's face. This Western Ghats trek is a visual treat for nature lovers.",
+      "duration": "1 day",
+      "difficulty": "Moderate",
+      "maxAltitude": "1,894m",
+      "bestTime": "October to February",
+      "inclusions": ["Guide", "Permits", "Meals", "Transportation"]
+    }
+  ],
+  "Skiing": [
+    {
+      "location": "Gulmarg, Kashmir",
+      "price": 5000,
+      "image": "https://media1.thrillophilia.com/filestore/4eju2qn4hqxi5e6fq7esilpixebn_Downpic.cc-image430298721.jpg",
+      "details": "Known as the 'Heartland of winter sports in India', Gulmarg offers world-class skiing slopes with powdery snow and the highest ski lift in the world.",
+      "duration": "1 day",
+      "difficulty": "All levels",
+      "maxAltitude": "3,980m",
+      "bestTime": "December to March",
+      "inclusions": ["Equipment", "Instructor", "Lift passes", "Safety gear"]
+    },
+    {
+      "location": "Auli, Uttarakhand",
+      "price": 4500,
+      "image": "https://img-cdn.thepublive.com/filters:format(webp)/30-stades/media/media_files/l5golPMqVgvIgo3vySZl.jpg",
+      "details": "With its pristine slopes and stunning views of the Nanda Devi peak, Auli is a premier ski destination perfect for both beginners and professional skiers.",
+      "duration": "1 day",
+      "difficulty": "All levels",
+      "maxAltitude": "3,050m",
+      "bestTime": "January to March",
+      "inclusions": ["Equipment", "Instructor", "Lift passes", "Safety gear"]
+    }
+  ],
+  "Paragliding": [
+    {
+      "location": "Bir Billing, Himachal",
+      "price": 2500,
+      "image": "https://www.solangvalleysportscenter.com/wp-content/uploads/2023/04/Paragliding-High-Fly-In-Dobhi-Kullu.webp",
+      "details": "Experience a 30-minute tandem flight from Asia's best paragliding site, soaring over the majestic Kangra Valley for an unforgettable aerial adventure.",
+      "duration": "30 minutes",
+      "difficulty": "Beginner friendly",
+      "maxAltitude": "2,400m",
+      "bestTime": "March to June, September to November",
+      "inclusions": ["Tandem flight", "Instructor", "Safety equipment", "Video recording"]
+    },
+    {
+      "location": "Kamshet, Maharashtra",
+      "price": 2200,
+      "image": "https://kamshetparagliding.in/wp-content/uploads/2018/10/Kamshet-Paragliding-take-off-site.jpg",
+      "details": "Fly over the picturesque Pawna Lake and the stunning Sahyadri ranges. Kamshet is a perfect weekend getaway for paragliding enthusiasts from Mumbai and Pune.",
+      "duration": "20 minutes",
+      "difficulty": "Beginner friendly",
+      "maxAltitude": "1,200m",
+      "bestTime": "October to May",
+      "inclusions": ["Tandem flight", "Instructor", "Safety equipment", "Video recording"]
+    }
+  ],
+  "River Rafting": [
+    {
+      "location": "Rishikesh, Uttarakhand",
+      "price": 1600,
+      "image": "https://www.river-rafting-rishikesh.in/wp-content/uploads/2015/03/River-Rafting-in-Rishikesh-banner-Logo.jpg",
+      "details": "Challenge yourself on a thrilling 16 km stretch of the Ganges River, navigating through exciting rapids like 'Roller Coaster' and 'Golf Course'.",
+      "duration": "3-4 hours",
+      "difficulty": "Moderate",
+      "rapidGrade": "Grade 3-4",
+      "bestTime": "March to June, September to November",
+      "inclusions": ["Equipment", "Guide", "Safety briefing", "Refreshments"]
+    },
+    {
+      "location": "Coorg, Karnataka",
+      "price": 1500,
+      "image": "https://www.kadamakolli.com/img/River-white-water-rafting.jpg",
+      "details": "Enjoy a scenic rafting experience on the Barapole River, surrounded by the lush greenery of the Western Ghats. Ideal for nature lovers.",
+      "duration": "2-3 hours",
+      "difficulty": "Easy to Moderate",
+      "rapidGrade": "Grade 2-3",
+      "bestTime": "June to September",
+      "inclusions": ["Equipment", "Guide", "Safety briefing", "Refreshments"]
+    }
+  ],
+  "Scuba Diving": [
+    {
+      "location": "Andaman Islands",
+      "price": 4500,
+      "image": "https://www.diveandaman.com/storage/blogs/190523064249-scuba-diving-in-andaman-banner1.jpg",
+      "details": "Dive into the crystal-clear waters of the Andaman Sea to explore vibrant coral reefs, shipwrecks, and an incredible diversity of marine life.",
+      "duration": "1 day",
+      "difficulty": "Beginner friendly",
+      "maxDepth": "12m",
+      "bestTime": "October to May",
+      "inclusions": ["Equipment", "Instructor", "Certification", "Underwater photos"]
+    },
+    {
+      "location": "Goa",
+      "price": 4000,
+      "image": "https://cdn.experienceandamans.com/images/shore-diving-havelock-andaman.jpg",
+      "details": "Discover the underwater treasures of the Arabian Sea. Our certified instructors will guide you through the best dive sites to see rich aquatic biodiversity.",
+      "duration": "1 day",
+      "difficulty": "Beginner friendly",
+      "maxDepth": "10m",
+      "bestTime": "October to May",
+      "inclusions": ["Equipment", "Instructor", "Certification", "Underwater photos"]
+    }
+  ],
+  "Desert Safari": [
+    {
+      "location": "Jaisalmer, Rajasthan",
+      "price": 2500,
+      "image": "https://imgcld.yatra.com/ytimages/image/upload/v1517481871/AdvNation/ANN_TRP57/Jaisalmer-Desert-Safari-6_1438939406_G0vTtL.jpg",
+      "details": "Embark on an unforgettable camel safari across the golden sand dunes of the Thar Desert, followed by a traditional Rajasthani dinner and cultural show.",
+      "duration": "1 day",
+      "difficulty": "Easy",
+      "safariType": "Camel Safari",
+      "bestTime": "October to March",
+      "inclusions": ["Camel ride", "Guide", "Dinner", "Cultural show", "Camping"]
+    }
+  ],
+  "Rock Climbing": [
+    {
+      "location": "Hampi, Karnataka",
+      "price": 1800,
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=400&q=80",
+      "details": "Scale the ancient boulders of Hampi, a UNESCO World Heritage site. Perfect for both beginners and experienced climbers with various difficulty levels.",
+      "duration": "1 day",
+      "difficulty": "All levels",
+      "climbingType": "Bouldering",
+      "bestTime": "November to February",
+      "inclusions": ["Equipment", "Instructor", "Safety gear", "Permits"]
+    },
+    {
+      "location": "Badami, Karnataka",
+      "price": 2000,
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=400&q=80",
+      "details": "Experience rock climbing on the red sandstone cliffs of Badami, surrounded by ancient cave temples and stunning landscapes.",
+      "duration": "1 day",
+      "difficulty": "Moderate to Difficult",
+      "climbingType": "Sport Climbing",
+      "bestTime": "October to March",
+      "inclusions": ["Equipment", "Instructor", "Safety gear", "Permits"]
+    }
+  ],
+  "Bungee Jumping": [
+    {
+      "location": "Rishikesh, Uttarakhand",
+      "price": 3500,
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=400&q=80",
+      "details": "Take the ultimate leap of faith from India's highest bungee jumping platform, located 83 meters above the ground with the Ganges flowing below.",
+      "duration": "30 minutes",
+      "difficulty": "Thrilling",
+      "jumpHeight": "83m",
+      "bestTime": "March to June, September to November",
+      "inclusions": ["Safety equipment", "Instructor", "Video recording", "Certificate"]
+    }
+  ],
+  "Zip Lining": [
+    {
+      "location": "Manali, Himachal",
+      "price": 1200,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=400&q=80",
+      "details": "Soar through the air on Asia's longest zip line, covering 1.5 km across the beautiful Solang Valley with stunning mountain views.",
+      "duration": "2-3 hours",
+      "difficulty": "Easy",
+      "zipLength": "1.5km",
+      "bestTime": "March to December",
+      "inclusions": ["Safety equipment", "Instructor", "Video recording", "Certificate"]
+    }
+  ]
+} 

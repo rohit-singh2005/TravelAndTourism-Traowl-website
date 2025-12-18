@@ -1,0 +1,1040 @@
+{
+  "spiritualTours": [
+    {
+      "title": "Char Dham Yatra",
+      "duration": "12 Days, 11 Nights",
+      "price": 32499,
+      "oldPrice": 39999,
+      "destination": "uttarakhand",
+      "description": "Complete pilgrimage to the four sacred shrines of Yamunotri, Gangotri, Kedarnath, and Badrinath",
+      "joinDates": [
+        "10 July",
+        "20 July",
+        "30 July",
+        "10 Aug"
+      ],
+      "difficulty": "Moderate to Difficult",
+      "bestTime": "May to October",
+      "highlights": [
+        "Visit all four sacred shrines",
+        "Holy dip in sacred rivers",
+        "Divine aarti ceremonies",
+        "Mountain trekking experience"
+      ],
+      "currency": "₹",
+      "image": "images/chardham.webp",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Varanasi & Prayagraj",
+      "duration": "6 Days, 5 Nights",
+      "image": "images/varanasi-prayag.webp",
+      "price": 18499,
+      "oldPrice": 22999,
+      "currency": "₹",
+      "destination": "uttar pradesh",
+      "joinDates": [
+        "12 July",
+        "19 July",
+        "26 July",
+        "2 Aug"
+      ],
+      "description": "Sacred journey to the spiritual capital Varanasi and the holy confluence at Prayagraj",
+      "difficulty": "Easy",
+      "maxAltitude": "80m",
+      "bestTime": "October to March",
+      "highlights": [
+        "Evening Ganga Aarti at Dashashwamedh Ghat",
+        "Holy dip at Triveni Sangam",
+        "Temple darshan tour",
+        "Boat ride on sacred rivers"
+      ],
+      "included": [
+        "AC train tickets from Delhi",
+        "Hotel accommodation near ghats",
+        "All vegetarian meals",
+        "Boat ride tickets",
+        "Temple darshan arrangements",
+        "Local guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Temple donations",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Varanasi",
+          "activities": [
+            "Train from Delhi to Varanasi",
+            "Check-in at hotel",
+            "Evening Ganga Aarti"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Varanasi Temple Tour",
+          "activities": [
+            "Morning boat ride",
+            "Kashi Vishwanath Temple",
+            "Sankat Mochan Temple"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Varanasi to Prayagraj",
+          "activities": [
+            "Morning prayers at ghats",
+            "Drive to Prayagraj",
+            "Evening at Triveni Sangam"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Prayagraj Exploration",
+          "activities": [
+            "Holy dip at Sangam",
+            "Anand Bhavan visit",
+            "Hanuman Mandir"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Prayagraj to Varanasi",
+          "activities": [
+            "Morning prayers",
+            "Return to Varanasi",
+            "Evening aarti"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Varanasi to Delhi",
+          "activities": [
+            "Morning boat ride",
+            "Shopping for religious items",
+            "Train back to Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Amarnath Yatra",
+      "duration": "8 Days, 7 Nights",
+      "image": "images/amarnath.webp",
+      "price": 25499,
+      "oldPrice": 30999,
+      "currency": "₹",
+      "destination": "jammu & kashmir",
+      "joinDates": [
+        "15 July",
+        "22 July",
+        "29 July",
+        "5 Aug"
+      ],
+      "description": "Sacred pilgrimage to the holy Amarnath cave with natural ice Shiva lingam",
+      "difficulty": "Difficult",
+      "maxAltitude": "3888m",
+      "bestTime": "July to August",
+      "highlights": [
+        "Darshan of natural ice lingam",
+        "Trek through beautiful valleys",
+        "Holy cave exploration",
+        "Mountain adventure"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Tent accommodation",
+        "All meals",
+        "Trekking equipment",
+        "Experienced guide",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Tips for guide and staff",
+        "Any additional activities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Srinagar",
+          "activities": [
+            "Flight from Delhi to Srinagar",
+            "Transfer to Pahalgam",
+            "Check-in and rest"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Pahalgam to Chandanwari",
+          "activities": [
+            "Drive to Chandanwari",
+            "Trek preparation",
+            "Acclimatization"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Chandanwari to Sheshnag",
+          "activities": [
+            "Start trek to Sheshnag",
+            "Camp setup",
+            "Evening prayers"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Sheshnag to Panchtarni",
+          "activities": [
+            "Trek to Panchtarni",
+            "Camp setup",
+            "Preparation for final trek"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Panchtarni to Amarnath",
+          "activities": [
+            "Trek to Amarnath Cave",
+            "Darshan of ice lingam",
+            "Return to Panchtarni"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Panchtarni to Sheshnag",
+          "activities": [
+            "Return trek to Sheshnag",
+            "Camp rest",
+            "Evening prayers"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Sheshnag to Pahalgam",
+          "activities": [
+            "Return trek to Pahalgam",
+            "Hotel check-in",
+            "Rest and celebration"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Pahalgam to Delhi",
+          "activities": [
+            "Morning prayers",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Vaishno Devi Yatra",
+      "duration": "5 Days, 4 Nights",
+      "image": "images/vaishno-devi.webp",
+      "price": 14499,
+      "oldPrice": 18999,
+      "currency": "₹",
+      "destination": "jammu & kashmir",
+      "joinDates": [
+        "10 July",
+        "17 July",
+        "24 July",
+        "31 July"
+      ],
+      "description": "Sacred pilgrimage to the holy shrine of Mata Vaishno Devi in the Trikuta Mountains",
+      "difficulty": "Moderate",
+      "maxAltitude": "1615m",
+      "bestTime": "March to October",
+      "highlights": [
+        "Darshan of Mata Vaishno Devi",
+        "Trek through scenic mountains",
+        "Holy cave exploration",
+        "Divine blessings"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Hotel accommodation",
+        "All meals",
+        "Trekking arrangements",
+        "Experienced guide",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Tips and donations",
+        "Any additional activities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Jammu",
+          "activities": [
+            "Flight from Delhi to Jammu",
+            "Transfer to Katra",
+            "Check-in and rest"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Katra to Vaishno Devi",
+          "activities": [
+            "Start trek to shrine",
+            "Visit Ardh Kuwari",
+            "Reach Bhawan"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Vaishno Devi Darshan",
+          "activities": [
+            "Morning darshan",
+            "Holy cave visit",
+            "Evening prayers"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Vaishno Devi to Katra",
+          "activities": [
+            "Morning prayers",
+            "Return trek to Katra",
+            "Rest and shopping"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Katra to Delhi",
+          "activities": [
+            "Morning prayers",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Tirupati Balaji Darshan",
+      "duration": "4 Days, 3 Nights",
+      "image": "images/tirupati.webp",
+      "price": 12499,
+      "oldPrice": 15999,
+      "currency": "₹",
+      "destination": "andhra pradesh",
+      "joinDates": [
+        "11 July",
+        "18 July",
+        "25 July",
+        "1 Aug"
+      ],
+      "description": "Sacred pilgrimage to the holy shrine of Lord Venkateswara at Tirupati",
+      "difficulty": "Easy",
+      "maxAltitude": "853m",
+      "bestTime": "October to March",
+      "highlights": [
+        "Darshan of Lord Venkateswara",
+        "Temple complex exploration",
+        "Divine aarti ceremonies",
+        "Sacred prasad distribution"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Hotel accommodation",
+        "All vegetarian meals",
+        "Temple darshan arrangements",
+        "Local guide services",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Temple donations",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Tirupati",
+          "activities": [
+            "Flight from Delhi to Tirupati",
+            "Check-in at hotel",
+            "Evening temple visit"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Tirupati Darshan",
+          "activities": [
+            "Early morning darshan",
+            "Temple complex tour",
+            "Evening aarti"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Local Exploration",
+          "activities": [
+            "Visit nearby temples",
+            "Shopping for prasad",
+            "Cultural activities"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Tirupati to Delhi",
+          "activities": [
+            "Morning prayers",
+            "Final darshan",
+            "Flight back to Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Shirdi & Shani Shingnapur",
+      "duration": "5 Days, 4 Nights",
+      "image": "images/shirdi-shani.webp",
+      "price": 10499,
+      "oldPrice": 13999,
+      "currency": "₹",
+      "destination": "maharashtra",
+      "joinDates": [
+        "9 July",
+        "16 July",
+        "23 July",
+        "30 July"
+      ],
+      "description": "Sacred journey to Shirdi Sai Baba and Shani Shingnapur temples",
+      "difficulty": "Easy",
+      "maxAltitude": "514m",
+      "bestTime": "October to March",
+      "highlights": [
+        "Darshan at Sai Baba Temple",
+        "Visit Shani Shingnapur temple",
+        "Divine aarti ceremonies",
+        "Spiritual experience"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Hotel accommodation",
+        "All meals",
+        "Temple darshan arrangements",
+        "Local guide services",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Temple donations",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Shirdi",
+          "activities": [
+            "Flight from Delhi to Shirdi",
+            "Check-in at hotel",
+            "Evening aarti"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Shirdi Darshan",
+          "activities": [
+            "Early morning darshan",
+            "Dwarkamai Mosque visit",
+            "Evening aarti"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Shirdi to Shani Shingnapur",
+          "activities": [
+            "Drive to Shani Shingnapur",
+            "Temple darshan",
+            "Return to Shirdi"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Local Exploration",
+          "activities": [
+            "Visit Sai Baba Museum",
+            "Shopping for prasad",
+            "Cultural activities"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Shirdi to Delhi",
+          "activities": [
+            "Morning prayers",
+            "Final darshan",
+            "Flight back to Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Kedarnath & Badrinath Yatra",
+      "duration": "7 Days, 6 Nights",
+      "image": "images/kedarnath-badrinath.webp",
+      "price": 22499,
+      "oldPrice": 27999,
+      "currency": "₹",
+      "destination": "uttarakhand",
+      "joinDates": [
+        "8 July",
+        "15 July",
+        "22 July",
+        "29 July"
+      ],
+      "description": "Sacred pilgrimage to the holy shrines of Kedarnath and Badrinath in the Himalayas",
+      "difficulty": "Moderate",
+      "maxAltitude": "3583m",
+      "bestTime": "May to October",
+      "highlights": [
+        "Darshan at Kedarnath Temple",
+        "Visit Badrinath Temple",
+        "Holy dip in Alaknanda",
+        "Mountain trekking experience"
+      ],
+      "included": [
+        "Transportation from Haridwar",
+        "Hotel accommodation",
+        "All vegetarian meals",
+        "Temple darshan arrangements",
+        "Experienced guide",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Tips and donations",
+        "Any additional activities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Haridwar to Guptkashi",
+          "activities": [
+            "Arrival in Haridwar",
+            "Drive to Guptkashi",
+            "Check-in and rest"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Guptkashi to Kedarnath",
+          "activities": [
+            "Trek to Kedarnath Temple",
+            "Evening aarti",
+            "Overnight stay"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Kedarnath to Badrinath",
+          "activities": [
+            "Morning aarti",
+            "Return trek",
+            "Drive to Badrinath"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Badrinath Darshan",
+          "activities": [
+            "Morning aarti",
+            "Temple darshan",
+            "Mana Village visit"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Badrinath to Rudraprayag",
+          "activities": [
+            "Morning prayers",
+            "Drive to Rudraprayag",
+            "Devprayag visit"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Rudraprayag to Haridwar",
+          "activities": [
+            "Drive to Haridwar",
+            "Evening Ganga Aarti",
+            "Final prayers"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Haridwar Departure",
+          "activities": [
+            "Morning prayers",
+            "Shopping for prasad",
+            "Departure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Pur Jagannath Temple Tour",
+      "duration": "5 Days, 4 Nights",
+      "image": "images/puri-jagannath.webp",
+      "price": 16499,
+      "oldPrice": 20999,
+      "currency": "₹",
+      "destination": "odisha",
+      "joinDates": [
+        "13 July",
+        "20 July",
+        "27 July",
+        "3 Aug"
+      ],
+      "description": "Sacred journey to the holy Jagannath Temple in Puri and Konark Sun Temple",
+      "difficulty": "Easy",
+      "maxAltitude": "0m",
+      "bestTime": "October to March",
+      "highlights": [
+        "Darshan at Jagannath Temple",
+        "Visit Konark Sun Temple",
+        "Beach meditation",
+        "Traditional Odia cuisine"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Hotel accommodation",
+        "All vegetarian meals",
+        "Temple darshan arrangements",
+        "Local guide services",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Temple donations",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Bhubaneswar",
+          "activities": [
+            "Flight from Delhi to Bhubaneswar",
+            "Drive to Puri",
+            "Check-in and rest"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Puri Temple Darshan",
+          "activities": [
+            "Early morning darshan",
+            "Temple complex tour",
+            "Evening aarti"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Konark Sun Temple",
+          "activities": [
+            "Visit Konark Sun Temple",
+            "Beach meditation",
+            "Cultural activities"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Local Exploration",
+          "activities": [
+            "Visit nearby temples",
+            "Shopping for prasad",
+            "Traditional dinner"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Puri to Delhi",
+          "activities": [
+            "Morning prayers",
+            "Final darshan",
+            "Flight back to Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Rameshwaram & Kanyakumari",
+      "duration": "6 Days, 5 Nights",
+      "image": "images/rameswaram-kanyakumari.webp",
+      "price": 18499,
+      "oldPrice": 22999,
+      "currency": "₹",
+      "destination": "tamil nadu",
+      "joinDates": [
+        "14 July",
+        "21 July",
+        "28 July",
+        "4 Aug"
+      ],
+      "description": "Sacred pilgrimage to Rameshwaram and the southern tip of India at Kanyakumari",
+      "difficulty": "Easy",
+      "maxAltitude": "0m",
+      "bestTime": "October to March",
+      "highlights": [
+        "Darshan at Ramanathaswamy Temple",
+        "Visit Kanyakumari Temple",
+        "Sunrise and sunset views",
+        "Beach meditation"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Hotel accommodation",
+        "All vegetarian meals",
+        "Temple darshan arrangements",
+        "Local guide services",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Temple donations",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Madurai",
+          "activities": [
+            "Flight from Delhi to Madurai",
+            "Drive to Rameshwaram",
+            "Check-in and rest"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Rameshwaram Darshan",
+          "activities": [
+            "Early morning darshan",
+            "Temple complex tour",
+            "Evening aarti"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Rameshwaram to Kanyakumari",
+          "activities": [
+            "Drive to Kanyakumari",
+            "Sunset meditation",
+            "Temple visit"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Kanyakumari Exploration",
+          "activities": [
+            "Sunrise meditation",
+            "Vivekananda Rock",
+            "Local temple visits"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Return to Rameshwaram",
+          "activities": [
+            "Drive back to Rameshwaram",
+            "Final darshan",
+            "Shopping for prasad"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Rameshwaram to Delhi",
+          "activities": [
+            "Morning prayers",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Dwarka & Somnath Yatra",
+      "duration": "5 Days, 4 Nights",
+      "image": "images/dwarka-somnath.webp",
+      "price": 17499,
+      "oldPrice": 21999,
+      "currency": "₹",
+      "destination": "gujarat",
+      "joinDates": [
+        "16 July",
+        "23 July",
+        "30 July",
+        "6 Aug"
+      ],
+      "description": "Sacred pilgrimage to Dwarka and Somnath temples in Gujarat",
+      "difficulty": "Easy",
+      "maxAltitude": "0m",
+      "bestTime": "October to March",
+      "highlights": [
+        "Darshan at Dwarkadhish Temple",
+        "Visit Somnath Temple",
+        "Beach meditation",
+        "Gujarati culture experience"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Hotel accommodation",
+        "All vegetarian meals",
+        "Temple darshan arrangements",
+        "Local guide services",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Temple donations",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Dwarka",
+          "activities": [
+            "Flight from Delhi to Dwarka",
+            "Check-in at hotel",
+            "Evening temple visit"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Dwarka Darshan",
+          "activities": [
+            "Early morning darshan",
+            "Temple complex tour",
+            "Evening aarti"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Dwarka to Somnath",
+          "activities": [
+            "Drive to Somnath",
+            "Temple darshan",
+            "Beach meditation"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Somnath Exploration",
+          "activities": [
+            "Morning prayers",
+            "Local temple visits",
+            "Cultural activities"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Somnath to Delhi",
+          "activities": [
+            "Morning prayers",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Vrindavan & Mathura Tour",
+      "duration": "4 Days, 3 Nights",
+      "image": "images/vrindavan-mathura.webp",
+      "price": 11499,
+      "oldPrice": 14999,
+      "currency": "₹",
+      "destination": "uttar pradesh",
+      "joinDates": [
+        "17 July",
+        "24 July",
+        "31 July",
+        "7 Aug"
+      ],
+      "description": "Sacred journey to the birthplace of Lord Krishna and his divine playground",
+      "difficulty": "Easy",
+      "maxAltitude": "174m",
+      "bestTime": "October to March",
+      "highlights": [
+        "Visit Banke Bihari Temple",
+        "Mathura Krishna Janmabhoomi",
+        "Govardhan Hill parikrama",
+        "Divine aarti ceremonies"
+      ],
+      "included": [
+        "AC train tickets from Delhi",
+        "Hotel accommodation",
+        "All vegetarian meals",
+        "Temple darshan arrangements",
+        "Local guide services",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Temple donations",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Mathura",
+          "activities": [
+            "Train from Delhi to Mathura",
+            "Check-in at hotel",
+            "Evening temple visit"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Mathura & Vrindavan",
+          "activities": [
+            "Krishna Janmabhoomi",
+            "Banke Bihari Temple",
+            "Evening aarti"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Govardhan & Local",
+          "activities": [
+            "Govardhan Hill parikrama",
+            "Local temple visits",
+            "Cultural activities"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Mathura to Delhi",
+          "activities": [
+            "Morning prayers",
+            "Final darshan",
+            "Train back to Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Gangotri & Yamunotri Yatra",
+      "duration": "6 Days, 5 Nights",
+      "image": "images/gangotri-yamunotri.webp",
+      "price": 19499,
+      "oldPrice": 23999,
+      "currency": "₹",
+      "destination": "uttarakhand",
+      "joinDates": [
+        "18 July",
+        "25 July",
+        "1 Aug",
+        "8 Aug"
+      ],
+      "description": "Sacred pilgrimage to the source of holy rivers Ganga and Yamuna",
+      "difficulty": "Moderate",
+      "maxAltitude": "3048m",
+      "bestTime": "May to October",
+      "highlights": [
+        "Holy dip in Ganga at Gangotri",
+        "Sacred Yamuna source visit",
+        "Mountain trekking experience",
+        "Divine aarti ceremonies"
+      ],
+      "included": [
+        "Transportation from Haridwar",
+        "Hotel accommodation",
+        "All vegetarian meals",
+        "Temple darshan arrangements",
+        "Experienced guide",
+        "All permits and fees"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Tips and donations",
+        "Any additional activities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Haridwar to Barkot",
+          "activities": [
+            "Arrival in Haridwar",
+            "Drive to Barkot",
+            "Check-in and rest"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Barkot to Yamunotri",
+          "activities": [
+            "Trek to Yamunotri Temple",
+            "Holy dip in Yamuna",
+            "Evening aarti"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Yamunotri to Uttarkashi",
+          "activities": [
+            "Morning aarti",
+            "Return trek",
+            "Drive to Uttarkashi"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Uttarkashi to Gangotri",
+          "activities": [
+            "Drive to Gangotri",
+            "Holy dip in Ganga",
+            "Evening aarti"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Gangotri to Haridwar",
+          "activities": [
+            "Morning aarti",
+            "Drive to Haridwar",
+            "Evening Ganga Aarti"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Haridwar Departure",
+          "activities": [
+            "Morning prayers",
+            "Shopping for prasad",
+            "Departure"
+          ]
+        }
+      ]
+    }
+  ]
+}

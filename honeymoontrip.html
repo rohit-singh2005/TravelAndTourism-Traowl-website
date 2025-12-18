@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Honeymoon Trips</title>
+    <link rel="stylesheet" href="css/honeymoontrip.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+</head>
+<body>
+    <header class="main-header">
+        <!-- Header content will be loaded dynamically from API -->
+        <div class="loading-text">Loading header...</div>
+    </header>
+    
+    <div class="main-content">
+    <!-- HERO SECTION -->
+    <section class="hero-section" style="background-image: url(images/familytripMain.webp);">
+        <div class="hero-overlay">
+            <h1>Honeymoon Trips</h1>
+        </div>
+    </section>
+
+    <section class="about-section">
+    <div class="about-header">
+        <span>All About Honeymoon Trips</span>
+        <a href="#" class="show-more" id="showMoreBtn">Show more</a>
+    </div>
+    <div class="about-desc" id="aboutDesc">
+        Create magical memories with your loved one on our romantic honeymoon trips! Discover intimate destinations perfect for couples, featuring luxury accommodations, romantic experiences, and unforgettable moments.
+        <span class="more-content" id="moreContent" style="display:none;">
+            <br><br>
+          From serene mountain retreats to exotic beach getaways, our honeymoon packages are designed to celebrate your love. Enjoy private dinners, couple spa treatments, scenic views, and personalized experiences that make your honeymoon truly special. Let us help you start your married life with the perfect romantic escape!
+        </span>
+    </div>
+    </section>
+
+    <!-- DESTINATION FILTER -->
+    <section class="destination-section">
+        <label for="destination-select" class="destination-label">Destination</label>
+        <select id="destination-select" class="destination-select">
+            <option value="">All</option>
+            <option value="himachal pradesh">Himachal Pradesh</option>
+            <option value="kashmir">Kashmir</option>
+            <option value="uttarakhand">Uttarakhand</option>
+            <option value="rajasthan">Rajasthan</option>
+            <option value="goa">Goa</option>
+        </select>
+    </section>
+
+    <!-- TOUR CARDS -->
+    <section class="cards-section">
+        <div class="tour-cards">
+            <!-- Tour cards will be injected here by JS -->
+        </div>
+    </section>
+
+    </div> <!-- End main-content -->
+    
+    <script src="js/image-utils.js"></script>
+    <script src="js/api-utils.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/honeymoontrip.js"></script>
+    <script src="js/admin-inject.js"></script>
+
+  <footer class="main-footer">
+    <!-- Footer content will be loaded dynamically from API -->
+    <div class="loading-text">Loading footer...</div>
+  </footer>
+</body>
+</html>

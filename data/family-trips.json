@@ -1,0 +1,596 @@
+{
+  "familyTrips": [
+    {
+      "id": 1,
+      "title": "Jim Corbett family fun",
+      "duration": "4 Days, 3 Nights",
+      "image": "images/Jim Corbett family fun 1.webp",
+      "price": 18999,
+      "oldPrice": 23999,
+      "currency": "₹",
+      "destination": "uttarakhand",
+      "joinDates": ["15 July", "22 July", "29 July", "5 Aug"],
+      "description": "Exciting family wildlife adventure at Jim Corbett National Park with tiger safaris and nature activities",
+      "difficulty": "Easy",
+      "maxAltitude": "700m",
+      "bestTime": "November to June",
+      "suitableFor": "Families with children 5-17 years",
+      "highlights": [
+        "Tiger safari experience",
+        "Jungle walks and nature trails",
+        "Wildlife photography sessions",
+        "River crossing and adventure activities"
+      ],
+      "included": [
+        "Transportation from Delhi",
+        "Wildlife resort accommodation",
+        "All meals including kids menu",
+        "Safari permits and tickets",
+        "Nature guide services",
+        "Adventure activity equipment"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Jim Corbett",
+          "activities": [
+            "Early morning departure from Delhi",
+            "Check-in at wildlife resort",
+            "Evening nature walk and orientation"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Wildlife Safari Adventure",
+          "activities": [
+            "Morning tiger safari in Dhikala zone",
+            "Wildlife photography workshop",
+            "Evening safari in Bijrani zone"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Adventure Activities",
+          "activities": [
+            "River crossing and jungle trek",
+            "Bird watching session",
+            "Adventure activities and games"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Jim Corbett to Delhi",
+          "activities": [
+            "Morning nature walk",
+            "Check-out and departure",
+            "Arrival in Delhi evening"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Manali Family Getaway",
+      "duration": "5 Days, 4 Nights",
+      "image": "images/Manali family getaway 1.webp",
+      "price": 16499,
+      "oldPrice": 20999,
+      "currency": "₹",
+      "destination": "himachal pradesh",
+      "joinDates": ["12 July", "19 July", "26 July", "2 Aug"],
+      "description": "Perfect family mountain retreat with adventure activities and scenic beauty",
+      "difficulty": "Easy",
+      "maxAltitude": "2050m",
+      "bestTime": "March to December",
+      "suitableFor": "Families with children 5-18 years",
+      "highlights": [
+        "Family-friendly trekking",
+        "Adventure activities in Solang",
+        "Local village visits",
+        "Mountain camping experience"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Family resort accommodation",
+        "All meals including kids menu",
+        "Adventure activities",
+        "Local sightseeing",
+        "Family guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Manali",
+          "activities": [
+            "Flight from Delhi to Manali",
+            "Resort check-in",
+            "Evening bonfire"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Manali Family Fun",
+          "activities": [
+            "Hadimba Temple visit",
+            "Adventure activities in Solang",
+            "Local market exploration"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Mountain Adventure",
+          "activities": [
+            "Family-friendly trekking",
+            "Village interaction",
+            "Mountain camping"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Local Experience",
+          "activities": [
+            "Apple orchard visit",
+            "Local handicraft workshop",
+            "Cultural evening"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Manali to Delhi",
+          "activities": [
+            "Morning mountain walk",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Goa Beach Family Fun",
+      "duration": "4 Days, 3 Nights",
+      "image": "images/Goa beach family fun 1.webp",
+      "price": 15499,
+      "oldPrice": 19999,
+      "currency": "₹",
+      "destination": "goa",
+      "joinDates": ["10 July", "17 July", "24 July", "31 July"],
+      "description": "Sun, sand, and family fun at the beautiful beaches of Goa",
+      "difficulty": "Easy",
+      "maxAltitude": "Sea level",
+      "bestTime": "November to March",
+      "suitableFor": "Families with children 2-16 years",
+      "highlights": [
+        "Beach activities and games",
+        "Water sports for kids",
+        "Dolphin watching cruise",
+        "Goan cultural experience"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Beach resort accommodation",
+        "All meals including kids menu",
+        "Water sports activities",
+        "Dolphin cruise tickets",
+        "Family guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Goa",
+          "activities": [
+            "Flight from Delhi to Goa",
+            "Resort check-in",
+            "Beach welcome party"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Beach Family Day",
+          "activities": [
+            "Beach games and activities",
+            "Water sports for kids",
+            "Sunset beach walk"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Goa Adventure",
+          "activities": [
+            "Dolphin watching cruise",
+            "Spice plantation tour",
+            "Local market visit"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Goa to Delhi",
+          "activities": [
+            "Morning beach activities",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Ranthambore Wildlife Safari",
+      "duration": "3 Days, 2 Nights",
+      "image": "images/Ranthambore wildlife safari 1.webp",
+      "price": 12499,
+      "oldPrice": 15999,
+      "currency": "₹",
+      "destination": "rajasthan",
+      "joinDates": ["14 July", "21 July", "28 July", "4 Aug"],
+      "description": "Exciting wildlife safari adventure for the whole family at Ranthambore National Park",
+      "difficulty": "Easy",
+      "maxAltitude": "300m",
+      "bestTime": "October to June",
+      "suitableFor": "Families with children 6-18 years",
+      "highlights": [
+        "Tiger safari experience",
+        "Wildlife photography",
+        "Nature walks",
+        "Educational wildlife programs"
+      ],
+      "included": [
+        "Transportation from Delhi",
+        "Wildlife resort accommodation",
+        "All meals including kids menu",
+        "Safari tickets and permits",
+        "Wildlife guide services",
+        "Educational programs"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Ranthambore",
+          "activities": [
+            "Drive from Delhi to Ranthambore",
+            "Resort check-in",
+            "Evening nature walk"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Wildlife Safari",
+          "activities": [
+            "Morning tiger safari",
+            "Wildlife photography",
+            "Evening safari"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Ranthambore to Delhi",
+          "activities": [
+            "Morning nature walk",
+            "Educational program",
+            "Return to Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Kerala Backwaters Family",
+      "duration": "5 Days, 4 Nights",
+      "image": "images/Kerala backwaters family 1.webp",
+      "price": 17499,
+      "oldPrice": 22499,
+      "currency": "₹",
+      "destination": "kerala",
+      "joinDates": ["11 July", "18 July", "25 July", "1 Aug"],
+      "description": "Serene family experience in the beautiful backwaters of Kerala",
+      "difficulty": "Easy",
+      "maxAltitude": "Sea level",
+      "bestTime": "September to March",
+      "suitableFor": "Families with children 3-16 years",
+      "highlights": [
+        "Houseboat cruise experience",
+        "Traditional Kerala activities",
+        "Ayurvedic wellness",
+        "Cultural performances"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Luxury houseboat accommodation",
+        "All meals including kids menu",
+        "Traditional activities",
+        "Cultural performances",
+        "Family guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Kochi",
+          "activities": [
+            "Flight from Delhi to Kochi",
+            "Transfer to houseboat",
+            "Evening cruise"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Backwaters Adventure",
+          "activities": [
+            "Full day backwater cruise",
+            "Village visits",
+            "Traditional activities"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Kerala Culture",
+          "activities": [
+            "Kathakali performance",
+            "Ayurvedic wellness",
+            "Local cuisine cooking"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Munnar Hill Station",
+          "activities": [
+            "Tea plantation visit",
+            "Echo Point adventure",
+            "Local market exploration"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Kochi to Delhi",
+          "activities": [
+            "Morning at Fort Kochi",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Udaipur Royal Family",
+      "duration": "4 Days, 3 Nights",
+      "image": "images/Udaipur royal family 1.webp",
+      "price": 16499,
+      "oldPrice": 20999,
+      "currency": "₹",
+      "destination": "rajasthan",
+      "joinDates": ["13 July", "20 July", "27 July", "3 Aug"],
+      "description": "Royal family experience in the beautiful City of Lakes",
+      "difficulty": "Easy",
+      "maxAltitude": "423m",
+      "bestTime": "October to March",
+      "suitableFor": "Families with children 4-17 years",
+      "highlights": [
+        "Palace hotel experience",
+        "Boat ride on Lake Pichola",
+        "Royal cultural activities",
+        "Traditional Rajasthani fun"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Palace hotel accommodation",
+        "All meals including kids menu",
+        "Boat ride tickets",
+        "Cultural activities",
+        "Family guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Udaipur",
+          "activities": [
+            "Flight from Delhi to Udaipur",
+            "Palace hotel check-in",
+            "Evening boat ride"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Royal Udaipur",
+          "activities": [
+            "City Palace visit",
+            "Lake Palace exploration",
+            "Cultural performances"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Traditional Fun",
+          "activities": [
+            "Traditional games",
+            "Local handicraft workshop",
+            "Royal dinner experience"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Udaipur to Delhi",
+          "activities": [
+            "Morning palace tour",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Darjeeling Toy Train Family",
+      "duration": "4 Days, 3 Nights",
+      "image": "images/Darjeeling toy train family 1.webp",
+      "price": 14499,
+      "oldPrice": 18999,
+      "currency": "₹",
+      "destination": "west bengal",
+      "joinDates": ["16 July", "23 July", "30 July", "6 Aug"],
+      "description": "Charming family adventure with the famous Darjeeling toy train",
+      "difficulty": "Easy",
+      "maxAltitude": "2134m",
+      "bestTime": "March to May, September to December",
+      "suitableFor": "Families with children 3-15 years",
+      "highlights": [
+        "Toy train ride experience",
+        "Tea garden exploration",
+        "Mountain views",
+        "Local culture interaction"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Mountain hotel accommodation",
+        "All meals including kids menu",
+        "Toy train tickets",
+        "Local sightseeing",
+        "Family guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Darjeeling",
+          "activities": [
+            "Flight from Delhi to Darjeeling",
+            "Hotel check-in",
+            "Evening at Mall Road"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Darjeeling Adventure",
+          "activities": [
+            "Toy train ride",
+            "Tea garden visit",
+            "Tiger Hill sunset"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Local Experience",
+          "activities": [
+            "Peace Pagoda visit",
+            "Local market exploration",
+            "Cultural activities"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Darjeeling to Delhi",
+          "activities": [
+            "Morning mountain walk",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Munnar Tea Family Retreat",
+      "duration": "3 Days, 2 Nights",
+      "image": "images/Munnar tea family retreat 1.webp",
+      "price": 13499,
+      "oldPrice": 17999,
+      "currency": "₹",
+      "destination": "kerala",
+      "joinDates": ["9 July", "16 July", "23 July", "30 July"],
+      "description": "Peaceful family retreat in the tea gardens of Munnar",
+      "difficulty": "Easy",
+      "maxAltitude": "1600m",
+      "bestTime": "September to March",
+      "suitableFor": "Families with children 4-16 years",
+      "highlights": [
+        "Tea plantation tours",
+        "Nature walks",
+        "Local culture experience",
+        "Wellness activities"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Tea estate resort",
+        "All meals including kids menu",
+        "Tea plantation tours",
+        "Nature activities",
+        "Family guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Munnar",
+          "activities": [
+            "Flight from Delhi to Munnar",
+            "Resort check-in",
+            "Tea tasting session"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Tea Garden Adventure",
+          "activities": [
+            "Tea plantation tour",
+            "Nature walks",
+            "Local village visit"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Munnar to Delhi",
+          "activities": [
+            "Morning tea session",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    }
+  ]
+} 

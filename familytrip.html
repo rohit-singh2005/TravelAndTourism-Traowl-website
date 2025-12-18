@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Family Trips</title>
+    <link rel="stylesheet" href="css/familytrip.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+</head>
+<body>
+    <header class="main-header">
+        <!-- Header content will be loaded dynamically from API -->
+        <div class="loading-text">Loading header...</div>
+    </header>
+    
+    <div class="main-content">
+    <!-- HERO SECTION -->
+    <section class="hero-section" style="background-image: url(images/familytripMain.webp);">
+        <div class="hero-overlay">
+            <h1>Family Trips</h1>
+        </div>
+    </section>
+
+    <section class="about-section">
+    <div class="about-header">
+        <span>All About Family Trips</span>
+        <a href="#" class="show-more" id="showMoreBtn">Show more</a>
+    </div>
+    <div class="about-desc" id="aboutDesc">
+        Discover the best destinations and experiences for families! This page features trips designed for all ages, ensuring fun, comfort, and safety for everyone in your family.
+        <span class="more-content" id="moreContent" style="display:none;">
+            <br><br>
+          From relaxing getaways to adventurous outings, our family trips offer something for every interest. Enjoy curated itineraries, family-friendly accommodations, and activities that bring everyone together. Make memories that last a lifetime with our handpicked family travel options!
+        </span>
+    </div>
+    </section>
+
+    <!-- DESTINATION FILTER -->
+    <section class="destination-section">
+        <label for="destination-select" class="destination-label">Destination</label>
+        <select id="destination-select" class="destination-select">
+            <option value="">All</option>
+            <option value="himachal pradesh">Himachal Pradesh</option>
+            <option value="maharashtra">Maharashtra</option>
+            <option value="uttarakhand">Uttarakhand</option>
+            <option value="kashmir">Kashmir</option>
+        </select>
+    </section>
+
+    <!-- TOUR CARDS -->
+    <section class="cards-section">
+        <div class="tour-cards">
+            <!-- Tour cards will be injected here by JS -->
+        </div>
+    </section>
+
+
+
+    </div> <!-- End main-content -->
+    
+    <script src="js/image-utils.js"></script>
+    <script src="js/api-utils.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/familytrip.js"></script>
+    <script src="js/admin-inject.js"></script>
+
+  <footer class="main-footer">
+    <!-- Footer content will be loaded dynamically from API -->
+    <div class="loading-text">Loading footer...</div>
+  </footer>
+</body>
+</html> 

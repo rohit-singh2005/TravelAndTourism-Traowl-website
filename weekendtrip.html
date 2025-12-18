@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weekend Trips</title>
+    <link rel="stylesheet" href="css/weekendtrip.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+</head>
+<body>
+    <header class="main-header">
+        <!-- Header content will be loaded dynamically from API -->
+        <div style="text-align: center; padding: 1rem;">
+            <div class="loading-spinner">Loading header...</div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" style="background-image: url(images/weekendMain.webp);">
+        <!-- Replace the URL above with your own hero image -->
+        <div class="hero-overlay">
+            <h1>Weekend Trips</h1>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-header">
+            <span>All About Weekend Trips</span>
+            <a href="#" class="show-more" id="showMoreBtn">Show more</a>
+        </div>
+        <div class="about-desc" id="aboutDesc">
+           Your perfect escape from the everyday hustle! This page features carefully selected short-getaway destinations ideal for recharging over the weekend..
+            <span class="more-content" id="moreContent" style="display:none;">
+                <br><br>
+              Whether you're craving a peaceful nature retreat, a cultural city break, or a fun adventure with friends, we've got options that fit tight schedules and all travel moods. Each trip is designed for maximum enjoyment in minimal time, with easy travel routes and ready-made plans. Make every weekend count with quick, refreshing trips that leave you energized and inspired!
+            </span>
+        </div>
+    </section>
+
+    <!-- DESTINATION FILTER -->
+    <section class="destination-section">
+        <label for="destination-select" class="destination-label">Destination</label>
+        <select id="destination-select" class="destination-select">
+            <option value="">All</option>
+            <option value="himachal pradesh">Himachal Pradesh</option>
+            <option value="uttarakhand">Uttarakhand</option>
+            <option value="maharashtra">Maharashtra</option>
+            <option value="kerala">Kerala</option>
+        </select>
+    </section>
+
+    <!-- TOUR CARDS -->
+    <section class="cards-section">
+        <div class="tour-cards" id="weekendTripsGrid">
+            <!-- Weekend trips will be loaded dynamically from API -->
+            <div style="text-align: center; grid-column: 1/-1; padding: 2rem;">
+                <div class="loading-spinner">Loading weekend trips...</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <!-- Footer content will be loaded dynamically from API -->
+        <div style="text-align: center; padding: 2rem;">
+            <div class="loading-spinner">Loading footer...</div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/image-utils.js"></script>
+    <script src="js/api-utils.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/weekendtrip.js"></script>
+    <script src="js/welcome-popup.js"></script>
+    <script src="js/admin-inject.js"></script>
+</body>
+</html> 

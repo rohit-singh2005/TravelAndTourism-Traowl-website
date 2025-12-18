@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - Traowl</title>
+    <meta name="description" content="Book your next adventure with Traowl. Secure booking for group tours, spiritual journeys, and adventure trips across India." />
+    <link rel="canonical" href="https://www.traowl.com/booking.html" />
+    <meta property="og:title" content="Book Now - Traowl" />
+    <meta property="og:description" content="Book your next adventure with Traowl. Secure booking for group tours, spiritual journeys, and adventure trips across India." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.traowl.com/booking.html" />
+    <meta property="og:image" content="images/logo.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Book Now - Traowl" />
+    <meta name="twitter:description" content="Book your next adventure with Traowl. Secure booking for group tours, spiritual journeys, and adventure trips across India." />
+    <meta name="twitter:image" content="images/logo.webp" />
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Roboto:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header class="main-header">
+        <!-- Header content will be loaded dynamically from API -->
+        <div style="text-align: center; padding: 1rem;">
+            <div class="loading-spinner">Loading header...</div>
+        </div>
+    </header>
+
+    </div>
+
+    <main class="booking-main">
+        <div class="main-content-layout">
+            <!-- Loading Spinner -->
+            <div id="loading-spinner" class="loading-container">
+                <div class="loading-spinner">Loading booking details...</div>
+            </div>
+
+            <!-- Dynamic Content Container -->
+            <div id="booking-content" style="display: none;">
+                <h1 class="page-title" id="package-title">Loading...</h1>
+                <div class="booking-sections-wrapper">
+                <section class="booking-details-section">
+                    <div class="section-header booking-header">
+                        <i class="ri-book-2-line"></i>
+                        <h2>Booking Details</h2>
+                    </div>
+                    <div class="booking-content-wrapper">
+                        <div class="booking-option">
+                            <div class="option-header">
+                                <i class="ri-calendar-line"></i>
+                                <h3>Choose Your Travel Option</h3>
+                            </div>
+                            <div class="option-box">
+                                <label class="radio-card">
+                                    <input type="radio" name="travel_option" value="scheduled" checked>
+                                    <div class="radio-content">
+                                        <div class="radio-info">
+                                            <h4>Join Scheduled Batch</h4>
+                                            <p>1 batches available</p>
+                                        </div>
+                                        <div class="radio-badge">
+                                            <span class="badge">Recommended</span>
+                                        </div>
+                                    </div>
+                                </label>
+                                <label class="radio-card">
+                                    <input type="radio" name="travel_option" value="custom">
+                                    <div class="radio-content">
+                                        <div class="radio-info">
+                                            <h4>Request Custom Dates</h4>
+                                            <p>We'll arrange a trip based on your preferred dates</p>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div id="custom-date-section" class="custom-date-section" style="display: none;">
+                            <div class="custom-date-header">
+                                <i class="ri-calendar-event-line"></i>
+                                <span>Your Preferred Start Date</span>
+                            </div>
+                            <input type="date" class="custom-date-input" id="custom-date-picker" />
+                            <div class="custom-date-info">
+                                <i class="ri-information-line"></i>
+                                <span><strong>Custom Date Request:</strong> We'll contact you within 24 hours with available options closest to your preferred date. Our team will work with you to create the perfect itinerary.</span>
+                            </div>
+                        </div>
+
+                        <div class="booking-option" id="batch-selection-section">
+                            <div class="option-header">
+                                <i class="ri-calendar-check-line"></i>
+                                <h3>Select Your Batch</h3>
+                            </div>
+                            <div class="option-group">
+                                <label class="radio-card">
+                                    <input type="radio" name="batch_option" value="batch1" checked>
+                                    <div class="radio-content">
+                                        <div class="radio-info">
+                                            <div class="batch-info">
+                                                <span class="batch-date"><i class="ri-calendar-line"></i> 18 Jun 2025 - 23 Jun 2025</span>
+                                                <span class="batch-day">Wednesday to Monday</span>
+                                            </div>
+                                        </div>
+                                        <div class="radio-badge">
+                                            <!-- seats left removed -->
+                                        </div>
+                                    </div>
+                                </label>
+                                <label class="radio-card">
+                                    <input type="radio" name="batch_option" value="batch2">
+                                    <div class="radio-content">
+                                        <div class="radio-info">
+                                            <div class="batch-info">
+                                                <span class="batch-date"><i class="ri-calendar-line"></i> 01 Aug 2025 - 06 Aug 2025</span>
+                                                <span class="batch-day">Friday to Wednesday</span>
+                                            </div>
+                                        </div>
+                                        <div class="radio-badge">
+                                            <!-- seats left removed -->
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="booking-personal-info">
+                            <div class="option-header">
+                                <i class="ri-user-line"></i>
+                                <h3>Personal Information</h3>
+                            </div>
+                            <form class="booking-form">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="fullName"><i class="ri-user-line"></i> Full Name *</label>
+                                        <input type="text" id="fullName" placeholder="Enter your full name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email"><i class="ri-mail-line"></i> Email Address *</label>
+                                        <input type="email" id="email" placeholder="Enter your email">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="phone"><i class="ri-phone-line"></i> Phone Number *</label>
+                                        <input type="tel" id="phone" placeholder="Enter your phone number">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="travelers"><i class="ri-group-line"></i> Number of Travelers *</label>
+                                        <input type="number" id="travelers" value="1" min="1">
+                                    </div>
+                                </div>
+                                <div class="form-group full-width">
+                                    <label for="pickupDropoff"><i class="ri-map-pin-line"></i> Pickup & Dropoff Location</label>
+                                    <input type="text" id="pickupDropoff" placeholder="Delhi / Delhi" value="Delhi / Delhi">
+                                </div>
+                                <div class="form-group full-width special-requirements-group">
+                                    <label for="specialRequirements">Special Requirements</label>
+                                    <textarea id="specialRequirements" rows="4" placeholder="Any dietary restrictions, accessibility needs, or special requests?"></textarea>
+                                </div>
+                                <button type="submit" class="confirm-booking-btn">
+                                    <i class="ri-bank-card-line"></i> Confirm Booking
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section class="trip-summary-section">
+                    <div class="section-header summary-header">
+                        <i class="ri-map-pin-line"></i>
+                        <h2>Trip Summary</h2>
+                    </div>
+                    <div class="summary-content-wrapper">
+                        <div class="summary-item">
+                            <div class="summary-icon"><i class="ri-time-line"></i></div>
+                            <div class="summary-details">
+                                <div class="summary-label">Trip Name</div>
+                                <div class="summary-value" id="summary-trip-name">Loading...</div>
+                            </div>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-icon"><i class="ri-calendar-line"></i></div>
+                            <div class="summary-details">
+                                <div class="summary-label">Duration</div>
+                                <div class="summary-value" id="summary-duration">Loading...</div>
+                            </div>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-icon"><i class="ri-map-pin-2-line"></i></div>
+                            <div class="summary-details">
+                                <div class="summary-label">Pickup / Dropoff</div>
+                                <div class="summary-value" id="summary-pickup-dropoff">Loading...</div>
+                            </div>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-icon"><i class="ri-group-line"></i></div>
+                            <div class="summary-details">
+                                <div class="summary-label">Trip Type</div>
+                                <div class="summary-value"><span class="summary-pill blue-pill">Group/Custom</span></div>
+                            </div>
+                        </div>
+                        <div class="note-box">
+                            <p><strong>Note:</strong> Final pricing will be confirmed based on your selected batch, travel dates, and group size.</p>
+                        </div>
+                        <div class="secure-booking-text">Secure booking • 100% safe & trusted</div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+        <footer class="main-footer">
+        <!-- Footer content will be loaded dynamically from API -->
+        <div style="text-align: center; padding: 2rem;">
+            <div class="loading-spinner">Loading footer...</div>
+        </div>
+    </footer>
+    <script src="js/api-utils.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/booking.js"></script>
+</body>
+</html>

@@ -1,0 +1,475 @@
+{
+  "romanticTrips": [
+    {
+      "id": 1,
+      "title": "Shimla Honeymoon Escape",
+      "duration": "5 Days, 4 Nights",
+      "image": "images/Shimla Honeymoon Escape 1.webp",
+      "price": 24999,
+      "oldPrice": 29999,
+      "currency": "₹",
+      "destination": "himachal pradesh",
+      "joinDates": ["1 Sep", "15 Sep", "1 Oct", "15 Oct"],
+      "description": "Romantic mountain getaway in the queen of hills with candlelight dinners and scenic beauty",
+      "difficulty": "Easy",
+      "maxAltitude": "2200m",
+      "bestTime": "March to December",
+      "suitableFor": "Couples, honeymooners, romantic getaways",
+      "highlights": [
+        "Private candlelight dinners",
+        "Scenic mountain views",
+        "Romantic walks in pine forests",
+        "Couple spa treatments"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Luxury hotel accommodation",
+        "All romantic meals",
+        "Private couple activities",
+        "Spa and wellness sessions",
+        "Romantic guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Shimla",
+          "activities": [
+            "Flight from Delhi to Shimla",
+            "Luxury hotel check-in",
+            "Romantic welcome dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Shimla Romance",
+          "activities": [
+            "Private mountain walk",
+            "Couple spa session",
+            "Candlelight dinner"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Adventure Together",
+          "activities": [
+            "Trek to Kufri",
+            "Horse riding",
+            "Sunset at Ridge"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Cultural Experience",
+          "activities": [
+            "Viceregal Lodge visit",
+            "Local market exploration",
+            "Romantic evening"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Shimla to Delhi",
+          "activities": [
+            "Morning mountain walk",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Gulmarg Snow Romance",
+      "duration": "6 Days, 5 Nights",
+      "image": "images/Gulmarg Snow Romance 1.webp",
+      "price": 31999,
+      "oldPrice": 37999,
+      "currency": "₹",
+      "destination": "kashmir",
+      "joinDates": ["10 Dec", "24 Dec", "7 Jan", "21 Jan"],
+      "description": "Magical snow-covered romantic escape in the winter wonderland of Kashmir",
+      "difficulty": "Easy",
+      "maxAltitude": "2650m",
+      "bestTime": "December to March",
+      "suitableFor": "Couples, honeymooners, winter romance",
+      "highlights": [
+        "Snow-covered landscapes",
+        "Gondola ride experience",
+        "Cozy fireplace evenings",
+        "Snow activities for couples"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Luxury snow resort",
+        "All romantic meals",
+        "Gondola ride tickets",
+        "Snow activities",
+        "Romantic guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Gulmarg",
+          "activities": [
+            "Flight from Delhi to Srinagar",
+            "Transfer to Gulmarg",
+            "Romantic snow welcome"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Snow Adventure",
+          "activities": [
+            "Gondola ride to Kongdoori",
+            "Snow activities",
+            "Cozy evening by fireplace"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Mountain Romance",
+          "activities": [
+            "Snow trekking",
+            "Photography session",
+            "Romantic dinner"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Local Experience",
+          "activities": [
+            "Local village visit",
+            "Traditional activities",
+            "Cultural evening"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Leisure Day",
+          "activities": [
+            "Relaxing spa session",
+            "Couple activities",
+            "Farewell dinner"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Gulmarg to Delhi",
+          "activities": [
+            "Morning snow walk",
+            "Transfer to Srinagar",
+            "Flight back to Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Nainital Lake Retreat",
+      "duration": "4 Days, 3 Nights",
+      "image": "images/Nainital Lake Retreat 1.webp",
+      "price": 20999,
+      "oldPrice": 25999,
+      "currency": "₹",
+      "destination": "uttarakhand",
+      "joinDates": ["5 Oct", "19 Oct", "2 Nov", "16 Nov"],
+      "description": "Serene lake-side romantic escape with boat rides and mountain views",
+      "difficulty": "Easy",
+      "maxAltitude": "2084m",
+      "bestTime": "March to June, September to December",
+      "suitableFor": "Couples, honeymooners, nature lovers",
+      "highlights": [
+        "Private boat rides on Naini Lake",
+        "Mountain sunset views",
+        "Romantic lakeside walks",
+        "Couple wellness sessions"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Lakeside hotel accommodation",
+        "All romantic meals",
+        "Boat ride tickets",
+        "Wellness activities",
+        "Romantic guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Nainital",
+          "activities": [
+            "Flight from Delhi to Nainital",
+            "Lakeside hotel check-in",
+            "Evening boat ride"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Lake Romance",
+          "activities": [
+            "Private boat ride",
+            "Mountain trekking",
+            "Sunset at Snow View"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Nature Together",
+          "activities": [
+            "Eco Cave Gardens",
+            "Lakeside walk",
+            "Romantic dinner"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Nainital to Delhi",
+          "activities": [
+            "Morning mountain walk",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Kasol Riverside Romance",
+      "duration": "3 Days, 2 Nights",
+      "image": "images/Kasol Riverside Romance 1.webp",
+      "price": 17999,
+      "oldPrice": 22999,
+      "currency": "₹",
+      "destination": "himachal pradesh",
+      "joinDates": ["12 Nov", "26 Nov", "10 Dec", "24 Dec"],
+      "description": "Intimate riverside romantic escape in the peaceful Parvati Valley",
+      "difficulty": "Easy",
+      "maxAltitude": "1580m",
+      "bestTime": "March to December",
+      "suitableFor": "Couples, honeymooners, nature enthusiasts",
+      "highlights": [
+        "Riverside camping experience",
+        "Mountain trekking",
+        "Local culture immersion",
+        "Peaceful nature walks"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Riverside resort accommodation",
+        "All romantic meals",
+        "Trekking activities",
+        "Cultural experiences",
+        "Romantic guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Kasol",
+          "activities": [
+            "Flight from Delhi to Kasol",
+            "Riverside resort check-in",
+            "Evening by the river"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Valley Adventure",
+          "activities": [
+            "Mountain trekking",
+            "Local village visit",
+            "Riverside dinner"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Kasol to Delhi",
+          "activities": [
+            "Morning nature walk",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Udaipur Palace Romance",
+      "duration": "4 Days, 3 Nights",
+      "image": "images/Udaipur Palace Romance 1.webp",
+      "price": 22999,
+      "oldPrice": 27999,
+      "currency": "₹",
+      "destination": "rajasthan",
+      "joinDates": ["8 Oct", "22 Oct", "5 Nov", "19 Nov"],
+      "description": "Royal romantic experience in the beautiful City of Lakes with palace stays",
+      "difficulty": "Easy",
+      "maxAltitude": "423m",
+      "bestTime": "October to March",
+      "suitableFor": "Couples, honeymooners, luxury seekers",
+      "highlights": [
+        "Palace hotel accommodation",
+        "Private boat rides on Lake Pichola",
+        "Royal cultural experiences",
+        "Luxury spa treatments"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Palace hotel accommodation",
+        "All royal meals",
+        "Boat ride tickets",
+        "Cultural performances",
+        "Romantic guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Udaipur",
+          "activities": [
+            "Flight from Delhi to Udaipur",
+            "Palace hotel check-in",
+            "Evening boat ride"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Royal Experience",
+          "activities": [
+            "City Palace visit",
+            "Lake Palace exploration",
+            "Cultural evening"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Romantic Udaipur",
+          "activities": [
+            "Private boat ride",
+            "Spa treatments",
+            "Royal dinner"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Udaipur to Delhi",
+          "activities": [
+            "Morning palace tour",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Goa Beach Romance",
+      "duration": "5 Days, 4 Nights",
+      "image": "images/Goa Beach Romance 1.webp",
+      "price": 19999,
+      "oldPrice": 24999,
+      "currency": "₹",
+      "destination": "goa",
+      "joinDates": ["15 Nov", "29 Nov", "13 Dec", "27 Dec"],
+      "description": "Sun, sand, and romance at the beautiful beaches of Goa with private beach experiences",
+      "difficulty": "Easy",
+      "maxAltitude": "Sea level",
+      "bestTime": "November to March",
+      "suitableFor": "Couples, honeymooners, beach lovers",
+      "highlights": [
+        "Private beach experiences",
+        "Sunset cruise",
+        "Couple spa treatments",
+        "Romantic beach dinners"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Beach resort accommodation",
+        "All romantic meals",
+        "Sunset cruise",
+        "Spa treatments",
+        "Romantic guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Goa",
+          "activities": [
+            "Flight from Delhi to Goa",
+            "Beach resort check-in",
+            "Welcome beach dinner"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Beach Romance",
+          "activities": [
+            "Private beach time",
+            "Water sports",
+            "Sunset cruise"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Goa Adventure",
+          "activities": [
+            "Old Goa churches",
+            "Spice plantation",
+            "Romantic dinner"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Leisure Day",
+          "activities": [
+            "Couple spa session",
+            "Beach activities",
+            "Farewell dinner"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Goa to Delhi",
+          "activities": [
+            "Morning beach walk",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    }
+  ]
+} 

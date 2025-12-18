@@ -1,0 +1,323 @@
+[
+  {
+    "id": 1,
+    "title": "A week in Kedarnath & Badrinath",
+    "description": "Experience the divine journey to the sacred temples of Kedarnath and Badrinath with our comprehensive package.",
+    "images": [
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+      "https://www.prashantnews.com/wp-content/uploads/2024/05/kedarnath.jpeg",
+      "https://badrinath-kedarnath.gov.in/Assets/image/k3.jpg",
+      "https://www.bhatakna.com/system/images/000/603/362/b8be572d6fdb0c50b5e66491e67aa232/banner/jpg-20220401-231304-0000.jpg?1656025793"
+    ],
+    "price": 14999,
+    "oldPrice": 20999,
+    "currency": "₹",
+    "duration": "6 Days / 5 Nights",
+    "pickupLocation": "Haridwar",
+    "category": "spiritual",
+    "difficulty": "Moderate",
+    "maxGroupSize": 20,
+    "minAge": 12,
+    "features": {
+      "transportation": "All transfers and sightseeing by comfortable vehicles with experienced drivers.",
+      "meals": "Delicious and hygienic meals provided as per the itinerary.",
+      "stay": "Stay in clean, comfortable hotels and guesthouses at all destinations.",
+      "sightseeing": "All major sightseeing spots and activities included in the package.",
+      "assistance": "24x7 support and assistance throughout your journey."
+    },
+    "included": [
+      "Transportation",
+      "Accommodation",
+      "Meals",
+      "Guide",
+      "Permits",
+      "First Aid"
+    ],
+    "excluded": [
+      "Personal expenses",
+      "Tips",
+      "Insurance",
+      "Any additional activities"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Haridwar to Sersi",
+        "activities": [
+          "Morning: Meet our representative in Haridwar at your hotel/airport/railway station.",
+          "Travel to Sersi (Drive: 223 km).",
+          "Check into the hotel upon arrival in Sersi."
+        ],
+        "stay": "Hotel in Sersi",
+        "meals": "Dinner"
+      },
+      {
+        "day": 2,
+        "title": "Sersi to Kedarnath",
+        "activities": [
+          "Early morning departure to Kedarnath.",
+          "Trek to Kedarnath Temple (16 km).",
+          "Visit the sacred Kedarnath Temple.",
+          "Evening aarti at the temple."
+        ],
+        "stay": "Guest House in Kedarnath",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 3,
+        "title": "Kedarnath to Badrinath",
+        "activities": [
+          "Morning aarti at Kedarnath Temple.",
+          "Return trek to Sersi.",
+          "Drive to Badrinath.",
+          "Check into hotel in Badrinath."
+        ],
+        "stay": "Hotel in Badrinath",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 4,
+        "title": "Badrinath Darshan",
+        "activities": [
+          "Morning aarti at Badrinath Temple.",
+          "Visit Mana Village (Last village of India).",
+          "Visit Vasudhara Falls.",
+          "Evening free time for shopping."
+        ],
+        "stay": "Hotel in Badrinath",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 5,
+        "title": "Badrinath to Haridwar",
+        "activities": [
+          "Morning departure from Badrinath.",
+          "Visit Devprayag (Confluence of Alaknanda and Bhagirathi).",
+          "Continue drive to Haridwar.",
+          "Evening Ganga Aarti at Har Ki Pauri."
+        ],
+        "stay": "Hotel in Haridwar",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 6,
+        "title": "Departure",
+        "activities": [
+          "Morning free time for shopping.",
+          "Check out from hotel.",
+          "Transfer to airport/railway station.",
+          "Tour concludes with happy memories."
+        ],
+        "stay": "Not included",
+        "meals": "Breakfast"
+      }
+    ],
+    "highlights": [
+      "Visit the sacred Kedarnath and Badrinath temples",
+      "Experience the divine aarti ceremonies",
+      "Trek through the beautiful Himalayan trails",
+      "Explore the last village of India (Mana)",
+      "Witness the confluence of holy rivers",
+      "Enjoy the evening Ganga Aarti at Har Ki Pauri"
+    ],
+    "otherInfo": {
+      "bestTime": "May to October",
+      "weather": "Temperatures range from 5°C to 25°C",
+      "altitude": "Kedarnath: 3,583m, Badrinath: 3,133m",
+      "clothing": "Warm clothes, comfortable trekking shoes",
+      "medical": "Medical certificate required for high altitude",
+      "photography": "Not allowed inside temples"
+    },
+    "importantInfo": [
+      "Valid ID proof is mandatory for all travelers",
+      "Medical certificate required for high altitude trekking",
+      "Weather conditions may affect the itinerary",
+      "Temple timings may vary based on season",
+      "Carry warm clothes as temperatures can drop significantly",
+      "Photography is not allowed inside the temples"
+    ],
+    "cancellationPolicy": {
+      "before30Days": "100% refund",
+      "before15Days": "75% refund",
+      "before7Days": "50% refund",
+      "before3Days": "25% refund",
+      "lessThan3Days": "No refund"
+    },
+    "termsAndConditions": [
+      "Booking confirmation is subject to availability",
+      "Traowl reserves the right to modify the itinerary",
+      "Participants must follow the guide's instructions",
+      "Any damage to property will be charged to the participant",
+      "The company is not responsible for personal belongings"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Kashmir Great Lakes Trek",
+    "description": "Embark on an unforgettable trek through the pristine lakes and meadows of Kashmir.",
+    "images": [
+      "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80"
+    ],
+    "price": 18999,
+    "oldPrice": 24999,
+    "currency": "₹",
+    "duration": "7 Days / 6 Nights",
+    "pickupLocation": "Srinagar",
+    "category": "trekking",
+    "difficulty": "Moderate to Difficult",
+    "maxGroupSize": 15,
+    "minAge": 16,
+    "features": {
+      "transportation": "All transfers from Srinagar to trek base and back.",
+      "meals": "Nutritious meals during the trek including breakfast, lunch, and dinner.",
+      "stay": "Camping accommodation with high-quality tents and sleeping bags.",
+      "sightseeing": "Visit to all major lakes and viewpoints along the trek route.",
+      "assistance": "Experienced trek leaders and support staff throughout the journey."
+    },
+    "included": [
+      "Transportation",
+      "Camping equipment",
+      "Meals",
+      "Trek leader",
+      "Permits",
+      "Safety equipment"
+    ],
+    "excluded": [
+      "Personal expenses",
+      "Tips",
+      "Insurance",
+      "Personal trekking gear"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Srinagar to Sonamarg",
+        "activities": [
+          "Arrival in Srinagar.",
+          "Drive to Sonamarg (80 km).",
+          "Acclimatization and trek briefing.",
+          "Overnight stay in Sonamarg."
+        ],
+        "stay": "Hotel in Sonamarg",
+        "meals": "Dinner"
+      },
+      {
+        "day": 2,
+        "title": "Sonamarg to Nichnai",
+        "activities": [
+          "Start trek from Sonamarg.",
+          "Trek through beautiful meadows.",
+          "Cross Nichnai Pass (4,100m).",
+          "Camp at Nichnai."
+        ],
+        "stay": "Camp at Nichnai",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 3,
+        "title": "Nichnai to Vishansar Lake",
+        "activities": [
+          "Trek to Vishansar Lake.",
+          "Enjoy the pristine lake views.",
+          "Photography and relaxation.",
+          "Camp near Vishansar Lake."
+        ],
+        "stay": "Camp near Vishansar",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 4,
+        "title": "Vishansar to Gadsar Lake",
+        "activities": [
+          "Cross Gadsar Pass (4,200m).",
+          "Trek to Gadsar Lake.",
+          "Explore the beautiful lake.",
+          "Camp at Gadsar."
+        ],
+        "stay": "Camp at Gadsar",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 5,
+        "title": "Gadsar to Satsar Lakes",
+        "activities": [
+          "Trek to Satsar Lakes.",
+          "Visit multiple alpine lakes.",
+          "Enjoy the scenic beauty.",
+          "Camp at Satsar."
+        ],
+        "stay": "Camp at Satsar",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 6,
+        "title": "Satsar to Gangabal Lake",
+        "activities": [
+          "Cross Zajibal Pass (4,100m).",
+          "Trek to Gangabal Lake.",
+          "Final lake of the trek.",
+          "Camp at Gangabal."
+        ],
+        "stay": "Camp at Gangabal",
+        "meals": "Breakfast, Lunch, Dinner"
+      },
+      {
+        "day": 7,
+        "title": "Gangabal to Naranag",
+        "activities": [
+          "Final day of trek.",
+          "Descend to Naranag.",
+          "Drive back to Srinagar.",
+          "Tour concludes."
+        ],
+        "stay": "Not included",
+        "meals": "Breakfast"
+      }
+    ],
+    "highlights": [
+      "Trek through pristine alpine lakes",
+      "Cross high mountain passes",
+      "Experience the beauty of Kashmir",
+      "Camp under the starry sky",
+      "Photograph stunning landscapes",
+      "Meet local shepherds and villagers"
+    ],
+    "otherInfo": {
+      "bestTime": "July to September",
+      "weather": "Temperatures range from 5°C to 20°C",
+      "altitude": "Maximum altitude: 4,200m",
+      "clothing": "Warm clothes, trekking shoes, rain gear",
+      "medical": "Medical certificate required",
+      "photography": "Allowed throughout the trek"
+    },
+    "importantInfo": [
+      "Valid ID proof is mandatory for all travelers",
+      "Medical certificate required for high altitude trekking",
+      "Weather conditions may affect the itinerary",
+      "Carry warm clothes as temperatures can drop significantly",
+      "Photography is allowed throughout the trek",
+      "Follow trek leader's instructions strictly"
+    ],
+    "cancellationPolicy": {
+      "before30Days": "100% refund",
+      "before15Days": "75% refund",
+      "before7Days": "50% refund",
+      "before3Days": "25% refund",
+      "lessThan3Days": "No refund"
+    },
+    "termsAndConditions": [
+      "Booking confirmation is subject to availability",
+      "Traowl reserves the right to modify the itinerary",
+      "Participants must follow the trek leader's instructions",
+      "Any damage to equipment will be charged to the participant",
+      "The company is not responsible for personal belongings"
+    ]
+  }
+] 

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Trips - Traowl</title>
+    <meta name="description" content="Discover upcoming group tours, spiritual journeys, and adventure trips across India with Traowl. Book your next memorable journey with expert guides and seamless booking." />
+    <link rel="canonical" href="https://www.traowl.com/upcomingtrip.html" />
+    <meta property="og:title" content="Upcoming Trips - Traowl" />
+    <meta property="og:description" content="Discover upcoming group tours, spiritual journeys, and adventure trips across India with Traowl. Book your next memorable journey with expert guides and seamless booking." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.traowl.com/upcomingtrip.html" />
+    <meta property="og:image" content="images/logo.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Upcoming Trips - Traowl" />
+    <meta name="twitter:description" content="Discover upcoming group tours, spiritual journeys, and adventure trips across India with Traowl. Book your next memorable journey with expert guides and seamless booking." />
+    <meta name="twitter:image" content="images/logo.webp" />
+    <link rel="stylesheet" href="css/upcomingtrip.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header class="main-header">
+        <!-- Header content will be loaded dynamically from API -->
+        <div style="text-align: center; padding: 1rem;">
+            <div class="loading-spinner">Loading header...</div>
+        </div>
+    </header>
+
+    </div>
+    <!-- HERO SECTION -->
+    <section class="hero-section" style="background-image: url(images/UpcomingMainImg.webp);">
+        <div class="hero-overlay">
+            <h1>Upcoming Trips</h1>
+        </div>
+    </section>
+
+    <section class="about-section">
+    <div class="about-header">
+        <span>All About Upcoming Trips</span>
+        <a href="#" class="show-more" id="showMoreBtn">Show more</a>
+    </div>
+    <div class="about-desc" id="aboutDesc">
+       This dynamic feature curates a personalized list of destinations tailored to the current season, ensuring you always find the perfect getaway....
+        <span class="more-content" id="moreContent" style="display:none;">
+            <br><br>
+            Whether you're seeking snowy retreats in the heat of summer or sunny escapes in the chill of winter, our page has you covered. With visually captivating trip previews and detailed itineraries, planning your journey has never been easier. Let us guide you to destinations that perfectly match the mood of the season, making every trip unforgettable.
+        </span>
+    </div>
+    </section>
+
+    <!-- MAIN CONTENT FLEX CONTAINER -->
+    <div class="main-flex-container">
+        <!-- FILTER SIDEBAR -->
+        <aside class="filter-sidebar">
+            <h2 class="filter-title">Filters</h2>
+            <div class="filter-section" data-filter="search">
+                <label for="search-input" class="filter-label">Search</label>
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search destinations...">
+                    <button class="search-clear-btn" title="Clear"><i class="ri-close-line"></i></button>
+                </div>
+            </div>
+            <div class="filter-section" data-filter="destination">
+                <div class="filter-label">Destination <span class="filter-sub">(Trip Location)</span></div>
+                <label><input type="radio" name="destination" value="any" checked> Any</label>
+                <label><input type="radio" name="destination" value="domestic"> Domestic (India)</label>
+            </div>
+            <div class="filter-section" data-filter="triptype">
+                <div class="filter-label">Trip Type</div>
+                <label><input type="radio" name="triptype" value="any" checked> Any</label>
+                <label><input type="radio" name="triptype" value="customizable"> Customizable</label>
+                <label><input type="radio" name="triptype" value="group"> Group Trip</label>
+            </div>
+            <div class="filter-section" data-filter="duration">
+                <div class="filter-label">Duration <span class="filter-sub">(in days)</span></div>
+                <div class="slider-container">
+                    <input type="range" min="1" max="15" value="15" class="duration-slider" id="durationRange">
+                    <div class="duration-values">
+                        <span>1 Day</span>
+                        <span id="durationValue">15 Days</span>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-section" data-filter="price">
+                <div class="filter-label">Price Range <span class="filter-sub">(in ₹)</span></div>
+                <div class="slider-container">
+                    <input type="range" min="0" max="100000" value="100000" class="price-slider" id="priceRange">
+                    <div class="price-values">
+                        <span>₹0</span>
+                        <span id="priceValue">₹1,00,000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-section" data-filter="month">
+                <div class="filter-label">Month <span class="filter-sub">(of the year)</span></div>
+                <div class="month-scroll-container">
+                    <label><input type="radio" name="month" value="any" checked> Any</label>
+                    <label><input type="radio" name="month" value="january"> January</label>
+                    <label><input type="radio" name="month" value="february"> February</label>
+                    <label><input type="radio" name="month" value="march"> March</label>
+                    <label><input type="radio" name="month" value="april"> April</label>
+                    <label><input type="radio" name="month" value="may"> May</label>
+                    <label><input type="radio" name="month" value="june"> June</label>
+                    <label><input type="radio" name="month" value="july"> July</label>
+                    <label><input type="radio" name="month" value="august"> August</label>
+                    <label><input type="radio" name="month" value="september"> September</label>
+                    <label><input type="radio" name="month" value="october"> October</label>
+                    <label><input type="radio" name="month" value="november"> November</label>
+                    <label><input type="radio" name="month" value="december"> December</label>
+                </div>
+            </div>
+            <button class="reset-filters-btn" type="button"><span>Reset Filters</span></button>
+        </aside>
+        <!-- END FILTER SIDEBAR -->
+
+        <!-- MAIN CARDS CONTENT (moved inside flex container) -->
+        <div class="main-cards-content">
+            <!-- DURATION FILTER (hidden, replaced by sidebar) -->
+            <!-- <section class="duration-section">...</section> -->
+            <!-- TOUR CARDS -->
+            <section class="cards-section">
+                <div class="tour-cards" id="upcomingTripsGrid">
+                    <!-- Upcoming trips will be loaded dynamically from API -->
+                    <div style="text-align: center; grid-column: 1/-1; padding: 2rem;">
+                        <div class="loading-spinner">Loading upcoming trips...</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- <script src="js/kedarnath.js"></script> -->
+    
+        <footer class="main-footer">
+        <!-- Footer content will be loaded dynamically from API -->
+        <div style="text-align: center; padding: 2rem;">
+            <div class="loading-spinner">Loading footer...</div>
+        </div>
+    </footer>
+    <script src="js/image-utils.js"></script>
+    <script src="js/api-utils.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/upcomingtrip.js"></script>
+</body>
+</html>

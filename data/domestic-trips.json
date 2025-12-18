@@ -1,0 +1,532 @@
+{
+  "domesticTrips": [
+    {
+      "id": 1,
+      "title": "Kerala Backwaters & Ayurveda",
+      "duration": "6 Days, 5 Nights",
+      "image": "images/Kerala backwaters and Ayurveda 1.webp",
+      "price": 22499,
+      "oldPrice": 27999,
+      "currency": "₹",
+      "destination": "kerala",
+      "joinDates": ["15 July", "22 July", "29 July", "5 Aug"],
+      "description": "Experience the serene backwaters of Kerala with traditional Ayurvedic treatments",
+      "difficulty": "Easy",
+      "maxAltitude": "Sea level",
+      "bestTime": "September to March",
+      "highlights": [
+        "Houseboat cruise on backwaters",
+        "Traditional Ayurvedic massage",
+        "Visit to tea plantations",
+        "Kathakali dance performance"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Luxury houseboat accommodation",
+        "All meals including traditional Kerala cuisine",
+        "Ayurvedic treatments",
+        "Local sightseeing with guide",
+        "Cultural performances"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Kochi",
+          "activities": [
+            "Flight from Delhi to Kochi",
+            "Transfer to hotel",
+            "Evening at Fort Kochi"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Kochi to Alleppey",
+          "activities": [
+            "Visit Chinese fishing nets",
+            "Drive to Alleppey",
+            "Board houseboat"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Backwaters Cruise",
+          "activities": [
+            "Full day backwater cruise",
+            "Village visits",
+            "Traditional lunch on boat"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Munnar Hill Station",
+          "activities": [
+            "Drive to Munnar",
+            "Tea plantation visit",
+            "Echo Point and Top Station"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Ayurvedic Day",
+          "activities": [
+            "Ayurvedic consultation",
+            "Traditional massage",
+            "Yoga session"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Kochi to Delhi",
+          "activities": [
+            "Shopping for spices",
+            "Flight back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Rajasthan Heritage Tour",
+      "duration": "8 Days, 7 Nights",
+      "image": "images/Rajasthan heritage tour 1.webp",
+      "price": 18999,
+      "oldPrice": 23999,
+      "currency": "₹",
+      "destination": "rajasthan",
+      "joinDates": ["12 July", "19 July", "26 July", "2 Aug"],
+      "description": "Explore the royal heritage of Rajasthan with palaces, forts, and desert adventures",
+      "difficulty": "Easy",
+      "maxAltitude": "350m",
+      "bestTime": "October to March",
+      "highlights": [
+        "Visit Amber Fort in Jaipur",
+        "Desert safari in Jaisalmer",
+        "Lake Palace in Udaipur",
+        "Pushkar camel fair experience"
+      ],
+      "included": [
+        "AC train tickets from Delhi",
+        "Heritage hotel accommodation",
+        "All meals including Rajasthani thali",
+        "Desert safari with dinner",
+        "Local guide services",
+        "Cultural performances"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Jaipur",
+          "activities": [
+            "Train from Delhi to Jaipur",
+            "Check-in at heritage hotel",
+            "Evening at Hawa Mahal"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Jaipur Sightseeing",
+          "activities": [
+            "Amber Fort with elephant ride",
+            "City Palace visit",
+            "Jantar Mantar observatory"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Jaipur to Jodhpur",
+          "activities": [
+            "Drive to Jodhpur",
+            "Mehrangarh Fort",
+            "Blue city exploration"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Jodhpur to Jaisalmer",
+          "activities": [
+            "Drive to Jaisalmer",
+            "Golden Fort visit",
+            "Desert safari with dinner"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Jaisalmer to Udaipur",
+          "activities": [
+            "Drive to Udaipur",
+            "Lake Palace visit",
+            "Boat ride on Lake Pichola"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Udaipur Exploration",
+          "activities": [
+            "City Palace complex",
+            "Jag Mandir visit",
+            "Cultural dance performance"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Udaipur to Pushkar",
+          "activities": [
+            "Drive to Pushkar",
+            "Brahma Temple visit",
+            "Camel ride experience"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Pushkar to Delhi",
+          "activities": [
+            "Morning prayers at lake",
+            "Train back to Delhi",
+            "Arrival in Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Goa Beach Paradise",
+      "duration": "5 Days, 4 Nights",
+      "image": "images/Goa beach paradise 1.webp",
+      "price": 16499,
+      "oldPrice": 20999,
+      "currency": "₹",
+      "destination": "goa",
+      "joinDates": ["8 July", "15 July", "22 July", "29 July"],
+      "description": "Relax on pristine beaches and explore Portuguese heritage in Goa",
+      "difficulty": "Easy",
+      "maxAltitude": "Sea level",
+      "bestTime": "November to March",
+      "highlights": [
+        "Beach hopping adventure",
+        "Portuguese architecture tour",
+        "Water sports activities",
+        "Goan cuisine experience"
+      ],
+      "included": [
+        "Flight tickets from Delhi",
+        "Beach resort accommodation",
+        "All meals including seafood",
+        "Water sports activities",
+        "Local sightseeing",
+        "Sunset cruise"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Optional activities",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Goa",
+          "activities": [
+            "Flight from Delhi to Goa",
+            "Check-in at beach resort",
+            "Evening at Calangute Beach"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "North Goa Beaches",
+          "activities": [
+            "Baga Beach water sports",
+            "Anjuna Beach visit",
+            "Chapora Fort sunset"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Old Goa Heritage",
+          "activities": [
+            "Basilica of Bom Jesus",
+            "Se Cathedral visit",
+            "Panjim city tour"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "South Goa Exploration",
+          "activities": [
+            "Palolem Beach visit",
+            "Dudhsagar Falls",
+            "Spice plantation tour"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Goa to Delhi",
+          "activities": [
+            "Morning beach walk",
+            "Shopping for souvenirs",
+            "Flight back to Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Varanasi Spiritual Journey",
+      "duration": "4 Days, 3 Nights",
+      "image": "images/Varanasi spiritual journey 1.webp",
+      "price": 12499,
+      "oldPrice": 15999,
+      "currency": "₹",
+      "destination": "uttar pradesh",
+      "joinDates": ["10 July", "17 July", "24 July", "31 July"],
+      "description": "Experience the spiritual essence of Varanasi with Ganga aarti and temple visits",
+      "difficulty": "Easy",
+      "maxAltitude": "80m",
+      "bestTime": "October to March",
+      "highlights": [
+        "Evening Ganga Aarti ceremony",
+        "Boat ride on Ganges",
+        "Temple darshan tour",
+        "Sarnath Buddhist site"
+      ],
+      "included": [
+        "AC train tickets from Delhi",
+        "Hotel accommodation near ghats",
+        "All vegetarian meals",
+        "Boat ride tickets",
+        "Temple darshan arrangements",
+        "Local guide services"
+      ],
+      "excluded": [
+        "Personal expenses",
+        "Temple donations",
+        "Tips and gratuities",
+        "Travel insurance"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Delhi to Varanasi",
+          "activities": [
+            "Train from Delhi to Varanasi",
+            "Check-in at hotel",
+            "Evening Ganga Aarti"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Varanasi Temple Tour",
+          "activities": [
+            "Morning boat ride",
+            "Kashi Vishwanath Temple",
+            "Sankat Mochan Temple"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Sarnath & Local Sites",
+          "activities": [
+            "Sarnath Buddhist site",
+            "Dhamek Stupa visit",
+            "Evening ghat walk"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Varanasi to Delhi",
+          "activities": [
+            "Morning prayers at ghats",
+            "Shopping for religious items",
+            "Train back to Delhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Darjeeling & Gangtok",
+      "duration": "7 Days, 6 Nights",
+      "image": "images/Darjeeling and Gangtok 1.webp",
+          "price": 18999,
+          "oldPrice": 23999,
+          "currency": "₹",
+          "destination": "west bengal",
+          "joinDates": ["14 July", "21 July", "28 July", "4 Aug"],
+          "description": "Explore the tea gardens of Darjeeling and monasteries of Gangtok",
+          "difficulty": "Easy to Moderate",
+          "maxAltitude": "2134m",
+          "bestTime": "March to May, September to December",
+          "highlights": [
+            "Tiger Hill sunrise view",
+            "Tea garden tour",
+            "Rumtek Monastery visit",
+            "Toy train experience"
+          ],
+          "included": [
+            "Flight tickets from Delhi",
+            "Hotel accommodation",
+            "All meals",
+            "Toy train tickets",
+            "Local sightseeing",
+            "Guide services"
+          ],
+          "excluded": [
+            "Personal expenses",
+            "Optional activities",
+            "Tips and gratuities",
+            "Travel insurance"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Delhi to Bagdogra",
+              "activities": [
+                "Flight from Delhi to Bagdogra",
+                "Drive to Darjeeling",
+                "Check-in and rest"
+              ]
+            },
+            {
+              "day": 2,
+              "title": "Darjeeling Sightseeing",
+              "activities": [
+                "Tiger Hill sunrise",
+                "Tea garden visit",
+                "Himalayan Mountaineering Institute"
+              ]
+            },
+            {
+              "day": 3,
+              "title": "Darjeeling Local",
+              "activities": [
+                "Toy train ride",
+                "Peace Pagoda visit",
+                "Local market exploration"
+              ]
+            },
+            {
+              "day": 4,
+              "title": "Darjeeling to Gangtok",
+              "activities": [
+                "Drive to Gangtok",
+                "MG Marg walk",
+                "Local monastery visit"
+              ]
+            },
+            {
+              "day": 5,
+              "title": "Gangtok Exploration",
+              "activities": [
+                "Rumtek Monastery",
+                "Tsomgo Lake visit",
+                "Cable car experience"
+              ]
+            },
+            {
+              "day": 6,
+              "title": "Gangtok Local",
+              "activities": [
+                "Enchey Monastery",
+                "Handicraft center",
+                "Evening at MG Marg"
+              ]
+            },
+            {
+              "day": 7,
+              "title": "Gangtok to Delhi",
+              "activities": [
+                "Morning free time",
+                "Flight back to Delhi",
+                "Arrival in Delhi"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Mumbai City Tour",
+          "duration": "4 Days, 3 Nights",
+          "image": "images/Mumbai city tour 1.webp",
+          "price": 14499,
+          "oldPrice": 18999,
+          "currency": "₹",
+          "destination": "maharashtra",
+          "joinDates": ["11 July", "18 July", "25 July", "1 Aug"],
+          "description": "Experience the vibrant city of Mumbai with Bollywood and heritage sites",
+          "difficulty": "Easy",
+          "maxAltitude": "14m",
+          "bestTime": "October to March",
+          "highlights": [
+            "Gateway of India visit",
+            "Bollywood studio tour",
+            "Marine Drive sunset",
+            "Elephanta Caves exploration"
+          ],
+          "included": [
+            "Flight tickets from Delhi",
+            "Hotel accommodation in city center",
+            "All meals",
+            "Bollywood studio tour",
+            "Local sightseeing",
+            "Guide services"
+          ],
+          "excluded": [
+            "Personal expenses",
+            "Optional activities",
+            "Tips and gratuities",
+            "Travel insurance"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Delhi to Mumbai",
+              "activities": [
+                "Flight from Delhi to Mumbai",
+                "Check-in at hotel",
+                "Evening at Marine Drive"
+              ]
+            },
+            {
+              "day": 2,
+              "title": "Mumbai Heritage",
+              "activities": [
+                "Gateway of India",
+                "Taj Mahal Palace",
+                "Colaba Causeway shopping"
+              ]
+            },
+            {
+              "day": 3,
+              "title": "Bollywood & Caves",
+              "activities": [
+                "Bollywood studio tour",
+                "Elephanta Caves visit",
+                "Juhu Beach sunset"
+              ]
+            },
+            {
+              "day": 4,
+              "title": "Mumbai to Delhi",
+              "activities": [
+                "Local market visit",
+                "Flight back to Delhi",
+                "Arrival in Delhi"
+              ]
+            }
+          ]
+        }
+      ]
+    } 

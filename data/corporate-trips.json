@@ -1,0 +1,491 @@
+{
+  "corporateTrips": {
+    "hero": {
+      "title": "Corporate Team Building & Retreats",
+      "subtitle": "Transform your team with unforgettable corporate experiences",
+      "description": "Boost team morale, enhance collaboration, and create lasting memories with our curated corporate travel packages. From adventure retreats to luxury getaways, we design experiences that strengthen bonds and inspire innovation.",
+      "image": "images/corporate-hero.webp"
+    },
+    "partners": [
+      {
+        "id": 1,
+        "name": "TechCorp Solutions",
+        "logo": "images/partner1.webp",
+        "testimonial": "Amazing team building experience that brought our remote team together.",
+        "rating": 5
+      },
+      {
+        "id": 2,
+        "name": "InnovateLabs",
+        "logo": "images/partner2.webp",
+        "testimonial": "Professional service and unforgettable adventure retreat for our team.",
+        "rating": 5
+      },
+      {
+        "id": 3,
+        "name": "Global Dynamics",
+        "logo": "images/partner3.webp",
+        "testimonial": "Perfect blend of adventure and luxury for our corporate retreat.",
+        "rating": 5
+      },
+      {
+        "id": 4,
+        "name": "FutureTech Inc",
+        "logo": "images/partner4.webp",
+        "testimonial": "Exceptional team building activities that improved our collaboration.",
+        "rating": 5
+      }
+    ],
+    "features": [
+      {
+        "id": 1,
+        "title": "Customized Packages",
+        "description": "Tailored experiences designed specifically for your team's needs and objectives",
+        "icon": "🎯"
+      },
+      {
+        "id": 2,
+        "title": "Team Building Activities",
+        "description": "Engaging activities that foster collaboration, communication, and trust",
+        "icon": "🤝"
+      },
+      {
+        "id": 3,
+        "title": "Luxury Accommodations",
+        "description": "Premium hotels and resorts ensuring comfort and relaxation for your team",
+        "icon": "🏨"
+      },
+      {
+        "id": 4,
+        "title": "Professional Support",
+        "description": "Dedicated coordinators ensuring seamless execution of your corporate event",
+        "icon": "👥"
+      },
+      {
+        "id": 5,
+        "title": "Adventure & Wellness",
+        "description": "Balance of thrilling adventures and wellness activities for team rejuvenation",
+        "icon": "🧘"
+      },
+      {
+        "id": 6,
+        "title": "Flexible Scheduling",
+        "description": "Flexible dates and durations to accommodate your business calendar",
+        "icon": "📅"
+      }
+    ],
+    "destinations": [
+      {
+        "id": 1,
+        "title": "Rishikesh Adventure Retreat",
+        "duration": "3 Days, 2 Nights",
+        "image": "images/rishikesh-corporate.webp",
+        "price": 12499,
+        "oldPrice": 15999,
+        "currency": "₹",
+        "destination": "uttarakhand",
+        "groupSize": "15-50 people",
+        "description": "Adventure-packed team building in the yoga capital with river rafting and meditation",
+        "difficulty": "Easy to Moderate",
+        "maxAltitude": "372m",
+        "bestTime": "March to June, September to November",
+        "highlights": [
+          "River rafting on Ganges",
+          "Team building workshops",
+          "Yoga and meditation sessions",
+          "Campfire and bonding activities"
+        ],
+        "included": [
+          "Transportation from Delhi",
+          "Luxury resort accommodation",
+          "All meals and refreshments",
+          "Adventure activities",
+          "Team building facilitators",
+          "Equipment and safety gear"
+        ],
+        "excluded": [
+          "Personal expenses",
+          "Optional activities",
+          "Tips and gratuities",
+          "Travel insurance"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Delhi to Rishikesh",
+            "activities": [
+              "Departure from Delhi",
+              "Check-in at luxury resort",
+              "Team welcome dinner"
+            ]
+          },
+          {
+            "day": 2,
+            "title": "Adventure & Team Building",
+            "activities": [
+              "River rafting adventure",
+              "Team building workshops",
+              "Evening campfire"
+            ]
+          },
+          {
+            "day": 3,
+            "title": "Wellness & Departure",
+            "activities": [
+              "Yoga and meditation",
+              "Team reflection session",
+              "Return to Delhi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Manali Mountain Retreat",
+        "duration": "4 Days, 3 Nights",
+        "image": "images/manali-corporate.webp",
+        "price": 16499,
+        "oldPrice": 20999,
+        "currency": "₹",
+        "destination": "himachal pradesh",
+        "groupSize": "20-60 people",
+        "description": "Mountain adventure retreat with team challenges and scenic beauty",
+        "difficulty": "Easy to Moderate",
+        "maxAltitude": "2050m",
+        "bestTime": "March to December",
+        "highlights": [
+          "Mountain trekking challenges",
+          "Team obstacle courses",
+          "Scenic mountain views",
+          "Cultural village visits"
+        ],
+        "included": [
+          "Flight tickets from Delhi",
+          "Mountain resort accommodation",
+          "All meals and snacks",
+          "Adventure activities",
+          "Professional guides",
+          "Team building equipment"
+        ],
+        "excluded": [
+          "Personal expenses",
+          "Optional activities",
+          "Tips and gratuities",
+          "Travel insurance"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Delhi to Manali",
+            "activities": [
+              "Flight from Delhi to Manali",
+              "Resort check-in",
+              "Team orientation"
+            ]
+          },
+          {
+            "day": 2,
+            "title": "Mountain Adventures",
+            "activities": [
+              "Trekking challenges",
+              "Team obstacle courses",
+              "Evening bonfire"
+            ]
+          },
+          {
+            "day": 3,
+            "title": "Cultural Experience",
+            "activities": [
+              "Village exploration",
+              "Local culture activities",
+              "Team celebration dinner"
+            ]
+          },
+          {
+            "day": 4,
+            "title": "Manali to Delhi",
+            "activities": [
+              "Morning reflection",
+              "Team building summary",
+              "Flight back to Delhi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Goa Beach Corporate",
+        "duration": "3 Days, 2 Nights",
+        "image": "images/goa-corporate.webp",
+        "price": 14499,
+        "oldPrice": 18999,
+        "currency": "₹",
+        "destination": "goa",
+        "groupSize": "25-80 people",
+        "description": "Beachside corporate retreat with water sports and team activities",
+        "difficulty": "Easy",
+        "maxAltitude": "Sea level",
+        "bestTime": "November to March",
+        "highlights": [
+          "Beach team building games",
+          "Water sports activities",
+          "Sunset cruise experience",
+          "Goan cultural evening"
+        ],
+        "included": [
+          "Flight tickets from Delhi",
+          "Beach resort accommodation",
+          "All meals and beverages",
+          "Water sports activities",
+          "Team building facilitators",
+          "Cultural performances"
+        ],
+        "excluded": [
+          "Personal expenses",
+          "Optional activities",
+          "Tips and gratuities",
+          "Travel insurance"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Delhi to Goa",
+            "activities": [
+              "Flight from Delhi to Goa",
+              "Resort check-in",
+              "Beach welcome party"
+            ]
+          },
+          {
+            "day": 2,
+            "title": "Beach Activities",
+            "activities": [
+              "Water sports challenges",
+              "Beach team games",
+              "Sunset cruise dinner"
+            ]
+          },
+          {
+            "day": 3,
+            "title": "Goa to Delhi",
+            "activities": [
+              "Morning beach walk",
+              "Team reflection",
+              "Flight back to Delhi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Udaipur Luxury Retreat",
+        "duration": "4 Days, 3 Nights",
+        "image": "images/udaipur-corporate.webp",
+        "price": 18999,
+        "oldPrice": 23999,
+        "currency": "₹",
+        "destination": "rajasthan",
+        "groupSize": "15-40 people",
+        "description": "Luxury corporate retreat in the City of Lakes with royal experiences",
+        "difficulty": "Easy",
+        "maxAltitude": "423m",
+        "bestTime": "October to March",
+        "highlights": [
+          "Luxury palace accommodation",
+          "Boat building challenges",
+          "Royal cultural experiences",
+          "Lake palace dinner"
+        ],
+        "included": [
+          "Flight tickets from Delhi",
+          "Palace hotel accommodation",
+          "All luxury meals",
+          "Cultural activities",
+          "Professional facilitators",
+          "Royal experiences"
+        ],
+        "excluded": [
+          "Personal expenses",
+          "Optional activities",
+          "Tips and gratuities",
+          "Travel insurance"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Delhi to Udaipur",
+            "activities": [
+              "Flight from Delhi to Udaipur",
+              "Palace hotel check-in",
+              "Royal welcome dinner"
+            ]
+          },
+          {
+            "day": 2,
+            "title": "Luxury Activities",
+            "activities": [
+              "Boat building challenges",
+              "Lake palace visit",
+              "Cultural performances"
+            ]
+          },
+          {
+            "day": 3,
+            "title": "Royal Experience",
+            "activities": [
+              "Palace exploration",
+              "Team building workshops",
+              "Luxury dinner cruise"
+            ]
+          },
+          {
+            "day": 4,
+            "title": "Udaipur to Delhi",
+            "activities": [
+              "Morning palace tour",
+              "Team celebration",
+              "Flight back to Delhi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Coorg Coffee Retreat",
+        "duration": "3 Days, 2 Nights",
+        "image": "images/coorg-corporate.webp",
+        "price": 13499,
+        "oldPrice": 17999,
+        "currency": "₹",
+        "destination": "karnataka",
+        "groupSize": "20-50 people",
+        "description": "Coffee estate corporate retreat with nature and adventure activities",
+        "difficulty": "Easy to Moderate",
+        "maxAltitude": "1525m",
+        "bestTime": "October to March",
+        "highlights": [
+          "Coffee plantation tours",
+          "Nature trekking",
+          "Team building in nature",
+          "Local cuisine experience"
+        ],
+        "included": [
+          "Flight tickets from Delhi",
+          "Coffee estate accommodation",
+          "All meals with local cuisine",
+          "Nature activities",
+          "Professional guides",
+          "Team building equipment"
+        ],
+        "excluded": [
+          "Personal expenses",
+          "Optional activities",
+          "Tips and gratuities",
+          "Travel insurance"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Delhi to Coorg",
+            "activities": [
+              "Flight from Delhi to Coorg",
+              "Estate check-in",
+              "Coffee tasting session"
+            ]
+          },
+          {
+            "day": 2,
+            "title": "Nature Activities",
+            "activities": [
+              "Coffee plantation tour",
+              "Nature trekking",
+              "Team building games"
+            ]
+          },
+          {
+            "day": 3,
+            "title": "Coorg to Delhi",
+            "activities": [
+              "Morning nature walk",
+              "Team reflection",
+              "Flight back to Delhi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Munnar Tea Retreat",
+        "duration": "4 Days, 3 Nights",
+        "image": "images/munnar-corporate.webp",
+        "price": 15499,
+        "oldPrice": 19999,
+        "currency": "₹",
+        "destination": "kerala",
+        "groupSize": "15-45 people",
+        "description": "Tea estate corporate retreat with wellness and team building",
+        "difficulty": "Easy",
+        "maxAltitude": "1600m",
+        "bestTime": "September to March",
+        "highlights": [
+          "Tea plantation experiences",
+          "Wellness activities",
+          "Team building workshops",
+          "Ayurvedic treatments"
+        ],
+        "included": [
+          "Flight tickets from Delhi",
+          "Tea estate resort",
+          "All meals and tea sessions",
+          "Wellness activities",
+          "Professional facilitators",
+          "Ayurvedic consultations"
+        ],
+        "excluded": [
+          "Personal expenses",
+          "Optional activities",
+          "Tips and gratuities",
+          "Travel insurance"
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Delhi to Munnar",
+            "activities": [
+              "Flight from Delhi to Munnar",
+              "Resort check-in",
+              "Tea tasting welcome"
+            ]
+          },
+          {
+            "day": 2,
+            "title": "Tea & Wellness",
+            "activities": [
+              "Tea plantation tour",
+              "Wellness workshops",
+              "Team building activities"
+            ]
+          },
+          {
+            "day": 3,
+            "title": "Ayurvedic Experience",
+            "activities": [
+              "Ayurvedic treatments",
+              "Team reflection",
+              "Cultural evening"
+            ]
+          },
+          {
+            "day": 4,
+            "title": "Munnar to Delhi",
+            "activities": [
+              "Morning tea session",
+              "Team celebration",
+              "Flight back to Delhi"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+} 

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spiritual Tours - Sacred Journeys Across India</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/spiritual-tours.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap">
+</head>
+<body>
+        <header class="main-header">
+        <!-- Header content will be loaded dynamically from API -->
+        <div style="text-align: center; padding: 1rem;">
+            <div class="loading-spinner">Loading header...</div>
+        </div>
+    </header>
+
+    </div>
+
+    <section class="hero-section" style="background-image: url(images/spiritual-hero.webp);">
+        <div class="hero-overlay">
+            <h1>Spiritual Tours & Pilgrimages</h1>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-header">
+            <span>🌟 Discover Sacred Destinations Across India 🌟</span>
+            <a href="#" class="show-more" id="showMoreBtn">Show more</a>
+        </div>
+        <div class="about-desc" id="aboutDesc">
+            Embark on transformative spiritual journeys to India's most revered temples, sacred rivers, and holy cities. Experience divine blessings, ancient rituals, and profound peace that has drawn pilgrims for centuries. Our spiritual tours are designed to nourish your soul and connect you with the divine energy that flows through these sacred spaces...
+            <span class="more-content" id="moreContent" style="display:none;">
+                <br><br>
+                India, the land of spirituality and mysticism, offers countless sacred destinations that provide solace to the soul and enlightenment to the mind. From the snow-capped peaks of the Himalayas to the serene banks of the Ganges, every spiritual site has its own unique energy and significance.<br><br>
+                Our spiritual tours are carefully curated to provide authentic experiences, including participation in ancient rituals, meditation sessions, and interactions with spiritual guides. Whether you seek inner peace, divine blessings, or cultural immersion, our journeys will leave you transformed and spiritually enriched.<br><br>
+                The best time for spiritual tours varies by destination - the Char Dham Yatra is best from May to October, while southern temple tours can be enjoyed year-round. Each journey includes comfortable accommodations, traditional vegetarian meals, and expert guidance to ensure a meaningful spiritual experience.<br><br>
+                🛕Sacred Rituals: Participate in traditional aartis, pujas, and meditation sessions🛕<br>
+                🍃Divine Blessings: Receive blessings from holy priests and spiritual masters🍃<br>
+                🪈Inner Peace: Experience deep meditation and spiritual practices🪈<br>
+                🔔Ancient Wisdom: Learn about ancient scriptures and spiritual traditions🔔
+            </span>
+        </div>
+    </section>
+    <section class="destination-section">
+        <label for="destination-select" class="destination-label">Destination</label>
+        <select id="destination-select" class="destination-select">
+            <option value="">All Sacred Destinations</option>
+            <option value="north">North India (Himalayan Sacred Sites)</option>
+            <option value="south">South India (Ancient Temples)</option>
+            <option value="east">East India (Spiritual Heritage)</option>
+            <option value="west">West India (Sacred Pilgrimages)</option>
+        </select>
+    </section>
+    <section class="cards-section">
+        <div class="tour-cards" id="spiritualToursGrid">
+            <!-- Spiritual tours will be loaded dynamically from API -->
+            <div style="text-align: center; grid-column: 1/-1; padding: 2rem;">
+                <div class="loading-spinner">Loading spiritual tours...</div>
+            </div>
+        </div>
+    </section>
+
+    
+        <footer class="main-footer">
+        <!-- Footer content will be loaded dynamically from API -->
+        <div style="text-align: center; padding: 2rem;">
+            <div class="loading-spinner">Loading footer...</div>
+        </div>
+    </footer>
+    <script src="js/image-utils.js"></script>
+    <script src="js/api-utils.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/spiritual-tours.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/admin-inject.js"></script>
+</body>
+</html> 

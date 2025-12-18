@@ -1,0 +1,12 @@
+{
+  "heroBanner": {
+    "image": "images/bg.webp",
+    "text": "Welcome to Traowl",
+    "subtitle": "Discover Amazing Adventures and Create Memorable Journeys"
+  },
+  "sectionBanners": {
+    "about": "images/about-banner.webp",
+    "services": "images/services-banner.webp",
+    "testimonials": "images/testimonials-banner.webp"
+  }
+}
